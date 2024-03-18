@@ -10,6 +10,9 @@ namespace unity1week202403
     public sealed class ActorStatus
     {
         [SerializeField]
+        private string name;
+
+        [SerializeField]
         private int hitPoint;
 
         [SerializeField]
@@ -26,6 +29,8 @@ namespace unity1week202403
 
         [SerializeField]
         private int speed;
+
+        public string Name => name;
 
         public int HitPoint => hitPoint;
 
