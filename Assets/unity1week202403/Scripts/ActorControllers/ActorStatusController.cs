@@ -25,5 +25,7 @@ namespace unity1week202403
         public int MagicalDefense => status.MagicalDefense;
 
         public int Speed => status.Speed;
+
+        public bool IsDead => HitPoint <= 0;
     }
 }
