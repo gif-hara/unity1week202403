@@ -7,6 +7,5 @@ namespace unity1week202403
     /// </summary>
     public sealed class GameSceneController : MonoBehaviour
     {
-
     }
 }
