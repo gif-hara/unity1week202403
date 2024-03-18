@@ -43,5 +43,24 @@ namespace unity1week202403
         public int MagicalDefense => magicalDefense;
 
         public int Speed => speed;
+
+        public ActorStatus(
+            string name,
+            int hitPoint,
+            int physicalAttack,
+            int physicalDefense,
+            int magicalAttack,
+            int magicalDefense,
+            int speed
+            )
+        {
+            this.name = name;
+            this.hitPoint = hitPoint;
+            this.physicalAttack = physicalAttack;
+            this.physicalDefense = physicalDefense;
+            this.magicalAttack = magicalAttack;
+            this.magicalDefense = magicalDefense;
+            this.speed = speed;
+        }
     }
 }
