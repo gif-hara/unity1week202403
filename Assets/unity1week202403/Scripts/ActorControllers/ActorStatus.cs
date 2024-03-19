@@ -10,39 +10,25 @@ namespace unity1week202403
     public sealed class ActorStatus
     {
         [SerializeField]
-        private string name;
+        public string name;
 
         [SerializeField]
-        private int hitPoint;
+        public int hitPoint;
 
         [SerializeField]
-        private int physicalAttack;
+        public int physicalAttack;
 
         [SerializeField]
-        private int physicalDefense;
+        public int physicalDefense;
 
         [SerializeField]
-        private int magicalAttack;
+        public int magicalAttack;
 
         [SerializeField]
-        private int magicalDefense;
+        public int magicalDefense;
 
         [SerializeField]
-        private int speed;
-
-        public string Name => name;
-
-        public int HitPoint => hitPoint;
-
-        public int PhysicalAttack => physicalAttack;
-
-        public int PhysicalDefense => physicalDefense;
-
-        public int MagicalAttack => magicalAttack;
-
-        public int MagicalDefense => magicalDefense;
-
-        public int Speed => speed;
+        public int speed;
 
         public ActorStatus(
             string name,

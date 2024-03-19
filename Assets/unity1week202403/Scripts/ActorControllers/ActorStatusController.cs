@@ -12,19 +12,19 @@ namespace unity1week202403
             this.status = status;
         }
 
-        public string Name => status.Name;
+        public string Name => status.name;
 
-        public int HitPoint => status.HitPoint;
+        public int HitPoint => status.hitPoint;
 
-        public int PhysicalAttack => status.PhysicalAttack;
+        public int PhysicalAttack => status.physicalAttack;
 
-        public int PhysicalDefense => status.PhysicalDefense;
+        public int PhysicalDefense => status.physicalDefense;
 
-        public int MagicalAttack => status.MagicalAttack;
+        public int MagicalAttack => status.magicalAttack;
 
-        public int MagicalDefense => status.MagicalDefense;
+        public int MagicalDefense => status.magicalDefense;
 
-        public int Speed => status.Speed;
+        public int Speed => status.speed;
 
         public bool IsDead => HitPoint <= 0;
     }
