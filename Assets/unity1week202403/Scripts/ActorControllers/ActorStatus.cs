@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace unity1week202403
@@ -30,6 +31,9 @@ namespace unity1week202403
         [SerializeField]
         public int speed;
 
+        [SerializeField]
+        private List<int> skillIds;
+
         public ActorStatus(
             string name,
             int hitPoint,
@@ -37,7 +41,8 @@ namespace unity1week202403
             int physicalDefense,
             int magicalAttack,
             int magicalDefense,
-            int speed
+            int speed,
+            List<int> skillIds
             )
         {
             this.name = name;
@@ -47,6 +52,7 @@ namespace unity1week202403
             this.magicalAttack = magicalAttack;
             this.magicalDefense = magicalDefense;
             this.speed = speed;
+            this.skillIds = skillIds;
         }
     }
 }

@@ -161,6 +161,7 @@ MonoBehaviour:
       magicalAttack: 10
       magicalDefense: 10
       speed: 10
+      skillIds: 75270000
     enemyStatus:
       name: Enemy
       hitPoint: 50
@@ -169,6 +170,7 @@ MonoBehaviour:
       magicalAttack: 5
       magicalDefense: 5
       speed: 5
+      skillIds: 75270000
   actor: {fileID: 513183033494201821, guid: eaf5a1d185ecee34f8bac9708fe862a2, type: 3}
 --- !u!4 &668631687
 Transform:
