@@ -21,6 +21,9 @@ namespace unity1week202403
                 return;
             }
             var scope = CancellationTokenSource.CreateLinkedTokenSource(cancellationToken);
+#if UNITY_EDITOR
+            scope = CancellationTokenSource.CreateLinkedTokenSource(Application.exitCancellationToken);
+#endif
             services[typeof(T)] = (service, scope);
             await scope.Token.ToUniTask().Item1;
             services[typeof(T)].scope.Dispose();
@@ -42,6 +45,9 @@ namespace unity1week202403
             }
 
             var scope = CancellationTokenSource.CreateLinkedTokenSource(cancellationToken);
+#if UNITY_EDITOR
+            scope = CancellationTokenSource.CreateLinkedTokenSource(Application.exitCancellationToken);
+#endif
             namedService[name] = (service, scope);
             await scope.Token.ToUniTask().Item1;
             namedService[name].scope.Dispose();
