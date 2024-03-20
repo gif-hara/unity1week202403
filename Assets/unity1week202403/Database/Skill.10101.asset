@@ -13,9 +13,11 @@ MonoBehaviour:
   m_Name: Skill.10101
   m_EditorClassIdentifier: 
   sequences:
-  - rid: -2
+  - rid: 7551661826051932160
   references:
     version: 2
     RefIds:
-    - rid: -2
-      type: {class: , ns: , asm: }
+    - rid: 7551661826051932160
+      type: {class: Log, ns: UnitySequencerSystem.StandardSequences, asm: UnitySequencerSystem}
+      data:
+        message: Skill.10101
