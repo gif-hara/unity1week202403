@@ -32,7 +32,7 @@ namespace unity1week202403
         public int speed;
 
         [SerializeField]
-        private List<int> skillIds;
+        public List<int> skillIds;
 
         public ActorStatus(
             string name,
