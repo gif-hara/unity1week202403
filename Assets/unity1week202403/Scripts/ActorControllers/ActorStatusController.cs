@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using Cysharp.Threading.Tasks;
 using R3;
@@ -103,6 +104,12 @@ namespace unity1week202403
         public float GetBuffedValue(Define.BuffType type)
         {
             return 1.0f + Buffs[type] * 0.5f;
+        }
+
+        internal void Recovery(int value)
+        {
+            hitPoint.Value = Mathf.Clamp(hitPoint.Value + value, 0, status.hitPoint);
+            Debug.Log($"{Name}は{value}回復した");
         }
     }
 }
