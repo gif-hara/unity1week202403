@@ -161,7 +161,7 @@ MonoBehaviour:
       magicalAttack: 10
       magicalDefense: 10
       speed: 10
-      skillIds: 75270000
+      skillIds: 75270000d927000075270000
     enemyStatus:
       name: Enemy
       hitPoint: 50
