@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using Cysharp.Threading.Tasks;
+using R3;
 using UnityEngine;
 using UnitySequencerSystem;
 
@@ -15,21 +16,51 @@ namespace unity1week202403
         public ActorStatusController(ActorStatus status)
         {
             this.status = status;
+            hitPoint.Value = status.hitPoint;
+            physicalAttack.Value = status.physicalAttack;
+            physicalDefense.Value = status.physicalDefense;
+            magicalAttack.Value = status.magicalAttack;
+            magicalDefense.Value = status.magicalDefense;
+            speed.Value = status.speed;
         }
 
         public string Name => status.name;
 
-        public int HitPoint => status.hitPoint;
+        private ReactiveProperty<int> hitPoint = new();
 
-        public int PhysicalAttack => status.physicalAttack;
+        public int HitPoint => hitPoint.Value;
 
-        public int PhysicalDefense => status.physicalDefense;
+        public Observable<int> HitPointAsObservable() => hitPoint;
 
-        public int MagicalAttack => status.magicalAttack;
+        private ReactiveProperty<int> physicalAttack = new();
 
-        public int MagicalDefense => status.magicalDefense;
+        public int PhysicalAttack => physicalAttack.Value;
 
-        public int Speed => status.speed;
+        public Observable<int> PhysicalAttackAsObservable() => physicalAttack;
+
+        private ReactiveProperty<int> physicalDefense = new();
+
+        public int PhysicalDefense => physicalDefense.Value;
+
+        public Observable<int> PhysicalDefenseAsObservable() => physicalDefense;
+
+        private ReactiveProperty<int> magicalAttack = new();
+
+        public int MagicalAttack => magicalAttack.Value;
+
+        public Observable<int> MagicalAttackAsObservable() => magicalAttack;
+
+        private ReactiveProperty<int> magicalDefense = new();
+
+        public int MagicalDefense => magicalDefense.Value;
+
+        public Observable<int> MagicalDefenseAsObservable() => magicalDefense;
+
+        private ReactiveProperty<int> speed = new();
+
+        public int Speed => speed.Value;
+
+        public Observable<int> SpeedAsObservable() => speed;
 
         /// <summary>
         /// 行動した回数
@@ -52,7 +83,7 @@ namespace unity1week202403
 
         public void TakeDamage(int damage)
         {
-            status.hitPoint -= damage;
+            hitPoint.Value -= damage;
             Debug.Log($"{Name}は{damage}のダメージを受けた");
         }
     }
