@@ -16,5 +16,20 @@ namespace unity1week202403
             Physical,
             Magical,
         }
+
+        public enum BuffType
+        {
+            PhysicalAttack,
+            PhysicalDefense,
+            MagicalAttack,
+            MagicalDefense,
+            Speed,
+        }
+
+        public enum TargetType
+        {
+            Self,
+            Opponent,
+        }
     }
 }
