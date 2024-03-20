@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using Cysharp.Threading.Tasks;
+using UnityEngine;
 using UnitySequencerSystem;
 
 namespace unity1week202403
@@ -47,6 +48,12 @@ namespace unity1week202403
             var index = status.skillIds.Count - 1 < PerformedActionCount ? status.skillIds.Count - 1 : PerformedActionCount;
             var skillSpec = TinyServiceLocator.Resolve<MasterData>().SkillSpecs.Get(status.skillIds[index]);
             return (await skillSpec.LoadSkillSequences()).Sequences;
+        }
+
+        public void TakeDamage(int damage)
+        {
+            status.hitPoint -= damage;
+            Debug.Log($"{Name}は{damage}のダメージを受けた");
         }
     }
 }

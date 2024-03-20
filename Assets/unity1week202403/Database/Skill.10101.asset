@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: Skill.10101
   m_EditorClassIdentifier: 
   sequences:
-  - rid: 7551661826051932160
+  - rid: 7551661829433589760
   references:
     version: 2
     RefIds:
-    - rid: 7551661826051932160
-      type: {class: Log, ns: UnitySequencerSystem.StandardSequences, asm: UnitySequencerSystem}
+    - rid: 7551661829433589760
+      type: {class: Attack, ns: unity1week202403, asm: Assembly-CSharp}
       data:
-        message: Skill.10101
+        power: 20
