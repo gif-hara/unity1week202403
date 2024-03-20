@@ -1,7 +1,7 @@
-using System;
 using System.Threading;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
+using UnitySequencerSystem;
 
 namespace unity1week202403
 {
@@ -19,10 +19,15 @@ namespace unity1week202403
             return instance;
         }
 
-        public UniTask PerformActionAsync(Actor target, CancellationToken token)
+        public async UniTask PerformActionAsync(Actor target, CancellationToken token)
         {
-            Debug.Log($"{StatusController.Name} attacks {target.StatusController.Name}");
-            return UniTask.Delay(TimeSpan.FromSeconds(1), cancellationToken: token);
+            var container = new Container();
+            container.Register("OwnerActor", this);
+            container.Register("TargetActor", target);
+            var sequences = await StatusController.GetSkillSequence();
+            var sequencer = new Sequencer(container, sequences);
+            await sequencer.PlayAsync(token);
+            StatusController.IncrementPerformedActionCount();
         }
     }
 }
