@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using Cysharp.Threading.Tasks;
 using UnityEngine;
 
 namespace unity1week202403
@@ -17,9 +18,10 @@ namespace unity1week202403
 
         private async void Start()
         {
+            await BootSystem.IsReady;
+
             var player = actor.Spawn(debugData.PlayerStatus);
             var enemy = actor.Spawn(debugData.EnemyStatus);
-
             var actorQueue = new Queue<Actor>();
 
             if (player.StatusController.Speed == enemy.StatusController.Speed)
@@ -42,6 +44,7 @@ namespace unity1week202403
                 try
                 {
                     await currentActor.PerformActionAsync(target, destroyCancellationToken);
+                    await UniTask.Delay(TimeSpan.FromSeconds(1));
                 }
                 catch (OperationCanceledException)
                 {
