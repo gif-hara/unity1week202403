@@ -22,6 +22,11 @@ namespace unity1week202403
 
         public WordSpec.DictionaryList WordSpecs => wordSpecs;
 
+        [SerializeField]
+        private SkillSpec.DictionaryList skillSpecs;
+
+        public SkillSpec.DictionaryList SkillSpecs => skillSpecs;
+
 #if UNITY_EDITOR
         [ContextMenu("Update")]
         public async void Test()
@@ -29,11 +34,13 @@ namespace unity1week202403
             Debug.Log("Begin MasterData Update");
             var database = await UniTask.WhenAll(
                 GoogleSpreadSheetDownloader.DownloadAsync("CharacterSpec"),
-                GoogleSpreadSheetDownloader.DownloadAsync("WordSpec")
+                GoogleSpreadSheetDownloader.DownloadAsync("WordSpec"),
+                GoogleSpreadSheetDownloader.DownloadAsync("SkillSpec")
             );
 
             characterSpecs.Set(JsonHelper.FromJson<CharacterSpec>(database.Item1));
             wordSpecs.Set(JsonHelper.FromJson<WordSpec>(database.Item2));
+            skillSpecs.Set(JsonHelper.FromJson<SkillSpec>(database.Item3));
 
             UnityEditor.EditorUtility.SetDirty(this);
             UnityEditor.AssetDatabase.SaveAssets();
@@ -82,6 +89,20 @@ namespace unity1week202403
             public sealed class DictionaryList : DictionaryList<string, WordSpec>
             {
                 public DictionaryList() : base(x => x.Word) { }
+            }
+        }
+
+        [Serializable]
+        public sealed class SkillSpec
+        {
+            public int Id;
+
+            public string Name;
+
+            [Serializable]
+            public sealed class DictionaryList : DictionaryList<int, SkillSpec>
+            {
+                public DictionaryList() : base(x => x.Id) { }
             }
         }
     }

@@ -123080,3 +123080,17 @@ MonoBehaviour:
       Number: 7
     - Word: Zzz
       Number: 3
+  skillSpecs:
+    list:
+    - Id: 10101
+      Name: "\u30D1\u30F3\u30C1"
+    - Id: 10102
+      Name: "\u6C17\u5408\u30D1\u30F3\u30C1"
+    - Id: 10103
+      Name: "\u30D8\u30D3\u30FC\u30D6\u30ED\u30A6"
+    - Id: 10201
+      Name: "\u30DA\u30A4\u30F3"
+    - Id: 10202
+      Name: "\u30DA\u30A4\u30F3\u30D5\u30EB"
+    - Id: 10203
+      Name: "\u30D0\u30FC\u30B9\u30C8\u30D5\u30E9\u30C3\u30B7\u30E5"
