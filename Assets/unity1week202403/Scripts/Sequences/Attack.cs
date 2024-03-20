@@ -19,9 +19,13 @@ namespace unity1week202403
         {
             var owner = container.Resolve<Actor>("OwnerActor");
             var target = container.Resolve<Actor>("TargetActor");
+            var os = owner.StatusController;
+            var ts = target.StatusController;
 
-            var p = owner.StatusController.PhysicalAttack * power / 20;
-            var d = target.StatusController.PhysicalDefense / 2;
+            var p = Mathf.FloorToInt(os.PhysicalAttack * os.GetBuffedValue(Define.BuffType.PhysicalAttack));
+            p *= power / 20;
+            var d = Mathf.FloorToInt(ts.PhysicalDefense * ts.GetBuffedValue(Define.BuffType.PhysicalDefense));
+            d /= 2;
             var damage = p - d;
             if (damage < 1)
             {
