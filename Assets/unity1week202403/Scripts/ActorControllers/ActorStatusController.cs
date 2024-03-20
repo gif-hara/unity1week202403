@@ -13,17 +13,6 @@ namespace unity1week202403
     {
         private readonly ActorStatus status;
 
-        public ActorStatusController(ActorStatus status)
-        {
-            this.status = status;
-            hitPoint.Value = status.hitPoint;
-            physicalAttack.Value = status.physicalAttack;
-            physicalDefense.Value = status.physicalDefense;
-            magicalAttack.Value = status.magicalAttack;
-            magicalDefense.Value = status.magicalDefense;
-            speed.Value = status.speed;
-        }
-
         public string Name => status.name;
 
         private ReactiveProperty<int> hitPoint = new();
@@ -69,6 +58,24 @@ namespace unity1week202403
 
         public bool IsDead => HitPoint <= 0;
 
+        public Dictionary<Define.BuffType, int> Buffs { get; } = new();
+
+        public ActorStatusController(ActorStatus status)
+        {
+            this.status = status;
+            hitPoint.Value = status.hitPoint;
+            physicalAttack.Value = status.physicalAttack;
+            physicalDefense.Value = status.physicalDefense;
+            magicalAttack.Value = status.magicalAttack;
+            magicalDefense.Value = status.magicalDefense;
+            speed.Value = status.speed;
+            Buffs[Define.BuffType.PhysicalAttack] = 0;
+            Buffs[Define.BuffType.PhysicalDefense] = 0;
+            Buffs[Define.BuffType.MagicalAttack] = 0;
+            Buffs[Define.BuffType.MagicalDefense] = 0;
+            Buffs[Define.BuffType.Speed] = 0;
+        }
+
         public void IncrementPerformedActionCount()
         {
             PerformedActionCount++;
@@ -85,6 +92,17 @@ namespace unity1week202403
         {
             hitPoint.Value -= damage;
             Debug.Log($"{Name}は{damage}のダメージを受けた");
+        }
+
+        public void AddBuff(Define.BuffType type, int value)
+        {
+            Buffs[type] = Mathf.Clamp(Buffs[type] + value, -4, 4);
+            Debug.Log($"{Name}の{type}が{Buffs[type]}になった");
+        }
+
+        public float GetBuffedValue(Define.BuffType type)
+        {
+            return 1.0f + Buffs[type] * 0.5f;
         }
     }
 }
