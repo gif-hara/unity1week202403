@@ -73,6 +73,10 @@ namespace unity1week202403
 
         public Dictionary<Define.BuffType, int> Buffs { get; } = new();
 
+        private readonly Subject<int> takedDamageSubject = new();
+
+        public Observable<int> TakedDamageAsObservable() => takedDamageSubject;
+
         public ActorStatusController(ActorStatus status)
         {
             this.status = status;
@@ -104,6 +108,7 @@ namespace unity1week202403
         public void TakeDamage(int damage)
         {
             hitPoint.Value -= damage;
+            takedDamageSubject.OnNext(damage);
             Debug.Log($"{Name}は{damage}のダメージを受けた");
         }
 

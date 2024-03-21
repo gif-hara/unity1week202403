@@ -1,5 +1,7 @@
+using System;
 using System.Threading;
 using Cysharp.Threading.Tasks;
+using R3;
 using TMPro;
 using UnityEngine;
 
@@ -13,17 +15,34 @@ namespace unity1week202403
         public static async UniTaskVoid BeginAsync(HKUIDocument documentPrefab, Actor player, Actor enemy, CancellationToken token)
         {
             var scope = CancellationTokenSource.CreateLinkedTokenSource(token);
-            var document = Object.Instantiate(documentPrefab);
+            var document = UnityEngine.Object.Instantiate(documentPrefab);
             BeginObserve(player, "Player");
             BeginObserve(enemy, "Enemy");
 
             await UniTask.WaitUntilCanceled(scope.Token);
 
-            Object.Destroy(document);
+            UnityEngine.Object.Destroy(document);
 
             void BeginObserve(Actor actor, string prefix)
             {
+                var damageDocumentName = $"{prefix}.Damage";
                 document.Q<TMP_Text>($"{prefix}.Name").text = actor.StatusController.Name;
+                document.Q<TMP_Text>(damageDocumentName).gameObject.SetActive(false);
+                actor.StatusController.TakedDamageAsObservable()
+                    .Subscribe(x =>
+                    {
+                        BeginDamageAnimationAsync(damageDocumentName, x).Forget();
+                    })
+                    .RegisterTo(scope.Token);
+            }
+
+            async UniTaskVoid BeginDamageAnimationAsync(string documentName, int damage)
+            {
+                var text = document.Q<TMP_Text>(documentName);
+                text.gameObject.SetActive(true);
+                text.text = damage.ToString();
+                await UniTask.Delay(TimeSpan.FromSeconds(1), cancellationToken: scope.Token);
+                text.gameObject.SetActive(false);
             }
         }
     }
