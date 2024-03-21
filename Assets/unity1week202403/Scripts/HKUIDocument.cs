@@ -10,7 +10,7 @@ namespace unity1week202403
     public class HKUIDocument : MonoBehaviour
     {
         [SerializeField]
-        private GameObject[] elements;
+        private Element[] elements;
 
         private readonly Dictionary<string, GameObject> elementMap = new();
 
@@ -56,7 +56,7 @@ namespace unity1week202403
             {
                 foreach (var element in elements)
                 {
-                    elementMap[element.name] = element;
+                    elementMap[element.Name] = element.Document;
                 }
             }
 
@@ -69,6 +69,20 @@ namespace unity1week202403
                 Debug.LogError($"Element not found: {name}");
                 return null;
             }
+        }
+
+        [Serializable]
+        public class Element
+        {
+            [SerializeField]
+            private GameObject document;
+
+            [SerializeField]
+            private string overrideName;
+
+            public GameObject Document => document;
+
+            public string Name => string.IsNullOrEmpty(overrideName) ? document.name : overrideName;
         }
     }
 }
