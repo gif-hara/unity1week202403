@@ -20,35 +20,47 @@ namespace unity1week202403
 
         public int HitPoint => hitPoint.Value;
 
+        public float HitPointRate => (float)HitPoint / status.hitPoint;
+
         public Observable<int> HitPointAsObservable() => hitPoint;
 
-        private ReactiveProperty<int> physicalAttack = new();
+        private ReactiveProperty<int> physicalStrength = new();
 
-        public int PhysicalAttack => physicalAttack.Value;
+        public int PhysicalStrength => physicalStrength.Value;
 
-        public Observable<int> PhysicalAttackAsObservable() => physicalAttack;
+        public float PhysicalStrengthRate => (float)PhysicalStrength / Define.ParameterMax;
+
+        public Observable<int> PhysicalStrengthAsObservable() => physicalStrength;
 
         private ReactiveProperty<int> physicalDefense = new();
 
         public int PhysicalDefense => physicalDefense.Value;
 
+        public float PhysicalDefenseRate => (float)PhysicalDefense / Define.ParameterMax;
+
         public Observable<int> PhysicalDefenseAsObservable() => physicalDefense;
 
-        private ReactiveProperty<int> magicalAttack = new();
+        private ReactiveProperty<int> magicalStrength = new();
 
-        public int MagicalAttack => magicalAttack.Value;
+        public int MagicalStrength => magicalStrength.Value;
 
-        public Observable<int> MagicalAttackAsObservable() => magicalAttack;
+        public float MagicalStrengthRate => (float)MagicalStrength / Define.ParameterMax;
+
+        public Observable<int> MagicalStrengthAsObservable() => magicalStrength;
 
         private ReactiveProperty<int> magicalDefense = new();
 
         public int MagicalDefense => magicalDefense.Value;
+
+        public float MagicalDefenseRate => (float)MagicalDefense / Define.ParameterMax;
 
         public Observable<int> MagicalDefenseAsObservable() => magicalDefense;
 
         private ReactiveProperty<int> speed = new();
 
         public int Speed => speed.Value;
+
+        public float SpeedRate => (float)Speed / Define.ParameterMax;
 
         public Observable<int> SpeedAsObservable() => speed;
 
@@ -65,9 +77,9 @@ namespace unity1week202403
         {
             this.status = status;
             hitPoint.Value = status.hitPoint;
-            physicalAttack.Value = status.physicalAttack;
+            physicalStrength.Value = status.physicalStrength;
             physicalDefense.Value = status.physicalDefense;
-            magicalAttack.Value = status.magicalAttack;
+            magicalStrength.Value = status.magicalStrength;
             magicalDefense.Value = status.magicalDefense;
             speed.Value = status.speed;
             Buffs[Define.BuffType.PhysicalAttack] = 0;

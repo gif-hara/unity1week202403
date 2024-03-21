@@ -22,7 +22,7 @@ namespace unity1week202403
             var os = owner.StatusController;
             var ts = target.StatusController;
 
-            var p = Mathf.FloorToInt(os.PhysicalAttack * os.GetBuffedValue(Define.BuffType.PhysicalAttack));
+            var p = Mathf.FloorToInt(os.PhysicalStrength * os.GetBuffedValue(Define.BuffType.PhysicalAttack));
             p *= power / 20;
             var d = Mathf.FloorToInt(ts.PhysicalDefense * ts.GetBuffedValue(Define.BuffType.PhysicalDefense));
             d /= 2;

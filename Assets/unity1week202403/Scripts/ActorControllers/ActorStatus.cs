@@ -17,13 +17,13 @@ namespace unity1week202403
         public int hitPoint;
 
         [SerializeField]
-        public int physicalAttack;
+        public int physicalStrength;
 
         [SerializeField]
         public int physicalDefense;
 
         [SerializeField]
-        public int magicalAttack;
+        public int magicalStrength;
 
         [SerializeField]
         public int magicalDefense;
@@ -47,9 +47,9 @@ namespace unity1week202403
         {
             this.name = name;
             this.hitPoint = hitPoint;
-            this.physicalAttack = physicalAttack;
+            this.physicalStrength = physicalAttack;
             this.physicalDefense = physicalDefense;
-            this.magicalAttack = magicalAttack;
+            this.magicalStrength = magicalAttack;
             this.magicalDefense = magicalDefense;
             this.speed = speed;
             this.skillIds = skillIds;
