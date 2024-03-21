@@ -31,5 +31,7 @@ namespace unity1week202403
             Self,
             Opponent,
         }
+
+        public const int ParameterMax = 48;
     }
 }
