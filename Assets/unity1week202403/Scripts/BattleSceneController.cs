@@ -17,6 +17,9 @@ namespace unity1week202403
         private Actor actor;
 
         [SerializeField]
+        private HKUIDocument actorNameDocumentPrefab;
+
+        [SerializeField]
         private HKUIDocument statusDocumentPrefab;
 
         private async void Start()
@@ -27,6 +30,7 @@ namespace unity1week202403
             var enemy = actor.Spawn(debugData.EnemyStatus);
             var actorQueue = new Queue<Actor>();
 
+            UIPresenterActorName.BeginAsync(actorNameDocumentPrefab, player, enemy, default).Forget();
             UIPresenterStatus.BeginAsync(statusDocumentPrefab, player, enemy, destroyCancellationToken).Forget();
 
             if (player.StatusController.Speed == enemy.StatusController.Speed)
