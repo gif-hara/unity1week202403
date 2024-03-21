@@ -25,7 +25,6 @@ namespace unity1week202403
 
             void BeginObserve(Actor actor, string prefix)
             {
-                document.Q<TMP_Text>($"{prefix}.Name").text = actor.StatusController.Name;
                 actor.StatusController.HitPointAsObservable()
                     .Subscribe(x =>
                     {
