@@ -156,22 +156,23 @@ MonoBehaviour:
     playerStatus:
       name: Player
       hitPoint: 100
-      physicalAttack: 10
+      physicalStrength: 10
       physicalDefense: 10
-      magicalAttack: 10
+      magicalStrength: 10
       magicalDefense: 10
       speed: 10
       skillIds: 75270000d92700003d280000
     enemyStatus:
       name: Enemy
       hitPoint: 50
-      physicalAttack: 5
+      physicalStrength: 5
       physicalDefense: 5
-      magicalAttack: 5
+      magicalStrength: 5
       magicalDefense: 5
       speed: 5
       skillIds: 75270000
   actor: {fileID: 513183033494201821, guid: eaf5a1d185ecee34f8bac9708fe862a2, type: 3}
+  statusDocumentPrefab: {fileID: 1176702862709285899, guid: 6290000df4cfa6c43843c57c9e14a346, type: 3}
 --- !u!4 &668631687
 Transform:
   m_ObjectHideFlags: 0
