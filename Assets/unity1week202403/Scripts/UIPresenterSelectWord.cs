@@ -1,6 +1,8 @@
 using System;
 using System.Threading;
 using Cysharp.Threading.Tasks;
+using R3;
+using TMPro;
 
 namespace unity1week202403
 {
@@ -11,25 +13,39 @@ namespace unity1week202403
     {
         private HKUIDocument document;
 
-        public async UniTaskVoid BeginAsync(HKUIDocument documentPrefab, CancellationToken token)
+        private readonly Subject<char> onSelectedCharacter = new();
+
+        public Observable<char> OnSelected => onSelectedCharacter;
+
+        public async UniTask Begin(HKUIDocument documentPrefab, CancellationToken token)
         {
-            var scope = CancellationTokenSource.CreateLinkedTokenSource(token);
             document = UnityEngine.Object.Instantiate(documentPrefab);
-
-            await UniTask.WaitUntilCanceled(scope.Token);
-
+            await UniTask.WaitUntilCanceled(token);
             if (document != null && document.gameObject != null)
             {
                 UnityEngine.Object.Destroy(document.gameObject);
             }
         }
 
-        public async UniTask PlayAnimationAsync(string message, CancellationToken token)
+        public void BeginInput(CancellationToken token)
         {
-            document.Q<TMPro.TMP_Text>("Message").text = message;
-            document.gameObject.SetActive(true);
-            await UniTask.Delay(TimeSpan.FromSeconds(1), cancellationToken: token);
-            document.gameObject.SetActive(false);
+            for (var i = 'A'; i <= 'Z'; i++)
+            {
+                var button = document.Q<UnityEngine.UI.Button>($"UI.Parts.Button.{i}");
+                var c = i;
+                button.OnClickAsObservable()
+                    .Subscribe(_ =>
+                    {
+                        button.interactable = false;
+                        onSelectedCharacter.OnNext(c);
+                    })
+                    .RegisterTo(token);
+            }
+        }
+
+        public void SetWord(string word)
+        {
+            document.Q<TMP_Text>("SelectedCharacters").text = word;
         }
     }
 }
