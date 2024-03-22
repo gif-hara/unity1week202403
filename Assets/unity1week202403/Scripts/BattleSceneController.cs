@@ -22,6 +22,9 @@ namespace unity1week202403
         [SerializeField]
         private HKUIDocument statusDocumentPrefab;
 
+        [SerializeField]
+        private HKUIDocument mainMessageDocumentPrefab;
+
         private async void Start()
         {
             await BootSystem.IsReady;
@@ -32,6 +35,10 @@ namespace unity1week202403
 
             UIPresenterActorName.BeginAsync(actorNameDocumentPrefab, player, enemy, destroyCancellationToken).Forget();
             UIPresenterStatus.BeginAsync(statusDocumentPrefab, player, enemy, destroyCancellationToken).Forget();
+            var uiPresenterMainMessage = new UIPresenterMainMessage();
+            uiPresenterMainMessage.BeginAsync(mainMessageDocumentPrefab, destroyCancellationToken).Forget();
+
+            await uiPresenterMainMessage.PlayAnimationAsync("Battle Start!", destroyCancellationToken);
 
             if (player.StatusController.Speed == enemy.StatusController.Speed)
             {
