@@ -8,7 +8,7 @@ namespace unity1week202403
     /// <summary>
     /// 
     /// </summary>
-    public sealed class BattleSceneController : MonoBehaviour
+    public sealed class SceneControllerBattle : MonoBehaviour
     {
         [SerializeField]
         private BattleStartData debugData;
