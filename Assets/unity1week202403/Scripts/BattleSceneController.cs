@@ -30,7 +30,7 @@ namespace unity1week202403
             var enemy = actor.Spawn(debugData.EnemyStatus);
             var actorQueue = new Queue<Actor>();
 
-            UIPresenterActorName.BeginAsync(actorNameDocumentPrefab, player, enemy, default).Forget();
+            UIPresenterActorName.BeginAsync(actorNameDocumentPrefab, player, enemy, destroyCancellationToken).Forget();
             UIPresenterStatus.BeginAsync(statusDocumentPrefab, player, enemy, destroyCancellationToken).Forget();
 
             if (player.StatusController.Speed == enemy.StatusController.Speed)

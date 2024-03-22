@@ -21,7 +21,10 @@ namespace unity1week202403
 
             await UniTask.WaitUntilCanceled(scope.Token);
 
-            Object.Destroy(document);
+            if (document != null && document.gameObject != null)
+            {
+                Object.Destroy(document.gameObject);
+            }
 
             void BeginObserve(Actor actor, string prefix)
             {
