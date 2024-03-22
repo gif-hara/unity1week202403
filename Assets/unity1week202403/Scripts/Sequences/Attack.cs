@@ -13,6 +13,9 @@ namespace unity1week202403
     public sealed class Attack : ISequence
     {
         [SerializeField]
+        private Define.AttackAttribute attackAttribute;
+
+        [SerializeField]
         private int power;
 
         public UniTask PlayAsync(Container container, CancellationToken cancellationToken)
@@ -22,9 +25,13 @@ namespace unity1week202403
             var os = owner.StatusController;
             var ts = target.StatusController;
 
-            var p = Mathf.FloorToInt(os.PhysicalStrength * os.GetBuffedValue(Define.BuffType.PhysicalAttack));
+            var p = attackAttribute == Define.AttackAttribute.Physical ? os.PhysicalStrength : os.MagicalStrength;
+            var buffType = attackAttribute == Define.AttackAttribute.Physical ? Define.BuffType.PhysicalAttack : Define.BuffType.MagicalAttack;
+            p = Mathf.FloorToInt(p * os.GetBuffedValue(buffType));
             p *= power / 20;
-            var d = Mathf.FloorToInt(ts.PhysicalDefense * ts.GetBuffedValue(Define.BuffType.PhysicalDefense));
+            var d = attackAttribute == Define.AttackAttribute.Physical ? ts.PhysicalDefense : ts.MagicalDefense;
+            buffType = attackAttribute == Define.AttackAttribute.Physical ? Define.BuffType.PhysicalDefense : Define.BuffType.MagicalDefense;
+            d = Mathf.FloorToInt(d * ts.GetBuffedValue(buffType));
             d /= 2;
             var damage = p - d;
             if (damage < 1)
