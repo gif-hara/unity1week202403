@@ -22,8 +22,8 @@ MonoBehaviour:
       MagicalDefense: 5
       Speed: 9
       Skill1: 10101
-      Skill2: 10101
-      Skill3: 10101
+      Skill2: 10102
+      Skill3: 10103
     - Character: b
       HitPoint: 10
       PhysicalAttack: 0
@@ -32,8 +32,8 @@ MonoBehaviour:
       MagicalDefense: 9
       Speed: 6
       Skill1: 10101
-      Skill2: 10101
-      Skill3: 10101
+      Skill2: 10302
+      Skill3: 10602
     - Character: c
       HitPoint: 9
       PhysicalAttack: 0
@@ -41,9 +41,9 @@ MonoBehaviour:
       MagicalAttack: 0
       MagicalDefense: 8
       Speed: 12
-      Skill1: 10101
-      Skill2: 10101
-      Skill3: 10101
+      Skill1: 10201
+      Skill2: 10305
+      Skill3: 10610
     - Character: d
       HitPoint: 6
       PhysicalAttack: 0
@@ -51,9 +51,9 @@ MonoBehaviour:
       MagicalAttack: 0
       MagicalDefense: 10
       Speed: 8
-      Skill1: 10101
-      Skill2: 10101
-      Skill3: 10101
+      Skill1: 10201
+      Skill2: 10202
+      Skill3: 10203
     - Character: e
       HitPoint: 12
       PhysicalAttack: 0
@@ -61,9 +61,9 @@ MonoBehaviour:
       MagicalAttack: 0
       MagicalDefense: 5
       Speed: 10
-      Skill1: 10101
-      Skill2: 10101
-      Skill3: 10101
+      Skill1: 10201
+      Skill2: 10501
+      Skill3: 10610
     - Character: f
       HitPoint: 5
       PhysicalAttack: 0
@@ -72,8 +72,8 @@ MonoBehaviour:
       MagicalDefense: 12
       Speed: 6
       Skill1: 10101
-      Skill2: 10101
-      Skill3: 10101
+      Skill2: 10304
+      Skill3: 10604
     - Character: g
       HitPoint: 10
       PhysicalAttack: 0
@@ -82,8 +82,8 @@ MonoBehaviour:
       MagicalDefense: 9
       Speed: 8
       Skill1: 10101
-      Skill2: 10101
-      Skill3: 10101
+      Skill2: 10301
+      Skill3: 10605
     - Character: h
       HitPoint: 8
       PhysicalAttack: 0
@@ -91,9 +91,9 @@ MonoBehaviour:
       MagicalAttack: 0
       MagicalDefense: 6
       Speed: 9
-      Skill1: 10101
-      Skill2: 10101
-      Skill3: 10101
+      Skill1: 10201
+      Skill2: 10202
+      Skill3: 10606
     - Character: i
       HitPoint: 9
       PhysicalAttack: 0
@@ -101,9 +101,9 @@ MonoBehaviour:
       MagicalAttack: 0
       MagicalDefense: 10
       Speed: 5
-      Skill1: 10101
-      Skill2: 10101
-      Skill3: 10101
+      Skill1: 10201
+      Skill2: 10303
+      Skill3: 10607
     - Character: j
       HitPoint: 6
       PhysicalAttack: 0
@@ -112,8 +112,8 @@ MonoBehaviour:
       MagicalDefense: 8
       Speed: 12
       Skill1: 10101
-      Skill2: 10101
-      Skill3: 10101
+      Skill2: 10305
+      Skill3: 10609
     - Character: k
       HitPoint: 12
       PhysicalAttack: 0
@@ -121,9 +121,9 @@ MonoBehaviour:
       MagicalAttack: 0
       MagicalDefense: 5
       Speed: 10
-      Skill1: 10101
-      Skill2: 10101
-      Skill3: 10101
+      Skill1: 10201
+      Skill2: 10501
+      Skill3: 10610
     - Character: l
       HitPoint: 5
       PhysicalAttack: 0
@@ -132,8 +132,8 @@ MonoBehaviour:
       MagicalDefense: 12
       Speed: 6
       Skill1: 10101
-      Skill2: 10101
-      Skill3: 10101
+      Skill2: 10404
+      Skill3: 10604
     - Character: m
       HitPoint: 10
       PhysicalAttack: 0
@@ -142,8 +142,8 @@ MonoBehaviour:
       MagicalDefense: 9
       Speed: 8
       Skill1: 10101
-      Skill2: 10101
-      Skill3: 10101
+      Skill2: 10401
+      Skill3: 10103
     - Character: n
       HitPoint: 8
       PhysicalAttack: 0
@@ -151,9 +151,9 @@ MonoBehaviour:
       MagicalAttack: 0
       MagicalDefense: 6
       Speed: 9
-      Skill1: 10101
-      Skill2: 10101
-      Skill3: 10101
+      Skill1: 10201
+      Skill2: 10402
+      Skill3: 10602
     - Character: o
       HitPoint: 9
       PhysicalAttack: 0
@@ -161,9 +161,9 @@ MonoBehaviour:
       MagicalAttack: 0
       MagicalDefense: 10
       Speed: 5
-      Skill1: 10101
-      Skill2: 10101
-      Skill3: 10101
+      Skill1: 10201
+      Skill2: 10403
+      Skill3: 10203
     - Character: p
       HitPoint: 6
       PhysicalAttack: 0
@@ -172,8 +172,8 @@ MonoBehaviour:
       MagicalDefense: 8
       Speed: 12
       Skill1: 10101
-      Skill2: 10101
-      Skill3: 10101
+      Skill2: 10405
+      Skill3: 10609
     - Character: q
       HitPoint: 12
       PhysicalAttack: 0
@@ -182,8 +182,8 @@ MonoBehaviour:
       MagicalDefense: 9
       Speed: 10
       Skill1: 10101
-      Skill2: 10101
-      Skill3: 10101
+      Skill2: 10501
+      Skill3: 10609
     - Character: r
       HitPoint: 5
       PhysicalAttack: 0
@@ -192,8 +192,8 @@ MonoBehaviour:
       MagicalDefense: 12
       Speed: 6
       Skill1: 10101
-      Skill2: 10101
-      Skill3: 10101
+      Skill2: 10304
+      Skill3: 10608
     - Character: s
       HitPoint: 10
       PhysicalAttack: 0
@@ -202,8 +202,8 @@ MonoBehaviour:
       MagicalDefense: 6
       Speed: 8
       Skill1: 10101
-      Skill2: 10101
-      Skill3: 10101
+      Skill2: 10301
+      Skill3: 10601
     - Character: t
       HitPoint: 8
       PhysicalAttack: 0
@@ -211,9 +211,9 @@ MonoBehaviour:
       MagicalAttack: 0
       MagicalDefense: 6
       Speed: 9
-      Skill1: 10101
-      Skill2: 10101
-      Skill3: 10101
+      Skill1: 10201
+      Skill2: 10302
+      Skill3: 10606
     - Character: u
       HitPoint: 9
       PhysicalAttack: 0
@@ -221,9 +221,9 @@ MonoBehaviour:
       MagicalAttack: 0
       MagicalDefense: 10
       Speed: 5
-      Skill1: 10101
-      Skill2: 10101
-      Skill3: 10101
+      Skill1: 10201
+      Skill2: 10303
+      Skill3: 10603
     - Character: v
       HitPoint: 6
       PhysicalAttack: 0
@@ -232,8 +232,8 @@ MonoBehaviour:
       MagicalDefense: 8
       Speed: 12
       Skill1: 10101
-      Skill2: 10101
-      Skill3: 10101
+      Skill2: 10405
+      Skill3: 10609
     - Character: w
       HitPoint: 12
       PhysicalAttack: 0
@@ -241,9 +241,9 @@ MonoBehaviour:
       MagicalAttack: 0
       MagicalDefense: 5
       Speed: 10
-      Skill1: 10101
-      Skill2: 10101
-      Skill3: 10101
+      Skill1: 10201
+      Skill2: 10501
+      Skill3: 10610
     - Character: x
       HitPoint: 5
       PhysicalAttack: 0
@@ -252,8 +252,8 @@ MonoBehaviour:
       MagicalDefense: 12
       Speed: 6
       Skill1: 10101
-      Skill2: 10101
-      Skill3: 10101
+      Skill2: 10404
+      Skill3: 10608
     - Character: y
       HitPoint: 5
       PhysicalAttack: 0
@@ -262,8 +262,8 @@ MonoBehaviour:
       MagicalDefense: 9
       Speed: 8
       Skill1: 10101
-      Skill2: 10101
-      Skill3: 10101
+      Skill2: 10401
+      Skill3: 10103
     - Character: z
       HitPoint: 8
       PhysicalAttack: 0
@@ -271,9 +271,9 @@ MonoBehaviour:
       MagicalAttack: 0
       MagicalDefense: 10
       Speed: 9
-      Skill1: 10101
-      Skill2: 10101
-      Skill3: 10101
+      Skill1: 10201
+      Skill2: 10403
+      Skill3: 10203
   wordSpecs:
     list:
     - Word: abbe
@@ -5740,12 +5740,16 @@ MonoBehaviour:
       Number: 4
   skillSpecs:
     list:
+    - Id: 10100
+      Name: "\u7269\u7406\u653B\u6483\u30C6\u30B9\u30C8"
     - Id: 10101
       Name: "\u30D1\u30F3\u30C1"
     - Id: 10102
       Name: "\u6C17\u5408\u30D1\u30F3\u30C1"
     - Id: 10103
       Name: "\u30D8\u30D3\u30FC\u30D6\u30ED\u30A6"
+    - Id: 10200
+      Name: "\u9B54\u6CD5\u653B\u6483\u30C6\u30B9\u30C8"
     - Id: 10201
       Name: "\u30DA\u30A4\u30F3"
     - Id: 10202
@@ -5754,7 +5758,49 @@ MonoBehaviour:
       Name: "\u30D0\u30FC\u30B9\u30C8\u30D5\u30E9\u30C3\u30B7\u30E5"
     - Id: 10300
       Name: "\u30D0\u30D5\u30C6\u30B9\u30C8"
+    - Id: 10301
+      Name: "\u9F13\u821E"
+    - Id: 10302
+      Name: "\u5B88\u308A"
+    - Id: 10303
+      Name: "\u8A60\u5531"
+    - Id: 10304
+      Name: "\u96C6\u4E2D"
+    - Id: 10305
+      Name: "\u8FC5\u901F"
     - Id: 10400
       Name: "\u30C7\u30D0\u30D5\u30C6\u30B9\u30C8"
+    - Id: 10401
+      Name: "\u30A2\u30BF\u30C3\u30AF\u30D6\u30EC\u30A4\u30AF"
+    - Id: 10402
+      Name: "\u30AC\u30FC\u30C9\u30D6\u30EC\u30A4\u30AF"
+    - Id: 10403
+      Name: "\u30DE\u30B8\u30C3\u30AF\u30D6\u30EC\u30A4\u30AF"
+    - Id: 10404
+      Name: "\u30B9\u30D4\u30EA\u30C3\u30C8\u30D6\u30EC\u30A4\u30AF"
+    - Id: 10405
+      Name: "\u30B9\u30D4\u30FC\u30C9\u30D6\u30EC\u30A4\u30AF"
     - Id: 10500
       Name: "\u56DE\u5FA9\u30C6\u30B9\u30C8"
+    - Id: 10501
+      Name: "\u30D2\u30FC\u30EB"
+    - Id: 10601
+      Name: "\u596E\u8D77\u30D1\u30F3\u30C1"
+    - Id: 10602
+      Name: "\u9632\u885B\u30D1\u30F3\u30C1"
+    - Id: 10603
+      Name: "\u30C1\u30E3\u30FC\u30B8\u30DA\u30A4\u30F3"
+    - Id: 10604
+      Name: "\u30D0\u30EA\u30A2\u30DA\u30A4\u30F3"
+    - Id: 10605
+      Name: "\u30C6\u30C8\u30ED\u30C9\u30C8\u30AD\u30B7\u30F3"
+    - Id: 10606
+      Name: "\u30DB\u30EB\u30E0\u30A2\u30EB\u30C7\u30D2\u30C9"
+    - Id: 10607
+      Name: "\u30A2\u30D5\u30E9\u30C8\u30AD\u30B7\u30F3"
+    - Id: 10608
+      Name: "\u30A2\u30AF\u30EA\u30EB\u30A2\u30DF\u30C9"
+    - Id: 10609
+      Name: "\u5438\u53CE\u30D1\u30F3\u30C1"
+    - Id: 10610
+      Name: "\u30C9\u30EC\u30A4\u30F3\u30DA\u30A4\u30F3"
