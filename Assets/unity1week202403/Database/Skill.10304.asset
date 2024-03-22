@@ -10,15 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c43a09a9de426fd4abfc1245979d7dad, type: 3}
-  m_Name: Skill.10201
+  m_Name: Skill.10304
   m_EditorClassIdentifier: 
   sequences:
-  - rid: 7551661882480787456
+  - rid: 7551661882480787457
   references:
     version: 2
     RefIds:
-    - rid: 7551661882480787456
-      type: {class: Attack, ns: unity1week202403, asm: Assembly-CSharp}
+    - rid: 7551661882480787457
+      type: {class: AddBuff, ns: unity1week202403, asm: Assembly-CSharp}
       data:
-        attackAttribute: 1
-        power: 20
+        targetType: 0
+        buffType: 3
+        addValue: 1
