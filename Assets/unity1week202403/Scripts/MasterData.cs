@@ -55,11 +55,11 @@ namespace unity1week202403
 
             public int HitPoint;
 
-            public int PhysicalAttack;
+            public int PhysicalStrength;
 
             public int PhysicalDefense;
 
-            public int MagicalAttack;
+            public int MagicalStrength;
 
             public int MagicalDefense;
 
