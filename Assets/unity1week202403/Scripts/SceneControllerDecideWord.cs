@@ -9,7 +9,7 @@ namespace unity1week202403
     public sealed class SceneControllerDecideWord : MonoBehaviour
     {
         [SerializeField]
-        private string debugDecideWord;
+        private string debugSelectedCharacters;
 
         [SerializeField]
         private HKUIDocument decideWordDocumentPrefab;
@@ -18,15 +18,23 @@ namespace unity1week202403
         {
             await BootSystem.IsReady;
 
-            var decideWord = TinyServiceLocator.TryResolve<string>("DecideWord");
-            if (decideWord == null)
+            var selectedCharacters = TinyServiceLocator.TryResolve<string>("SelectedCharacters");
+            if (selectedCharacters == null)
             {
-                decideWord = debugDecideWord;
+                selectedCharacters = debugSelectedCharacters;
             }
+            var decideWord = WordCalculator.Calculate(selectedCharacters);
+            var actorStatus = WordCalculator.ToActorStatus(decideWord);
 
             var uiPresenterDecideWord = new UIPresenterDecideWord();
             uiPresenterDecideWord.BeginAsync(decideWordDocumentPrefab, destroyCancellationToken).Forget();
-            await uiPresenterDecideWord.BeginDecideAnimationAsync(debugDecideWord, WordCalculator.Calculate(decideWord), destroyCancellationToken);
+            await uiPresenterDecideWord.BeginDecideAnimationAsync(
+                selectedCharacters,
+                decideWord,
+                "TODO",
+                actorStatus,
+                destroyCancellationToken
+                );
         }
     }
 }
