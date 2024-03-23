@@ -39,6 +39,7 @@ namespace unity1week202403
         {
             var masterData = TinyServiceLocator.Resolve<MasterData>();
             var result = new ActorStatus();
+            var index = 0;
             foreach (var c in word)
             {
                 var spec = masterData.CharacterSpecs.Get(c.ToString());
@@ -48,6 +49,8 @@ namespace unity1week202403
                 result.magicalStrength += spec.MagicalStrength;
                 result.magicalDefense += spec.MagicalDefense;
                 result.speed += spec.Speed;
+                result.skillIds.Add(spec.GetSkill(index));
+                index++;
             }
 
             return result;
