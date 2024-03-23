@@ -12,5 +12,18 @@ namespace unity1week202403
         {
             return AssetLoader.LoadAsync<ScriptableSequences>($"Assets/unity1week202403/Database/Skill.{self.Id}.asset");
         }
+
+        public static int GetSkill(this MasterData.CharacterSpec self, int index)
+        {
+            switch (index)
+            {
+                case 0:
+                    return self.Skill1;
+                case 1:
+                    return self.Skill2;
+                default:
+                    return self.Skill3;
+            }
+        }
     }
 }
