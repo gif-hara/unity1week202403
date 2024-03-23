@@ -99,5 +99,15 @@ namespace unity1week202403
             Assert.IsTrue(namedServices[typeof(T)].ContainsKey(name), $"Service not found: {typeof(T)}");
             namedServices[typeof(T)][name].scope.Cancel();
         }
+
+        public static bool Contains<T>()
+        {
+            return services.ContainsKey(typeof(T));
+        }
+
+        public static bool Contains<T>(string name)
+        {
+            return namedServices.ContainsKey(typeof(T)) && namedServices[typeof(T)].ContainsKey(name);
+        }
     }
 }
