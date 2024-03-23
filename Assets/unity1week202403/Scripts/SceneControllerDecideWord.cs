@@ -13,33 +13,24 @@ namespace unity1week202403
     public sealed class SceneControllerDecideWord : MonoBehaviour
     {
         [SerializeField]
-        private HKUIDocument selectWordDocumentPrefab;
+        private string debugDecideWord;
 
-        private string selectedWord;
+        [SerializeField]
+        private HKUIDocument decideWordDocumentPrefab;
 
         private async void Start()
         {
             await BootSystem.IsReady;
 
-            var uiPresenterSelectWord = new UIPresenterSelectWord();
-            uiPresenterSelectWord.BeginAsync(selectWordDocumentPrefab, destroyCancellationToken).Forget();
-            uiPresenterSelectWord.SetWord("");
-            var inputScope = CancellationTokenSource.CreateLinkedTokenSource(destroyCancellationToken);
-            uiPresenterSelectWord.OnSelected
-                .Subscribe(character =>
-                {
-                    selectedWord += character;
-                    uiPresenterSelectWord.SetWord(selectedWord);
-                    if (selectedWord.Length == 4)
-                    {
-                        inputScope.Cancel();
-                        inputScope.Dispose();
-                    }
-                })
-                .RegisterTo(inputScope.Token);
-            uiPresenterSelectWord.BeginInput(inputScope.Token);
-            await UniTask.WaitUntilCanceled(inputScope.Token);
-            Debug.Log(selectedWord);
+            var decideWord = TinyServiceLocator.TryResolve<string>("DecideWord");
+            if (decideWord == null)
+            {
+                decideWord = debugDecideWord;
+            }
+
+            var uiPresenterDecideWord = new UIPresenterDecideWord();
+            uiPresenterDecideWord.BeginAsync(decideWordDocumentPrefab, destroyCancellationToken).Forget();
+            await uiPresenterDecideWord.BeginDecideAnimationAsync(debugDecideWord, WordCalculator.Calculate(decideWord), destroyCancellationToken);
         }
     }
 }
