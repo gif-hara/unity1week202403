@@ -167,7 +167,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0fa7bf1603b2dfc41bbbe4567ed7d85c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  debugDecideWord: ZOUY
+  debugSelectedCharacters: HJKL
   decideWordDocumentPrefab: {fileID: 1176702862709285899, guid: 1cc415a89feff074793aeef84133798f, type: 3}
 --- !u!1 &705507993
 GameObject:
