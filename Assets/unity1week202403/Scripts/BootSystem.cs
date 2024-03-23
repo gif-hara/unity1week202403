@@ -40,7 +40,7 @@ namespace unity1week202403
         private static async UniTask InitializeInternalAsync()
         {
             initializeState = InitializeState.Initializing;
-            var masterData = await AssetLoader.LoadAsync<MasterData>("Assets/unity1week202403/Database/MasterData.asset");
+            var masterData = await AssetLoader.LoadAsync<MasterData>("MasterData");
             TinyServiceLocator.Register(masterData);
             initializeState = InitializeState.Initialized;
         }

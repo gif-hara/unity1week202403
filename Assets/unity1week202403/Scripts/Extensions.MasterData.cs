@@ -10,7 +10,7 @@ namespace unity1week202403
     {
         public static UniTask<ScriptableSequences> LoadSkillSequences(this MasterData.SkillSpec self)
         {
-            return AssetLoader.LoadAsync<ScriptableSequences>($"Assets/unity1week202403/Database/Skill.{self.Id}.asset");
+            return AssetLoader.LoadAsync<ScriptableSequences>($"Skill.{self.Id}");
         }
 
         public static int GetSkill(this MasterData.CharacterSpec self, int index)

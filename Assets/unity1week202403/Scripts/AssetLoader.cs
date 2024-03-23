@@ -1,5 +1,5 @@
 using Cysharp.Threading.Tasks;
-using UnityEngine.AddressableAssets;
+using UnityEngine;
 
 namespace unity1week202403
 {
@@ -8,9 +8,9 @@ namespace unity1week202403
     /// </summary>
     public static class AssetLoader
     {
-        public static UniTask<T> LoadAsync<T>(string path)
+        public static async UniTask<T> LoadAsync<T>(string path) where T : Object
         {
-            return Addressables.LoadAssetAsync<T>(path).ToUniTask();
+            return await Resources.LoadAsync<T>(path).ToUniTask() as T;
         }
     }
 }
