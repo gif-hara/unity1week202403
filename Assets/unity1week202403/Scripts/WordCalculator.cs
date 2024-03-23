@@ -13,8 +13,7 @@ namespace unity1week202403
         {
             var masterData = TinyServiceLocator.Resolve<MasterData>();
             var scores = masterData.WordSpecs.List
-                .Select(x => (x.Word, GetScore(word, x.Word)))
-                .OrderByDescending(x => x.Item2);
+                .Select(x => (x.Word, GetScore(word, x.Word)));
             var max = scores.Max(x => x.Item2);
             var maxScores = scores
                 .Where(x => x.Item2 == max)
