@@ -34,6 +34,10 @@ namespace unity1week202403
         [SerializeField]
         public List<int> skillIds;
 
+        public ActorStatus()
+        {
+        }
+
         public ActorStatus(
             string name,
             int hitPoint,
