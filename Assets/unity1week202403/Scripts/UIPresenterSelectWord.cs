@@ -1,8 +1,11 @@
 using System;
 using System.Threading;
 using Cysharp.Threading.Tasks;
+using LitMotion;
+using LitMotion.Extensions;
 using R3;
 using TMPro;
+using UnityEngine;
 
 namespace unity1week202403
 {
@@ -45,7 +48,20 @@ namespace unity1week202403
 
         public void SetWord(string word)
         {
-            document.Q<TMP_Text>("SelectedCharacters").text = word;
+            document.Q<TMP_Text>("SelectedCharactersText").text = word;
+        }
+
+        public async UniTask BeginDecideAnimationAsync(CancellationToken token)
+        {
+            var SelectCharactersAnimationArea = document.Q<RectTransform>("SelectedCharacters.AnimationArea");
+            await LMotion.Create(0.0f, 100.0f, 0.25f)
+                .WithEase(Ease.OutCirc)
+                .BindToLocalPositionY(SelectCharactersAnimationArea)
+                .ToUniTask(token);
+            await LMotion.Create(100.0f, 0.0f, 0.25f)
+                .WithEase(Ease.InCirc)
+                .BindToLocalPositionY(SelectCharactersAnimationArea)
+                .ToUniTask(token);
         }
     }
 }
