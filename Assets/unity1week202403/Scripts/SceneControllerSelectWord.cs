@@ -1,9 +1,9 @@
 using System;
-using System.Collections.Generic;
 using System.Threading;
 using Cysharp.Threading.Tasks;
 using R3;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace unity1week202403
 {
@@ -15,7 +15,7 @@ namespace unity1week202403
         [SerializeField]
         private HKUIDocument selectWordDocumentPrefab;
 
-        private string selectedWord;
+        private string selectedCharacters;
 
         private async void Start()
         {
@@ -28,9 +28,9 @@ namespace unity1week202403
             uiPresenterSelectWord.OnSelected
                 .Subscribe(character =>
                 {
-                    selectedWord += character;
-                    uiPresenterSelectWord.SetWord(selectedWord);
-                    if (selectedWord.Length == 4)
+                    selectedCharacters += character;
+                    uiPresenterSelectWord.SetWord(selectedCharacters);
+                    if (selectedCharacters.Length == 4)
                     {
                         inputScope.Cancel();
                         inputScope.Dispose();
@@ -39,7 +39,16 @@ namespace unity1week202403
                 .RegisterTo(inputScope.Token);
             uiPresenterSelectWord.BeginInput(inputScope.Token);
             await UniTask.WaitUntilCanceled(inputScope.Token);
-            Debug.Log(selectedWord);
+            await uiPresenterSelectWord.BeginDecideAnimationAsync(destroyCancellationToken);
+            await UniTask.Delay(TimeSpan.FromSeconds(1.0f), cancellationToken: destroyCancellationToken);
+
+            const string selectedCharactersKey = "SelectedCharacters";
+            if (TinyServiceLocator.Contains<string>(selectedCharactersKey))
+            {
+                TinyServiceLocator.Remove<string>(selectedCharactersKey);
+            }
+            TinyServiceLocator.Register(selectedCharactersKey, selectedCharacters);
+            SceneManager.LoadScene("DecideWord");
         }
     }
 }
