@@ -38,7 +38,7 @@ namespace unity1week202403
                 })
                 .RegisterTo(inputScope.Token);
             uiPresenterSelectWord.BeginInput(inputScope.Token);
-            await UniTask.WaitUntilCanceled(inputScope.Token);
+            await inputScope.Token.ToUniTask().Item1;
             await uiPresenterSelectWord.BeginDecideAnimationAsync(destroyCancellationToken);
             await UniTask.Delay(TimeSpan.FromSeconds(1.0f), cancellationToken: destroyCancellationToken);
 
