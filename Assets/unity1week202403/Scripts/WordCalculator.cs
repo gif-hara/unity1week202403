@@ -43,6 +43,7 @@ namespace unity1week202403
             foreach (var c in word)
             {
                 var spec = masterData.CharacterSpecs.Get(c.ToString());
+                result.name = word;
                 result.hitPoint += spec.HitPoint;
                 result.physicalStrength += spec.PhysicalStrength;
                 result.physicalDefense += spec.PhysicalDefense;
