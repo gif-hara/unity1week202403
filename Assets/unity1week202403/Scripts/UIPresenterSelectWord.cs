@@ -17,7 +17,7 @@ namespace unity1week202403
 
         public Observable<char> OnSelected => onSelectedCharacter;
 
-        public async UniTask Begin(HKUIDocument documentPrefab, CancellationToken token)
+        public async UniTask BeginAsync(HKUIDocument documentPrefab, CancellationToken token)
         {
             document = UnityEngine.Object.Instantiate(documentPrefab);
             await UniTask.WaitUntilCanceled(token);
