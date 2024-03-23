@@ -16,12 +16,7 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: 9928a2df54f180046bdfd6a7db7661d1
-  m_SerializeEntries:
-  - m_GUID: 9f2f6271cbcd84d4fb955f7991aad5a9
-    m_Address: Assets/unity1week202403/Database
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
+  m_SerializeEntries: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 438eb10423c320d4395b062810dfeb9f, type: 2}
   m_SchemaSet:
