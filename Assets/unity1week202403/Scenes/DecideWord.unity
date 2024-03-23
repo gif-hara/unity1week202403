@@ -164,10 +164,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 668631685}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b2a18ab966b4e4946949f34e2c9fa12c, type: 3}
+  m_Script: {fileID: 11500000, guid: 0fa7bf1603b2dfc41bbbe4567ed7d85c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectWordDocumentPrefab: {fileID: 1176702862709285899, guid: 46b01f9f2b4eb11498752b8b18aa6f39, type: 3}
+  debugDecideWord: ZOUY
+  decideWordDocumentPrefab: {fileID: 1176702862709285899, guid: 1cc415a89feff074793aeef84133798f, type: 3}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
