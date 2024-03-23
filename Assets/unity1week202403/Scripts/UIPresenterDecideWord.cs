@@ -7,6 +7,7 @@ using LitMotion.Extensions;
 using R3;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using UnitySequencerSystem.StandardSequences;
 
@@ -36,10 +37,12 @@ namespace unity1week202403
             var description = document.Q<TMP_Text>("Description");
             var descriptionCanvasGroup = document.Q<CanvasGroup>("Description");
             var skillSpecsCanvasGroup = document.Q<CanvasGroup>("SkillSpecs");
+            var buttonAnimationArea = document.Q<RectTransform>("Button.AnimationArea");
             description.text = descriptionText;
             descriptionCanvasGroup.alpha = 0.0f;
             playerArea.alpha = 0.0f;
             skillSpecsCanvasGroup.alpha = 0.0f;
+            buttonAnimationArea.localPosition = new Vector3(0.0f, -160.0f, 0.0f);
             document.Q<Slider>("HitPoint.Slider").value = actorStatus.hitPoint;
             document.Q<TMP_Text>("HitPoint.ValueText").text = actorStatus.hitPoint.ToString();
             document.Q<Slider>("PhysicalStrength.Slider").value = actorStatus.physicalStrength;
@@ -61,6 +64,20 @@ namespace unity1week202403
             }
             document.Q<TMP_Text>("SkillSpecText").text = sb.ToString();
             word.text = beforeText;
+            document.Q<Button>("GotoBattleButton")
+                .OnClickAsObservable()
+                .Subscribe(_ =>
+                {
+                    SceneManager.LoadScene("Battle");
+                })
+                .RegisterTo(token);
+            document.Q<Button>("GotoSelectWordButton")
+                .OnClickAsObservable()
+                .Subscribe(_ =>
+                {
+                    SceneManager.LoadScene("SelectWord");
+                })
+                .RegisterTo(token);
             await LMotion.Shake.Create(0.0f, 30.0f, 1.0f)
                 .BindToLocalPositionX(word.rectTransform)
                 .ToUniTask(cancellationToken: token);
@@ -96,6 +113,11 @@ namespace unity1week202403
                     .BindToCanvasGroupAlpha(skillSpecsCanvasGroup)
                     .ToUniTask(cancellationToken: token)
             );
+            await UniTask.Delay(TimeSpan.FromSeconds(0.5f), cancellationToken: token);
+            await LMotion.Create(-160.0f, 0.0f, 0.5f)
+                .WithEase(Ease.OutBack)
+                .BindToLocalPositionY(buttonAnimationArea)
+                .ToUniTask(cancellationToken: token);
         }
     }
 }
