@@ -14,5729 +14,5729 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterSpecs:
     list:
-    - Character: a
-      HitPoint: 8
-      PhysicalAttack: 0
-      PhysicalDefense: 6
-      MagicalAttack: 0
-      MagicalDefense: 5
-      Speed: 9
+    - Character: A
+      HitPoint: 3
+      PhysicalStrength: 6
+      PhysicalDefense: 2
+      MagicalStrength: 5
+      MagicalDefense: 1
+      Speed: 4
       Skill1: 10101
       Skill2: 10102
       Skill3: 10103
-    - Character: b
-      HitPoint: 10
-      PhysicalAttack: 0
-      PhysicalDefense: 12
-      MagicalAttack: 0
-      MagicalDefense: 9
-      Speed: 6
+    - Character: B
+      HitPoint: 5
+      PhysicalStrength: 3
+      PhysicalDefense: 6
+      MagicalStrength: 1
+      MagicalDefense: 4
+      Speed: 2
       Skill1: 10101
       Skill2: 10302
       Skill3: 10602
-    - Character: c
-      HitPoint: 9
-      PhysicalAttack: 0
-      PhysicalDefense: 10
-      MagicalAttack: 0
-      MagicalDefense: 8
-      Speed: 12
+    - Character: C
+      HitPoint: 4
+      PhysicalStrength: 1
+      PhysicalDefense: 5
+      MagicalStrength: 2
+      MagicalDefense: 3
+      Speed: 6
       Skill1: 10201
       Skill2: 10305
       Skill3: 10610
-    - Character: d
-      HitPoint: 6
-      PhysicalAttack: 0
-      PhysicalDefense: 5
-      MagicalAttack: 0
-      MagicalDefense: 10
-      Speed: 8
+    - Character: D
+      HitPoint: 2
+      PhysicalStrength: 4
+      PhysicalDefense: 1
+      MagicalStrength: 6
+      MagicalDefense: 5
+      Speed: 3
       Skill1: 10201
       Skill2: 10202
       Skill3: 10203
-    - Character: e
-      HitPoint: 12
-      PhysicalAttack: 0
-      PhysicalDefense: 8
-      MagicalAttack: 0
-      MagicalDefense: 5
-      Speed: 10
+    - Character: E
+      HitPoint: 6
+      PhysicalStrength: 2
+      PhysicalDefense: 3
+      MagicalStrength: 4
+      MagicalDefense: 1
+      Speed: 5
       Skill1: 10201
       Skill2: 10501
       Skill3: 10610
-    - Character: f
-      HitPoint: 5
-      PhysicalAttack: 0
-      PhysicalDefense: 9
-      MagicalAttack: 0
-      MagicalDefense: 12
-      Speed: 6
+    - Character: F
+      HitPoint: 1
+      PhysicalStrength: 5
+      PhysicalDefense: 4
+      MagicalStrength: 3
+      MagicalDefense: 6
+      Speed: 2
       Skill1: 10101
       Skill2: 10304
       Skill3: 10604
-    - Character: g
-      HitPoint: 10
-      PhysicalAttack: 0
-      PhysicalDefense: 5
-      MagicalAttack: 0
-      MagicalDefense: 9
-      Speed: 8
+    - Character: G
+      HitPoint: 5
+      PhysicalStrength: 6
+      PhysicalDefense: 1
+      MagicalStrength: 2
+      MagicalDefense: 4
+      Speed: 3
       Skill1: 10101
       Skill2: 10301
       Skill3: 10605
-    - Character: h
-      HitPoint: 8
-      PhysicalAttack: 0
-      PhysicalDefense: 12
-      MagicalAttack: 0
-      MagicalDefense: 6
-      Speed: 9
+    - Character: H
+      HitPoint: 3
+      PhysicalStrength: 1
+      PhysicalDefense: 6
+      MagicalStrength: 5
+      MagicalDefense: 2
+      Speed: 4
       Skill1: 10201
       Skill2: 10202
       Skill3: 10606
-    - Character: i
-      HitPoint: 9
-      PhysicalAttack: 0
-      PhysicalDefense: 6
-      MagicalAttack: 0
-      MagicalDefense: 10
-      Speed: 5
+    - Character: I
+      HitPoint: 4
+      PhysicalStrength: 3
+      PhysicalDefense: 2
+      MagicalStrength: 6
+      MagicalDefense: 5
+      Speed: 1
       Skill1: 10201
       Skill2: 10303
       Skill3: 10607
-    - Character: j
-      HitPoint: 6
-      PhysicalAttack: 0
-      PhysicalDefense: 10
-      MagicalAttack: 0
-      MagicalDefense: 8
-      Speed: 12
+    - Character: J
+      HitPoint: 2
+      PhysicalStrength: 4
+      PhysicalDefense: 5
+      MagicalStrength: 1
+      MagicalDefense: 3
+      Speed: 6
       Skill1: 10101
       Skill2: 10305
       Skill3: 10609
-    - Character: k
-      HitPoint: 12
-      PhysicalAttack: 0
-      PhysicalDefense: 8
-      MagicalAttack: 0
-      MagicalDefense: 5
-      Speed: 10
+    - Character: K
+      HitPoint: 6
+      PhysicalStrength: 2
+      PhysicalDefense: 3
+      MagicalStrength: 4
+      MagicalDefense: 1
+      Speed: 5
       Skill1: 10201
       Skill2: 10501
       Skill3: 10610
-    - Character: l
-      HitPoint: 5
-      PhysicalAttack: 0
-      PhysicalDefense: 9
-      MagicalAttack: 0
-      MagicalDefense: 12
-      Speed: 6
+    - Character: L
+      HitPoint: 1
+      PhysicalStrength: 5
+      PhysicalDefense: 4
+      MagicalStrength: 3
+      MagicalDefense: 6
+      Speed: 2
       Skill1: 10101
       Skill2: 10404
       Skill3: 10604
-    - Character: m
-      HitPoint: 10
-      PhysicalAttack: 0
-      PhysicalDefense: 5
-      MagicalAttack: 0
-      MagicalDefense: 9
-      Speed: 8
+    - Character: M
+      HitPoint: 5
+      PhysicalStrength: 6
+      PhysicalDefense: 1
+      MagicalStrength: 2
+      MagicalDefense: 4
+      Speed: 3
       Skill1: 10101
       Skill2: 10401
       Skill3: 10103
-    - Character: n
-      HitPoint: 8
-      PhysicalAttack: 0
-      PhysicalDefense: 12
-      MagicalAttack: 0
-      MagicalDefense: 6
-      Speed: 9
+    - Character: N
+      HitPoint: 3
+      PhysicalStrength: 1
+      PhysicalDefense: 6
+      MagicalStrength: 5
+      MagicalDefense: 2
+      Speed: 4
       Skill1: 10201
       Skill2: 10402
       Skill3: 10602
-    - Character: o
-      HitPoint: 9
-      PhysicalAttack: 0
-      PhysicalDefense: 6
-      MagicalAttack: 0
-      MagicalDefense: 10
-      Speed: 5
+    - Character: O
+      HitPoint: 4
+      PhysicalStrength: 3
+      PhysicalDefense: 2
+      MagicalStrength: 6
+      MagicalDefense: 5
+      Speed: 1
       Skill1: 10201
       Skill2: 10403
       Skill3: 10203
-    - Character: p
-      HitPoint: 6
-      PhysicalAttack: 0
-      PhysicalDefense: 10
-      MagicalAttack: 0
-      MagicalDefense: 8
-      Speed: 12
+    - Character: P
+      HitPoint: 2
+      PhysicalStrength: 4
+      PhysicalDefense: 5
+      MagicalStrength: 1
+      MagicalDefense: 3
+      Speed: 6
       Skill1: 10101
       Skill2: 10405
       Skill3: 10609
-    - Character: q
-      HitPoint: 12
-      PhysicalAttack: 0
-      PhysicalDefense: 8
-      MagicalAttack: 0
-      MagicalDefense: 9
-      Speed: 10
+    - Character: Q
+      HitPoint: 6
+      PhysicalStrength: 2
+      PhysicalDefense: 3
+      MagicalStrength: 1
+      MagicalDefense: 4
+      Speed: 5
       Skill1: 10101
       Skill2: 10501
       Skill3: 10609
-    - Character: r
-      HitPoint: 5
-      PhysicalAttack: 0
-      PhysicalDefense: 9
-      MagicalAttack: 0
-      MagicalDefense: 12
-      Speed: 6
+    - Character: R
+      HitPoint: 1
+      PhysicalStrength: 5
+      PhysicalDefense: 4
+      MagicalStrength: 3
+      MagicalDefense: 6
+      Speed: 2
       Skill1: 10101
       Skill2: 10304
       Skill3: 10608
-    - Character: s
-      HitPoint: 10
-      PhysicalAttack: 0
-      PhysicalDefense: 5
-      MagicalAttack: 0
-      MagicalDefense: 6
-      Speed: 8
+    - Character: S
+      HitPoint: 5
+      PhysicalStrength: 6
+      PhysicalDefense: 1
+      MagicalStrength: 4
+      MagicalDefense: 2
+      Speed: 3
       Skill1: 10101
       Skill2: 10301
       Skill3: 10601
-    - Character: t
-      HitPoint: 8
-      PhysicalAttack: 0
-      PhysicalDefense: 12
-      MagicalAttack: 0
-      MagicalDefense: 6
-      Speed: 9
+    - Character: T
+      HitPoint: 3
+      PhysicalStrength: 1
+      PhysicalDefense: 6
+      MagicalStrength: 5
+      MagicalDefense: 2
+      Speed: 4
       Skill1: 10201
       Skill2: 10302
       Skill3: 10606
-    - Character: u
-      HitPoint: 9
-      PhysicalAttack: 0
-      PhysicalDefense: 6
-      MagicalAttack: 0
-      MagicalDefense: 10
-      Speed: 5
+    - Character: U
+      HitPoint: 4
+      PhysicalStrength: 3
+      PhysicalDefense: 2
+      MagicalStrength: 6
+      MagicalDefense: 5
+      Speed: 1
       Skill1: 10201
       Skill2: 10303
       Skill3: 10603
-    - Character: v
-      HitPoint: 6
-      PhysicalAttack: 0
-      PhysicalDefense: 10
-      MagicalAttack: 0
-      MagicalDefense: 8
-      Speed: 12
+    - Character: V
+      HitPoint: 2
+      PhysicalStrength: 4
+      PhysicalDefense: 5
+      MagicalStrength: 1
+      MagicalDefense: 3
+      Speed: 6
       Skill1: 10101
       Skill2: 10405
       Skill3: 10609
-    - Character: w
-      HitPoint: 12
-      PhysicalAttack: 0
-      PhysicalDefense: 8
-      MagicalAttack: 0
-      MagicalDefense: 5
-      Speed: 10
+    - Character: W
+      HitPoint: 6
+      PhysicalStrength: 2
+      PhysicalDefense: 3
+      MagicalStrength: 4
+      MagicalDefense: 1
+      Speed: 5
       Skill1: 10201
       Skill2: 10501
       Skill3: 10610
-    - Character: x
-      HitPoint: 5
-      PhysicalAttack: 0
-      PhysicalDefense: 9
-      MagicalAttack: 0
-      MagicalDefense: 12
-      Speed: 6
+    - Character: X
+      HitPoint: 1
+      PhysicalStrength: 5
+      PhysicalDefense: 4
+      MagicalStrength: 3
+      MagicalDefense: 6
+      Speed: 2
       Skill1: 10101
       Skill2: 10404
       Skill3: 10608
-    - Character: y
-      HitPoint: 5
-      PhysicalAttack: 0
-      PhysicalDefense: 10
-      MagicalAttack: 0
-      MagicalDefense: 9
-      Speed: 8
+    - Character: Y
+      HitPoint: 1
+      PhysicalStrength: 6
+      PhysicalDefense: 5
+      MagicalStrength: 2
+      MagicalDefense: 4
+      Speed: 3
       Skill1: 10101
       Skill2: 10401
       Skill3: 10103
-    - Character: z
-      HitPoint: 8
-      PhysicalAttack: 0
-      PhysicalDefense: 6
-      MagicalAttack: 0
-      MagicalDefense: 10
-      Speed: 9
+    - Character: Z
+      HitPoint: 3
+      PhysicalStrength: 1
+      PhysicalDefense: 2
+      MagicalStrength: 6
+      MagicalDefense: 5
+      Speed: 4
       Skill1: 10201
       Skill2: 10403
       Skill3: 10203
   wordSpecs:
     list:
-    - Word: abbe
+    - Word: ABBE
       Number: 4
-    - Word: Abby
+    - Word: ABBY
       Number: 4
-    - Word: ABCs
+    - Word: ABCS
       Number: 4
-    - Word: abed
+    - Word: ABED
       Number: 4
-    - Word: Abel
+    - Word: ABEL
       Number: 4
-    - Word: abet
+    - Word: ABET
       Number: 4
-    - Word: Abib
+    - Word: ABIB
       Number: 4
-    - Word: able
+    - Word: ABLE
       Number: 4
-    - Word: ably
+    - Word: ABLY
       Number: 4
-    - Word: abut
+    - Word: ABUT
       Number: 4
-    - Word: ache
+    - Word: ACHE
       Number: 4
-    - Word: achy
+    - Word: ACHY
       Number: 4
-    - Word: acid
+    - Word: ACID
       Number: 4
-    - Word: acme
+    - Word: ACME
       Number: 4
-    - Word: acne
+    - Word: ACNE
       Number: 4
-    - Word: acre
+    - Word: ACRE
       Number: 4
     - Word: ACTH
       Number: 4
-    - Word: Acts
+    - Word: ACTS
       Number: 4
-    - Word: Adam
+    - Word: ADAM
       Number: 4
-    - Word: Adar
+    - Word: ADAR
       Number: 4
-    - Word: Aden
+    - Word: ADEN
       Number: 4
-    - Word: adze
+    - Word: ADZE
       Number: 4
-    - Word: aeon
+    - Word: AEON
       Number: 4
-    - Word: aery
+    - Word: AERY
       Number: 4
-    - Word: afar
+    - Word: AFAR
       Number: 4
-    - Word: Afro
+    - Word: AFRO
       Number: 4
-    - Word: agar
+    - Word: AGAR
       Number: 4
-    - Word: aged
+    - Word: AGED
       Number: 4
-    - Word: Agee
+    - Word: AGEE
       Number: 4
-    - Word: ages
+    - Word: AGES
       Number: 4
-    - Word: agog
+    - Word: AGOG
       Number: 4
-    - Word: Agra
+    - Word: AGRA
       Number: 4
-    - Word: ague
+    - Word: AGUE
       Number: 4
-    - Word: Ahab
+    - Word: AHAB
       Number: 4
-    - Word: ahem
+    - Word: AHEM
       Number: 4
-    - Word: ahoy
+    - Word: AHOY
       Number: 4
-    - Word: Aida
+    - Word: AIDA
       Number: 4
-    - Word: aide
+    - Word: AIDE
       Number: 4
     - Word: AIDS
       Number: 4
-    - Word: Ainu
+    - Word: AINU
       Number: 4
-    - Word: airs
+    - Word: AIRS
       Number: 4
-    - Word: airy
+    - Word: AIRY
       Number: 4
-    - Word: ajar
+    - Word: AJAR
       Number: 4
-    - Word: Ajax
+    - Word: AJAX
       Number: 4
-    - Word: akin
+    - Word: AKIN
       Number: 4
-    - Word: alae
+    - Word: ALAE
       Number: 4
-    - Word: Alai
+    - Word: ALAI
       Number: 4
-    - Word: Alan
+    - Word: ALAN
       Number: 4
-    - Word: alar
+    - Word: ALAR
       Number: 4
-    - Word: alas
+    - Word: ALAS
       Number: 4
-    - Word: Alba
+    - Word: ALBA
       Number: 4
-    - Word: Alec
+    - Word: ALEC
       Number: 4
-    - Word: alee
+    - Word: ALEE
       Number: 4
-    - Word: Alex
+    - Word: ALEX
       Number: 4
-    - Word: alga
+    - Word: ALGA
       Number: 4
-    - Word: alit
+    - Word: ALIT
       Number: 4
-    - Word: alky
+    - Word: ALKY
       Number: 4
-    - Word: ally
+    - Word: ALLY
       Number: 4
-    - Word: Alma
+    - Word: ALMA
       Number: 4
-    - Word: alms
+    - Word: ALMS
       Number: 4
-    - Word: aloe
+    - Word: ALOE
       Number: 4
-    - Word: Alps
+    - Word: ALPS
       Number: 4
-    - Word: also
+    - Word: ALSO
       Number: 4
-    - Word: alto
+    - Word: ALTO
       Number: 4
-    - Word: alum
+    - Word: ALUM
       Number: 4
-    - Word: Alva
+    - Word: ALVA
       Number: 4
-    - Word: amah
+    - Word: AMAH
       Number: 4
-    - Word: amen
+    - Word: AMEN
       Number: 4
-    - Word: amid
+    - Word: AMID
       Number: 4
-    - Word: Amin
+    - Word: AMIN
       Number: 4
-    - Word: amir
+    - Word: AMIR
       Number: 4
-    - Word: ammo
+    - Word: AMMO
       Number: 4
-    - Word: amok
+    - Word: AMOK
       Number: 4
-    - Word: Amos
+    - Word: AMOS
       Number: 4
-    - Word: Amoy
+    - Word: AMOY
       Number: 4
-    - Word: Amur
+    - Word: AMUR
       Number: 4
-    - Word: anal
+    - Word: ANAL
       Number: 4
-    - Word: Andy
+    - Word: ANDY
       Number: 4
-    - Word: anew
+    - Word: ANEW
       Number: 4
-    - Word: ankh
+    - Word: ANKH
       Number: 4
-    - Word: Anna
+    - Word: ANNA
       Number: 4
-    - Word: Anne
+    - Word: ANNE
       Number: 4
-    - Word: anon
+    - Word: ANON
       Number: 4
-    - Word: ante
+    - Word: ANTE
       Number: 4
-    - Word: anti
+    - Word: ANTI
       Number: 4
-    - Word: anus
+    - Word: ANUS
       Number: 4
-    - Word: apex
+    - Word: APEX
       Number: 4
-    - Word: Apia
+    - Word: APIA
       Number: 4
-    - Word: apse
+    - Word: APSE
       Number: 4
-    - Word: Apus
+    - Word: APUS
       Number: 4
-    - Word: aqua
+    - Word: AQUA
       Number: 4
-    - Word: Arab
+    - Word: ARAB
       Number: 4
-    - Word: Arak
+    - Word: ARAK
       Number: 4
-    - Word: arch
+    - Word: ARCH
       Number: 4
-    - Word: Ards
+    - Word: ARDS
       Number: 4
-    - Word: area
+    - Word: AREA
       Number: 4
-    - Word: Ares
+    - Word: ARES
       Number: 4
-    - Word: aria
+    - Word: ARIA
       Number: 4
-    - Word: arid
+    - Word: ARID
       Number: 4
-    - Word: aril
+    - Word: ARIL
       Number: 4
-    - Word: Arlo
+    - Word: ARLO
       Number: 4
-    - Word: arms
+    - Word: ARMS
       Number: 4
-    - Word: army
+    - Word: ARMY
       Number: 4
-    - Word: Arne
+    - Word: ARNE
       Number: 4
-    - Word: Arno
+    - Word: ARNO
       Number: 4
-    - Word: arse
+    - Word: ARSE
       Number: 4
-    - Word: arts
+    - Word: ARTS
       Number: 4
-    - Word: arty
+    - Word: ARTY
       Number: 4
-    - Word: arum
+    - Word: ARUM
       Number: 4
-    - Word: Ashe
+    - Word: ASHE
       Number: 4
-    - Word: ashy
+    - Word: ASHY
       Number: 4
-    - Word: Asia
+    - Word: ASIA
       Number: 4
-    - Word: atom
+    - Word: ATOM
       Number: 4
-    - Word: atop
+    - Word: ATOP
       Number: 4
-    - Word: Attu
+    - Word: ATTU
       Number: 4
-    - Word: auld
+    - Word: AULD
       Number: 4
-    - Word: aunt
+    - Word: AUNT
       Number: 4
-    - Word: aura
+    - Word: AURA
       Number: 4
-    - Word: auto
+    - Word: AUTO
       Number: 4
-    - Word: aver
+    - Word: AVER
       Number: 4
-    - Word: avid
+    - Word: AVID
       Number: 4
-    - Word: Avon
+    - Word: AVON
       Number: 4
-    - Word: avow
+    - Word: AVOW
       Number: 4
-    - Word: away
+    - Word: AWAY
       Number: 4
-    - Word: awed
+    - Word: AWED
       Number: 4
-    - Word: awol
+    - Word: AWOL
       Number: 4
-    - Word: awry
+    - Word: AWRY
       Number: 4
-    - Word: axes
+    - Word: AXES
       Number: 4
-    - Word: axil
+    - Word: AXIL
       Number: 4
-    - Word: axis
+    - Word: AXIS
       Number: 4
-    - Word: axle
+    - Word: AXLE
       Number: 4
-    - Word: axon
+    - Word: AXON
       Number: 4
-    - Word: ayah
+    - Word: AYAH
       Number: 4
-    - Word: Ayer
+    - Word: AYER
       Number: 4
-    - Word: Azov
+    - Word: AZOV
       Number: 4
-    - Word: Baal
+    - Word: BAAL
       Number: 4
-    - Word: babe
+    - Word: BABE
       Number: 4
-    - Word: baby
+    - Word: BABY
       Number: 4
-    - Word: Bach
+    - Word: BACH
       Number: 4
-    - Word: back
+    - Word: BACK
       Number: 4
-    - Word: bade
+    - Word: BADE
       Number: 4
-    - Word: bags
+    - Word: BAGS
       Number: 4
-    - Word: baht
+    - Word: BAHT
       Number: 4
-    - Word: bail
+    - Word: BAIL
       Number: 4
-    - Word: bait
+    - Word: BAIT
       Number: 4
-    - Word: bake
+    - Word: BAKE
       Number: 4
-    - Word: Baku
+    - Word: BAKU
       Number: 4
-    - Word: Baky
+    - Word: BAKY
       Number: 4
-    - Word: bald
+    - Word: BALD
       Number: 4
-    - Word: bale
+    - Word: BALE
       Number: 4
-    - Word: Bali
+    - Word: BALI
       Number: 4
-    - Word: balk
+    - Word: BALK
       Number: 4
-    - Word: ball
+    - Word: BALL
       Number: 4
-    - Word: balm
+    - Word: BALM
       Number: 4
-    - Word: Balt
+    - Word: BALT
       Number: 4
-    - Word: band
+    - Word: BAND
       Number: 4
-    - Word: bane
+    - Word: BANE
       Number: 4
-    - Word: bang
+    - Word: BANG
       Number: 4
-    - Word: bani
+    - Word: BANI
       Number: 4
-    - Word: bank
+    - Word: BANK
       Number: 4
-    - Word: barb
+    - Word: BARB
       Number: 4
-    - Word: bard
+    - Word: BARD
       Number: 4
-    - Word: bare
+    - Word: BARE
       Number: 4
-    - Word: barf
+    - Word: BARF
       Number: 4
-    - Word: Bari
+    - Word: BARI
       Number: 4
-    - Word: bark
+    - Word: BARK
       Number: 4
-    - Word: barn
+    - Word: BARN
       Number: 4
-    - Word: Bart
+    - Word: BART
       Number: 4
-    - Word: base
+    - Word: BASE
       Number: 4
-    - Word: bash
+    - Word: BASH
       Number: 4
-    - Word: bask
+    - Word: BASK
       Number: 4
-    - Word: bass
+    - Word: BASS
       Number: 4
-    - Word: bast
+    - Word: BAST
       Number: 4
-    - Word: bate
+    - Word: BATE
       Number: 4
-    - Word: bath
+    - Word: BATH
       Number: 4
-    - Word: bats
+    - Word: BATS
       Number: 4
-    - Word: baud
+    - Word: BAUD
       Number: 4
-    - Word: bawd
+    - Word: BAWD
       Number: 4
-    - Word: bawl
+    - Word: BAWL
       Number: 4
-    - Word: bead
+    - Word: BEAD
       Number: 4
-    - Word: beak
+    - Word: BEAK
       Number: 4
-    - Word: beam
+    - Word: BEAM
       Number: 4
-    - Word: bean
+    - Word: BEAN
       Number: 4
-    - Word: bear
+    - Word: BEAR
       Number: 4
-    - Word: beat
+    - Word: BEAT
       Number: 4
-    - Word: beau
+    - Word: BEAU
       Number: 4
-    - Word: beck
+    - Word: BECK
       Number: 4
-    - Word: Bede
+    - Word: BEDE
       Number: 4
-    - Word: beef
+    - Word: BEEF
       Number: 4
-    - Word: been
+    - Word: BEEN
       Number: 4
-    - Word: beep
+    - Word: BEEP
       Number: 4
-    - Word: beer
+    - Word: BEER
       Number: 4
-    - Word: beet
+    - Word: BEET
       Number: 4
-    - Word: bell
+    - Word: BELL
       Number: 4
-    - Word: belt
+    - Word: BELT
       Number: 4
-    - Word: bend
+    - Word: BEND
       Number: 4
-    - Word: bent
+    - Word: BENT
       Number: 4
-    - Word: Benz
+    - Word: BENZ
       Number: 4
-    - Word: berg
+    - Word: BERG
       Number: 4
-    - Word: berm
+    - Word: BERM
       Number: 4
-    - Word: Bern
+    - Word: BERN
       Number: 4
-    - Word: Bert
+    - Word: BERT
       Number: 4
-    - Word: Bess
+    - Word: BESS
       Number: 4
-    - Word: best
+    - Word: BEST
       Number: 4
-    - Word: beta
+    - Word: BETA
       Number: 4
-    - Word: Beth
+    - Word: BETH
       Number: 4
-    - Word: bevy
+    - Word: BEVY
       Number: 4
-    - Word: bias
+    - Word: BIAS
       Number: 4
-    - Word: bide
+    - Word: BIDE
       Number: 4
-    - Word: bier
+    - Word: BIER
       Number: 4
-    - Word: bike
+    - Word: BIKE
       Number: 4
-    - Word: Biko
+    - Word: BIKO
       Number: 4
-    - Word: bile
+    - Word: BILE
       Number: 4
-    - Word: bilk
+    - Word: BILK
       Number: 4
-    - Word: bill
+    - Word: BILL
       Number: 4
-    - Word: bind
+    - Word: BIND
       Number: 4
-    - Word: bird
+    - Word: BIRD
       Number: 4
-    - Word: birr
+    - Word: BIRR
       Number: 4
-    - Word: bite
+    - Word: BITE
       Number: 4
-    - Word: blab
+    - Word: BLAB
       Number: 4
-    - Word: blah
+    - Word: BLAH
       Number: 4
-    - Word: bled
+    - Word: BLED
       Number: 4
-    - Word: blew
+    - Word: BLEW
       Number: 4
-    - Word: blip
+    - Word: BLIP
       Number: 4
-    - Word: blob
+    - Word: BLOB
       Number: 4
-    - Word: bloc
+    - Word: BLOC
       Number: 4
-    - Word: blot
+    - Word: BLOT
       Number: 4
-    - Word: blow
+    - Word: BLOW
       Number: 4
-    - Word: blue
+    - Word: BLUE
       Number: 4
-    - Word: blur
+    - Word: BLUR
       Number: 4
-    - Word: boar
+    - Word: BOAR
       Number: 4
-    - Word: boat
+    - Word: BOAT
       Number: 4
-    - Word: bock
+    - Word: BOCK
       Number: 4
-    - Word: bode
+    - Word: BODE
       Number: 4
-    - Word: body
+    - Word: BODY
       Number: 4
-    - Word: Boer
+    - Word: BOER
       Number: 4
-    - Word: bogy
+    - Word: BOGY
       Number: 4
-    - Word: Bohr
+    - Word: BOHR
       Number: 4
-    - Word: boil
+    - Word: BOIL
       Number: 4
-    - Word: bola
+    - Word: BOLA
       Number: 4
-    - Word: bold
+    - Word: BOLD
       Number: 4
-    - Word: bole
+    - Word: BOLE
       Number: 4
-    - Word: boll
+    - Word: BOLL
       Number: 4
-    - Word: bolt
+    - Word: BOLT
       Number: 4
-    - Word: bomb
+    - Word: BOMB
       Number: 4
-    - Word: bond
+    - Word: BOND
       Number: 4
-    - Word: bone
+    - Word: BONE
       Number: 4
-    - Word: bong
+    - Word: BONG
       Number: 4
-    - Word: Bonn
+    - Word: BONN
       Number: 4
-    - Word: bony
+    - Word: BONY
       Number: 4
-    - Word: boob
+    - Word: BOOB
       Number: 4
-    - Word: book
+    - Word: BOOK
       Number: 4
-    - Word: boom
+    - Word: BOOM
       Number: 4
-    - Word: boon
+    - Word: BOON
       Number: 4
-    - Word: boor
+    - Word: BOOR
       Number: 4
-    - Word: boot
+    - Word: BOOT
       Number: 4
-    - Word: bore
+    - Word: BORE
       Number: 4
-    - Word: born
+    - Word: BORN
       Number: 4
-    - Word: bosh
+    - Word: BOSH
       Number: 4
-    - Word: boss
+    - Word: BOSS
       Number: 4
-    - Word: both
+    - Word: BOTH
       Number: 4
-    - Word: bout
+    - Word: BOUT
       Number: 4
-    - Word: bowl
+    - Word: BOWL
       Number: 4
-    - Word: boxy
+    - Word: BOXY
       Number: 4
-    - Word: Boyd
+    - Word: BOYD
       Number: 4
-    - Word: bozo
+    - Word: BOZO
       Number: 4
-    - Word: brad
+    - Word: BRAD
       Number: 4
-    - Word: brae
+    - Word: BRAE
       Number: 4
-    - Word: brag
+    - Word: BRAG
       Number: 4
-    - Word: bran
+    - Word: BRAN
       Number: 4
-    - Word: brat
+    - Word: BRAT
       Number: 4
-    - Word: bray
+    - Word: BRAY
       Number: 4
-    - Word: bred
+    - Word: BRED
       Number: 4
-    - Word: Bret
+    - Word: BRET
       Number: 4
-    - Word: brew
+    - Word: BREW
       Number: 4
-    - Word: Brie
+    - Word: BRIE
       Number: 4
-    - Word: brig
+    - Word: BRIG
       Number: 4
-    - Word: brim
+    - Word: BRIM
       Number: 4
-    - Word: brio
+    - Word: BRIO
       Number: 4
-    - Word: bris
+    - Word: BRIS
       Number: 4
-    - Word: Brit
+    - Word: BRIT
       Number: 4
-    - Word: Brno
+    - Word: BRNO
       Number: 4
-    - Word: brow
+    - Word: BROW
       Number: 4
-    - Word: brut
+    - Word: BRUT
       Number: 4
-    - Word: bubo
+    - Word: BUBO
       Number: 4
-    - Word: buck
+    - Word: BUCK
       Number: 4
-    - Word: buff
+    - Word: BUFF
       Number: 4
-    - Word: bulb
+    - Word: BULB
       Number: 4
-    - Word: bulk
+    - Word: BULK
       Number: 4
-    - Word: bull
+    - Word: BULL
       Number: 4
-    - Word: bump
+    - Word: BUMP
       Number: 4
-    - Word: bung
+    - Word: BUNG
       Number: 4
-    - Word: bunk
+    - Word: BUNK
       Number: 4
-    - Word: buns
+    - Word: BUNS
       Number: 4
-    - Word: bunt
+    - Word: BUNT
       Number: 4
-    - Word: buoy
+    - Word: BUOY
       Number: 4
-    - Word: burg
+    - Word: BURG
       Number: 4
-    - Word: burl
+    - Word: BURL
       Number: 4
-    - Word: burn
+    - Word: BURN
       Number: 4
-    - Word: burp
+    - Word: BURP
       Number: 4
-    - Word: burr
+    - Word: BURR
       Number: 4
-    - Word: Burt
+    - Word: BURT
       Number: 4
-    - Word: bury
+    - Word: BURY
       Number: 4
-    - Word: bush
+    - Word: BUSH
       Number: 4
-    - Word: busk
+    - Word: BUSK
       Number: 4
-    - Word: buss
+    - Word: BUSS
       Number: 4
-    - Word: bust
+    - Word: BUST
       Number: 4
-    - Word: busy
+    - Word: BUSY
       Number: 4
-    - Word: Bute
+    - Word: BUTE
       Number: 4
-    - Word: butt
+    - Word: BUTT
       Number: 4
-    - Word: buzz
+    - Word: BUZZ
       Number: 4
-    - Word: Byrd
+    - Word: BYRD
       Number: 4
-    - Word: byte
+    - Word: BYTE
       Number: 4
-    - Word: Caen
+    - Word: CAEN
       Number: 4
-    - Word: cafe
+    - Word: CAFE
       Number: 4
-    - Word: cage
+    - Word: CAGE
       Number: 4
-    - Word: cagy
+    - Word: CAGY
       Number: 4
-    - Word: Cain
+    - Word: CAIN
       Number: 4
-    - Word: cake
+    - Word: CAKE
       Number: 4
-    - Word: caky
+    - Word: CAKY
       Number: 4
-    - Word: calf
+    - Word: CALF
       Number: 4
-    - Word: Cali
+    - Word: CALI
       Number: 4
-    - Word: calk
+    - Word: CALK
       Number: 4
-    - Word: call
+    - Word: CALL
       Number: 4
-    - Word: calm
+    - Word: CALM
       Number: 4
-    - Word: calx
+    - Word: CALX
       Number: 4
-    - Word: came
+    - Word: CAME
       Number: 4
-    - Word: camp
+    - Word: CAMP
       Number: 4
-    - Word: cane
+    - Word: CANE
       Number: 4
-    - Word: cant
+    - Word: CANT
       Number: 4
-    - Word: cape
+    - Word: CAPE
       Number: 4
-    - Word: capo
+    - Word: CAPO
       Number: 4
-    - Word: card
+    - Word: CARD
       Number: 4
-    - Word: care
+    - Word: CARE
       Number: 4
-    - Word: Carl
+    - Word: CARL
       Number: 4
-    - Word: carp
+    - Word: CARP
       Number: 4
-    - Word: cart
+    - Word: CART
       Number: 4
-    - Word: Cary
+    - Word: CARY
       Number: 4
-    - Word: case
+    - Word: CASE
       Number: 4
-    - Word: cash
+    - Word: CASH
       Number: 4
-    - Word: cask
+    - Word: CASK
       Number: 4
-    - Word: cast
+    - Word: CAST
       Number: 4
-    - Word: Cato
+    - Word: CATO
       Number: 4
-    - Word: Catt
+    - Word: CATT
       Number: 4
-    - Word: caul
+    - Word: CAUL
       Number: 4
-    - Word: cave
+    - Word: CAVE
       Number: 4
-    - Word: cavy
+    - Word: CAVY
       Number: 4
-    - Word: Cebu
+    - Word: CEBU
       Number: 4
-    - Word: ceca
+    - Word: CECA
       Number: 4
-    - Word: cede
+    - Word: CEDE
       Number: 4
-    - Word: cedi
+    - Word: CEDI
       Number: 4
-    - Word: cell
+    - Word: CELL
       Number: 4
-    - Word: Celt
+    - Word: CELT
       Number: 4
-    - Word: cent
+    - Word: CENT
       Number: 4
-    - Word: Chad
+    - Word: CHAD
       Number: 4
-    - Word: chap
+    - Word: CHAP
       Number: 4
-    - Word: char
+    - Word: CHAR
       Number: 4
-    - Word: chat
+    - Word: CHAT
       Number: 4
-    - Word: chef
+    - Word: CHEF
       Number: 4
-    - Word: chew
+    - Word: CHEW
       Number: 4
-    - Word: chez
+    - Word: CHEZ
       Number: 4
-    - Word: chic
+    - Word: CHIC
       Number: 4
-    - Word: chid
+    - Word: CHID
       Number: 4
-    - Word: chin
+    - Word: CHIN
       Number: 4
-    - Word: chip
+    - Word: CHIP
       Number: 4
-    - Word: chit
+    - Word: CHIT
       Number: 4
-    - Word: chon
+    - Word: CHON
       Number: 4
-    - Word: chop
+    - Word: CHOP
       Number: 4
-    - Word: chow
+    - Word: CHOW
       Number: 4
-    - Word: chub
+    - Word: CHUB
       Number: 4
-    - Word: chug
+    - Word: CHUG
       Number: 4
-    - Word: chum
+    - Word: CHUM
       Number: 4
-    - Word: ciao
+    - Word: CIAO
       Number: 4
-    - Word: cion
+    - Word: CION
       Number: 4
-    - Word: cire
+    - Word: CIRE
       Number: 4
-    - Word: cite
+    - Word: CITE
       Number: 4
-    - Word: city
+    - Word: CITY
       Number: 4
-    - Word: clad
+    - Word: CLAD
       Number: 4
-    - Word: clam
+    - Word: CLAM
       Number: 4
-    - Word: clan
+    - Word: CLAN
       Number: 4
-    - Word: clap
+    - Word: CLAP
       Number: 4
-    - Word: claw
+    - Word: CLAW
       Number: 4
-    - Word: clay
+    - Word: CLAY
       Number: 4
-    - Word: clef
+    - Word: CLEF
       Number: 4
-    - Word: Clem
+    - Word: CLEM
       Number: 4
-    - Word: Cleo
+    - Word: CLEO
       Number: 4
-    - Word: clew
+    - Word: CLEW
       Number: 4
-    - Word: clip
+    - Word: CLIP
       Number: 4
-    - Word: clod
+    - Word: CLOD
       Number: 4
-    - Word: clog
+    - Word: CLOG
       Number: 4
-    - Word: clop
+    - Word: CLOP
       Number: 4
-    - Word: clot
+    - Word: CLOT
       Number: 4
-    - Word: cloy
+    - Word: CLOY
       Number: 4
-    - Word: club
+    - Word: CLUB
       Number: 4
-    - Word: clue
+    - Word: CLUE
       Number: 4
-    - Word: Cnut
+    - Word: CNUT
       Number: 4
-    - Word: coal
+    - Word: COAL
       Number: 4
-    - Word: coat
+    - Word: COAT
       Number: 4
-    - Word: coax
+    - Word: COAX
       Number: 4
-    - Word: Cobb
+    - Word: COBB
       Number: 4
-    - Word: coca
+    - Word: COCA
       Number: 4
-    - Word: cock
+    - Word: COCK
       Number: 4
-    - Word: coco
+    - Word: COCO
       Number: 4
-    - Word: coda
+    - Word: CODA
       Number: 4
-    - Word: code
+    - Word: CODE
       Number: 4
-    - Word: Cody
+    - Word: CODY
       Number: 4
-    - Word: coed
+    - Word: COED
       Number: 4
-    - Word: coho
+    - Word: COHO
       Number: 4
-    - Word: coif
+    - Word: COIF
       Number: 4
-    - Word: coil
+    - Word: COIL
       Number: 4
-    - Word: coin
+    - Word: COIN
       Number: 4
-    - Word: coke
+    - Word: COKE
       Number: 4
-    - Word: cola
+    - Word: COLA
       Number: 4
-    - Word: cold
+    - Word: COLD
       Number: 4
-    - Word: cole
+    - Word: COLE
       Number: 4
-    - Word: colt
+    - Word: COLT
       Number: 4
-    - Word: coma
+    - Word: COMA
       Number: 4
-    - Word: comb
+    - Word: COMB
       Number: 4
-    - Word: come
+    - Word: COME
       Number: 4
-    - Word: Como
+    - Word: COMO
       Number: 4
-    - Word: cone
+    - Word: CONE
       Number: 4
-    - Word: conk
+    - Word: CONK
       Number: 4
-    - Word: conn
+    - Word: CONN
       Number: 4
-    - Word: cony
+    - Word: CONY
       Number: 4
-    - Word: cook
+    - Word: COOK
       Number: 4
-    - Word: cool
+    - Word: COOL
       Number: 4
-    - Word: coon
+    - Word: COON
       Number: 4
-    - Word: coop
+    - Word: COOP
       Number: 4
-    - Word: coot
+    - Word: COOT
       Number: 4
-    - Word: cope
+    - Word: COPE
       Number: 4
-    - Word: Copt
+    - Word: COPT
       Number: 4
-    - Word: copy
+    - Word: COPY
       Number: 4
-    - Word: Cora
+    - Word: CORA
       Number: 4
-    - Word: cord
+    - Word: CORD
       Number: 4
-    - Word: core
+    - Word: CORE
       Number: 4
-    - Word: cork
+    - Word: CORK
       Number: 4
-    - Word: corm
+    - Word: CORM
       Number: 4
-    - Word: corn
+    - Word: CORN
       Number: 4
-    - Word: cost
+    - Word: COST
       Number: 4
-    - Word: cosy
+    - Word: COSY
       Number: 4
-    - Word: cote
+    - Word: COTE
       Number: 4
-    - Word: coup
+    - Word: COUP
       Number: 4
-    - Word: cove
+    - Word: COVE
       Number: 4
-    - Word: cowl
+    - Word: COWL
       Number: 4
-    - Word: cozy
+    - Word: COZY
       Number: 4
-    - Word: crab
+    - Word: CRAB
       Number: 4
-    - Word: crag
+    - Word: CRAG
       Number: 4
-    - Word: cram
+    - Word: CRAM
       Number: 4
-    - Word: crap
+    - Word: CRAP
       Number: 4
-    - Word: craw
+    - Word: CRAW
       Number: 4
-    - Word: Cree
+    - Word: CREE
       Number: 4
-    - Word: crew
+    - Word: CREW
       Number: 4
-    - Word: crib
+    - Word: CRIB
       Number: 4
-    - Word: crop
+    - Word: CROP
       Number: 4
-    - Word: crow
+    - Word: CROW
       Number: 4
-    - Word: crud
+    - Word: CRUD
       Number: 4
-    - Word: crux
+    - Word: CRUX
       Number: 4
-    - Word: Cuba
+    - Word: CUBA
       Number: 4
-    - Word: cube
+    - Word: CUBE
       Number: 4
-    - Word: cuff
+    - Word: CUFF
       Number: 4
-    - Word: cuke
+    - Word: CUKE
       Number: 4
-    - Word: cull
+    - Word: CULL
       Number: 4
-    - Word: cult
+    - Word: CULT
       Number: 4
-    - Word: cunt
+    - Word: CUNT
       Number: 4
-    - Word: curb
+    - Word: CURB
       Number: 4
-    - Word: curd
+    - Word: CURD
       Number: 4
-    - Word: cure
+    - Word: CURE
       Number: 4
-    - Word: curl
+    - Word: CURL
       Number: 4
-    - Word: curt
+    - Word: CURT
       Number: 4
-    - Word: Cush
+    - Word: CUSH
       Number: 4
-    - Word: cusp
+    - Word: CUSP
       Number: 4
-    - Word: cuss
+    - Word: CUSS
       Number: 4
-    - Word: cute
+    - Word: CUTE
       Number: 4
-    - Word: cyan
+    - Word: CYAN
       Number: 4
-    - Word: cyst
+    - Word: CYST
       Number: 4
-    - Word: czar
+    - Word: CZAR
       Number: 4
-    - Word: dace
+    - Word: DACE
       Number: 4
-    - Word: dada
+    - Word: DADA
       Number: 4
-    - Word: dado
+    - Word: DADO
       Number: 4
-    - Word: daft
+    - Word: DAFT
       Number: 4
-    - Word: dahl
+    - Word: DAHL
       Number: 4
-    - Word: dais
+    - Word: DAIS
       Number: 4
-    - Word: dale
+    - Word: DALE
       Number: 4
-    - Word: Dali
+    - Word: DALI
       Number: 4
-    - Word: dame
+    - Word: DAME
       Number: 4
-    - Word: damn
+    - Word: DAMN
       Number: 4
-    - Word: damp
+    - Word: DAMP
       Number: 4
-    - Word: Dana
+    - Word: DANA
       Number: 4
-    - Word: Dane
+    - Word: DANE
       Number: 4
-    - Word: dang
+    - Word: DANG
       Number: 4
-    - Word: dank
+    - Word: DANK
       Number: 4
-    - Word: dare
+    - Word: DARE
       Number: 4
-    - Word: dark
+    - Word: DARK
       Number: 4
-    - Word: darn
+    - Word: DARN
       Number: 4
-    - Word: dart
+    - Word: DART
       Number: 4
-    - Word: dash
+    - Word: DASH
       Number: 4
-    - Word: data
+    - Word: DATA
       Number: 4
-    - Word: date
+    - Word: DATE
       Number: 4
-    - Word: daub
+    - Word: DAUB
       Number: 4
-    - Word: Dave
+    - Word: DAVE
       Number: 4
-    - Word: Davy
+    - Word: DAVY
       Number: 4
-    - Word: dawn
+    - Word: DAWN
       Number: 4
-    - Word: days
+    - Word: DAYS
       Number: 4
-    - Word: daze
+    - Word: DAZE
       Number: 4
-    - Word: dead
+    - Word: DEAD
       Number: 4
-    - Word: deaf
+    - Word: DEAF
       Number: 4
-    - Word: deal
+    - Word: DEAL
       Number: 4
-    - Word: dean
+    - Word: DEAN
       Number: 4
-    - Word: dear
+    - Word: DEAR
       Number: 4
-    - Word: Debs
+    - Word: DEBS
       Number: 4
-    - Word: debt
+    - Word: DEBT
       Number: 4
-    - Word: deck
+    - Word: DECK
       Number: 4
-    - Word: deed
+    - Word: DEED
       Number: 4
-    - Word: deem
+    - Word: DEEM
       Number: 4
-    - Word: deep
+    - Word: DEEP
       Number: 4
-    - Word: deer
+    - Word: DEER
       Number: 4
-    - Word: deft
+    - Word: DEFT
       Number: 4
-    - Word: defy
+    - Word: DEFY
       Number: 4
-    - Word: dele
+    - Word: DELE
       Number: 4
-    - Word: deli
+    - Word: DELI
       Number: 4
-    - Word: dell
+    - Word: DELL
       Number: 4
-    - Word: demo
+    - Word: DEMO
       Number: 4
-    - Word: Dena
+    - Word: DENA
       Number: 4
-    - Word: dent
+    - Word: DENT
       Number: 4
-    - Word: deny
+    - Word: DENY
       Number: 4
-    - Word: desk
+    - Word: DESK
       Number: 4
-    - Word: Devi
+    - Word: DEVI
       Number: 4
-    - Word: dewy
+    - Word: DEWY
       Number: 4
-    - Word: dhow
+    - Word: DHOW
       Number: 4
-    - Word: dial
+    - Word: DIAL
       Number: 4
-    - Word: Dian
+    - Word: DIAN
       Number: 4
-    - Word: Dias
+    - Word: DIAS
       Number: 4
-    - Word: Diaz
+    - Word: DIAZ
       Number: 4
-    - Word: dibs
+    - Word: DIBS
       Number: 4
-    - Word: dice
+    - Word: DICE
       Number: 4
-    - Word: dick
+    - Word: DICK
       Number: 4
-    - Word: dido
+    - Word: DIDO
       Number: 4
-    - Word: diet
+    - Word: DIET
       Number: 4
-    - Word: digs
+    - Word: DIGS
       Number: 4
-    - Word: dike
+    - Word: DIKE
       Number: 4
-    - Word: dill
+    - Word: DILL
       Number: 4
-    - Word: dime
+    - Word: DIME
       Number: 4
-    - Word: Dina
+    - Word: DINA
       Number: 4
-    - Word: dine
+    - Word: DINE
       Number: 4
-    - Word: ding
+    - Word: DING
       Number: 4
-    - Word: dint
+    - Word: DINT
       Number: 4
-    - Word: dire
+    - Word: DIRE
       Number: 4
-    - Word: dirk
+    - Word: DIRK
       Number: 4
-    - Word: dirt
+    - Word: DIRT
       Number: 4
-    - Word: disc
+    - Word: DISC
       Number: 4
-    - Word: dish
+    - Word: DISH
       Number: 4
-    - Word: disk
+    - Word: DISK
       Number: 4
-    - Word: diss
+    - Word: DISS
       Number: 4
-    - Word: ditz
+    - Word: DITZ
       Number: 4
-    - Word: diva
+    - Word: DIVA
       Number: 4
-    - Word: dive
+    - Word: DIVE
       Number: 4
-    - Word: dock
+    - Word: DOCK
       Number: 4
-    - Word: dodo
+    - Word: DODO
       Number: 4
-    - Word: doer
+    - Word: DOER
       Number: 4
-    - Word: does
+    - Word: DOES
       Number: 4
-    - Word: doff
+    - Word: DOFF
       Number: 4
-    - Word: doge
+    - Word: DOGE
       Number: 4
-    - Word: dogs
+    - Word: DOGS
       Number: 4
-    - Word: dogy
+    - Word: DOGY
       Number: 4
-    - Word: Doha
+    - Word: DOHA
       Number: 4
-    - Word: dole
+    - Word: DOLE
       Number: 4
-    - Word: doll
+    - Word: DOLL
       Number: 4
-    - Word: dolt
+    - Word: DOLT
       Number: 4
-    - Word: dome
+    - Word: DOME
       Number: 4
-    - Word: dona
+    - Word: DONA
       Number: 4
-    - Word: done
+    - Word: DONE
       Number: 4
-    - Word: dong
+    - Word: DONG
       Number: 4
-    - Word: Donn
+    - Word: DONN
       Number: 4
-    - Word: doom
+    - Word: DOOM
       Number: 4
-    - Word: door
+    - Word: DOOR
       Number: 4
-    - Word: dopa
+    - Word: DOPA
       Number: 4
-    - Word: dope
+    - Word: DOPE
       Number: 4
-    - Word: dopy
+    - Word: DOPY
       Number: 4
-    - Word: Dora
+    - Word: DORA
       Number: 4
-    - Word: Dore
+    - Word: DORE
       Number: 4
-    - Word: dork
+    - Word: DORK
       Number: 4
-    - Word: dorm
+    - Word: DORM
       Number: 4
-    - Word: dory
+    - Word: DORY
       Number: 4
-    - Word: dose
+    - Word: DOSE
       Number: 4
-    - Word: dost
+    - Word: DOST
       Number: 4
-    - Word: dote
+    - Word: DOTE
       Number: 4
-    - Word: doth
+    - Word: DOTH
       Number: 4
-    - Word: Doug
+    - Word: DOUG
       Number: 4
-    - Word: dour
+    - Word: DOUR
       Number: 4
-    - Word: dove
+    - Word: DOVE
       Number: 4
-    - Word: down
+    - Word: DOWN
       Number: 4
-    - Word: doxy
+    - Word: DOXY
       Number: 4
-    - Word: doze
+    - Word: DOZE
       Number: 4
-    - Word: drab
+    - Word: DRAB
       Number: 4
-    - Word: drag
+    - Word: DRAG
       Number: 4
-    - Word: dram
+    - Word: DRAM
       Number: 4
-    - Word: draw
+    - Word: DRAW
       Number: 4
-    - Word: dray
+    - Word: DRAY
       Number: 4
-    - Word: drew
+    - Word: DREW
       Number: 4
-    - Word: drip
+    - Word: DRIP
       Number: 4
-    - Word: drop
+    - Word: DROP
       Number: 4
-    - Word: drub
+    - Word: DRUB
       Number: 4
-    - Word: drug
+    - Word: DRUG
       Number: 4
-    - Word: drum
+    - Word: DRUM
       Number: 4
-    - Word: dual
+    - Word: DUAL
       Number: 4
-    - Word: duck
+    - Word: DUCK
       Number: 4
-    - Word: duct
+    - Word: DUCT
       Number: 4
-    - Word: dude
+    - Word: DUDE
       Number: 4
-    - Word: duds
+    - Word: DUDS
       Number: 4
-    - Word: duel
+    - Word: DUEL
       Number: 4
-    - Word: dues
+    - Word: DUES
       Number: 4
-    - Word: duet
+    - Word: DUET
       Number: 4
-    - Word: duff
+    - Word: DUFF
       Number: 4
-    - Word: Dufy
+    - Word: DUFY
       Number: 4
-    - Word: duke
+    - Word: DUKE
       Number: 4
-    - Word: dull
+    - Word: DULL
       Number: 4
-    - Word: duly
+    - Word: DULY
       Number: 4
-    - Word: dumb
+    - Word: DUMB
       Number: 4
-    - Word: dump
+    - Word: DUMP
       Number: 4
-    - Word: dune
+    - Word: DUNE
       Number: 4
-    - Word: dung
+    - Word: DUNG
       Number: 4
-    - Word: dunk
+    - Word: DUNK
       Number: 4
-    - Word: dupe
+    - Word: DUPE
       Number: 4
-    - Word: Duse
+    - Word: DUSE
       Number: 4
-    - Word: dusk
+    - Word: DUSK
       Number: 4
-    - Word: dust
+    - Word: DUST
       Number: 4
-    - Word: duty
+    - Word: DUTY
       Number: 4
-    - Word: dyad
+    - Word: DYAD
       Number: 4
-    - Word: Dyer
+    - Word: DYER
       Number: 4
-    - Word: dyke
+    - Word: DYKE
       Number: 4
-    - Word: each
+    - Word: EACH
       Number: 4
-    - Word: Earl
+    - Word: EARL
       Number: 4
-    - Word: earn
+    - Word: EARN
       Number: 4
-    - Word: Earp
+    - Word: EARP
       Number: 4
-    - Word: ears
+    - Word: EARS
       Number: 4
-    - Word: ease
+    - Word: EASE
       Number: 4
-    - Word: East
+    - Word: EAST
       Number: 4
-    - Word: easy
+    - Word: EASY
       Number: 4
-    - Word: eats
+    - Word: EATS
       Number: 4
-    - Word: eave
+    - Word: EAVE
       Number: 4
-    - Word: Eban
+    - Word: EBAN
       Number: 4
-    - Word: ebon
+    - Word: EBON
       Number: 4
-    - Word: Ebro
+    - Word: EBRO
       Number: 4
-    - Word: Echo
+    - Word: ECHO
       Number: 4
-    - Word: echt
+    - Word: ECHT
       Number: 4
-    - Word: ecru
+    - Word: ECRU
       Number: 4
-    - Word: Edam
+    - Word: EDAM
       Number: 4
-    - Word: Eddy
+    - Word: EDDY
       Number: 4
-    - Word: Eden
+    - Word: EDEN
       Number: 4
-    - Word: edge
+    - Word: EDGE
       Number: 4
-    - Word: edgy
+    - Word: EDGY
       Number: 4
-    - Word: edit
+    - Word: EDIT
       Number: 4
-    - Word: Edna
+    - Word: EDNA
       Number: 4
-    - Word: Edom
+    - Word: EDOM
       Number: 4
-    - Word: Edwy
+    - Word: EDWY
       Number: 4
-    - Word: eery
+    - Word: EERY
       Number: 4
-    - Word: egad
+    - Word: EGAD
       Number: 4
-    - Word: egis
+    - Word: EGIS
       Number: 4
-    - Word: eide
+    - Word: EIDE
       Number: 4
-    - Word: Eire
+    - Word: EIRE
       Number: 4
-    - Word: Elam
+    - Word: ELAM
       Number: 4
-    - Word: elan
+    - Word: ELAN
       Number: 4
-    - Word: Elba
+    - Word: ELBA
       Number: 4
-    - Word: Elbe
+    - Word: ELBE
       Number: 4
-    - Word: Ella
+    - Word: ELLA
       Number: 4
-    - Word: Elmo
+    - Word: ELMO
       Number: 4
-    - Word: Elsa
+    - Word: ELSA
       Number: 4
-    - Word: else
+    - Word: ELSE
       Number: 4
-    - Word: Elul
+    - Word: ELUL
       Number: 4
-    - Word: Elva
+    - Word: ELVA
       Number: 4
-    - Word: Emil
+    - Word: EMIL
       Number: 4
-    - Word: emir
+    - Word: EMIR
       Number: 4
-    - Word: emit
+    - Word: EMIT
       Number: 4
-    - Word: Emma
+    - Word: EMMA
       Number: 4
-    - Word: Emmy
+    - Word: EMMY
       Number: 4
-    - Word: Enid
+    - Word: ENID
       Number: 4
-    - Word: Enos
+    - Word: ENOS
       Number: 4
-    - Word: enow
+    - Word: ENOW
       Number: 4
-    - Word: envy
+    - Word: ENVY
       Number: 4
-    - Word: epee
+    - Word: EPEE
       Number: 4
-    - Word: epic
+    - Word: EPIC
       Number: 4
-    - Word: ergo
+    - Word: ERGO
       Number: 4
-    - Word: Eric
+    - Word: ERIC
       Number: 4
-    - Word: Erie
+    - Word: ERIE
       Number: 4
-    - Word: Erik
+    - Word: ERIK
       Number: 4
-    - Word: Erin
+    - Word: ERIN
       Number: 4
-    - Word: Erma
+    - Word: ERMA
       Number: 4
-    - Word: erne
+    - Word: ERNE
       Number: 4
-    - Word: Eros
+    - Word: EROS
       Number: 4
-    - Word: Erse
+    - Word: ERSE
       Number: 4
-    - Word: erst
+    - Word: ERST
       Number: 4
-    - Word: Esau
+    - Word: ESAU
       Number: 4
-    - Word: espy
+    - Word: ESPY
       Number: 4
-    - Word: etch
+    - Word: ETCH
       Number: 4
-    - Word: Etna
+    - Word: ETNA
       Number: 4
-    - Word: Etta
+    - Word: ETTA
       Number: 4
-    - Word: Euro
+    - Word: EURO
       Number: 4
-    - Word: Evan
+    - Word: EVAN
       Number: 4
-    - Word: even
+    - Word: EVEN
       Number: 4
-    - Word: ever
+    - Word: EVER
       Number: 4
-    - Word: evil
+    - Word: EVIL
       Number: 4
-    - Word: ewer
+    - Word: EWER
       Number: 4
-    - Word: exam
+    - Word: EXAM
       Number: 4
-    - Word: exec
+    - Word: EXEC
       Number: 4
-    - Word: exit
+    - Word: EXIT
       Number: 4
-    - Word: expo
+    - Word: EXPO
       Number: 4
-    - Word: Eyck
+    - Word: EYCK
       Number: 4
-    - Word: eyed
+    - Word: EYED
       Number: 4
-    - Word: eyer
+    - Word: EYER
       Number: 4
-    - Word: eyry
+    - Word: EYRY
       Number: 4
-    - Word: Ezra
+    - Word: EZRA
       Number: 4
-    - Word: face
+    - Word: FACE
       Number: 4
-    - Word: fact
+    - Word: FACT
       Number: 4
-    - Word: fade
+    - Word: FADE
       Number: 4
-    - Word: Fahd
+    - Word: FAHD
       Number: 4
-    - Word: fail
+    - Word: FAIL
       Number: 4
-    - Word: fain
+    - Word: FAIN
       Number: 4
-    - Word: fair
+    - Word: FAIR
       Number: 4
-    - Word: fake
+    - Word: FAKE
       Number: 4
-    - Word: fall
+    - Word: FALL
       Number: 4
-    - Word: fame
+    - Word: FAME
       Number: 4
-    - Word: fane
+    - Word: FANE
       Number: 4
-    - Word: fang
+    - Word: FANG
       Number: 4
-    - Word: fare
+    - Word: FARE
       Number: 4
-    - Word: farm
+    - Word: FARM
       Number: 4
-    - Word: faro
+    - Word: FARO
       Number: 4
-    - Word: fart
+    - Word: FART
       Number: 4
-    - Word: fast
+    - Word: FAST
       Number: 4
-    - Word: fate
+    - Word: FATE
       Number: 4
-    - Word: faun
+    - Word: FAUN
       Number: 4
-    - Word: faux
+    - Word: FAUX
       Number: 4
-    - Word: fawn
+    - Word: FAWN
       Number: 4
-    - Word: Faye
+    - Word: FAYE
       Number: 4
-    - Word: faze
+    - Word: FAZE
       Number: 4
-    - Word: fear
+    - Word: FEAR
       Number: 4
-    - Word: feat
+    - Word: FEAT
       Number: 4
-    - Word: feed
+    - Word: FEED
       Number: 4
-    - Word: feel
+    - Word: FEEL
       Number: 4
-    - Word: feet
+    - Word: FEET
       Number: 4
-    - Word: fell
+    - Word: FELL
       Number: 4
-    - Word: felt
+    - Word: FELT
       Number: 4
-    - Word: fend
+    - Word: FEND
       Number: 4
-    - Word: Fern
+    - Word: FERN
       Number: 4
-    - Word: fess
+    - Word: FESS
       Number: 4
-    - Word: fest
+    - Word: FEST
       Number: 4
-    - Word: feta
+    - Word: FETA
       Number: 4
-    - Word: fete
+    - Word: FETE
       Number: 4
-    - Word: feud
+    - Word: FEUD
       Number: 4
-    - Word: fiat
+    - Word: FIAT
       Number: 4
-    - Word: fief
+    - Word: FIEF
       Number: 4
-    - Word: Fife
+    - Word: FIFE
       Number: 4
     - Word: FIFO
       Number: 4
-    - Word: Fiji
+    - Word: FIJI
       Number: 4
-    - Word: file
+    - Word: FILE
       Number: 4
-    - Word: fill
+    - Word: FILL
       Number: 4
-    - Word: film
+    - Word: FILM
       Number: 4
-    - Word: fils
+    - Word: FILS
       Number: 4
-    - Word: find
+    - Word: FIND
       Number: 4
-    - Word: fine
+    - Word: FINE
       Number: 4
-    - Word: fink
+    - Word: FINK
       Number: 4
-    - Word: Finn
+    - Word: FINN
       Number: 4
-    - Word: fins
+    - Word: FINS
       Number: 4
-    - Word: fire
+    - Word: FIRE
       Number: 4
-    - Word: firm
+    - Word: FIRM
       Number: 4
-    - Word: fish
+    - Word: FISH
       Number: 4
-    - Word: fist
+    - Word: FIST
       Number: 4
-    - Word: five
+    - Word: FIVE
       Number: 4
-    - Word: fizz
+    - Word: FIZZ
       Number: 4
-    - Word: flab
+    - Word: FLAB
       Number: 4
-    - Word: flag
+    - Word: FLAG
       Number: 4
-    - Word: flak
+    - Word: FLAK
       Number: 4
-    - Word: flan
+    - Word: FLAN
       Number: 4
-    - Word: flap
+    - Word: FLAP
       Number: 4
-    - Word: flat
+    - Word: FLAT
       Number: 4
-    - Word: flaw
+    - Word: FLAW
       Number: 4
-    - Word: flax
+    - Word: FLAX
       Number: 4
-    - Word: flay
+    - Word: FLAY
       Number: 4
-    - Word: flea
+    - Word: FLEA
       Number: 4
-    - Word: fled
+    - Word: FLED
       Number: 4
-    - Word: flee
+    - Word: FLEE
       Number: 4
-    - Word: flew
+    - Word: FLEW
       Number: 4
-    - Word: flex
+    - Word: FLEX
       Number: 4
-    - Word: flip
+    - Word: FLIP
       Number: 4
-    - Word: flit
+    - Word: FLIT
       Number: 4
-    - Word: floe
+    - Word: FLOE
       Number: 4
-    - Word: flog
+    - Word: FLOG
       Number: 4
-    - Word: flop
+    - Word: FLOP
       Number: 4
-    - Word: flow
+    - Word: FLOW
       Number: 4
-    - Word: flub
+    - Word: FLUB
       Number: 4
-    - Word: flue
+    - Word: FLUE
       Number: 4
-    - Word: flux
+    - Word: FLUX
       Number: 4
-    - Word: foal
+    - Word: FOAL
       Number: 4
-    - Word: foam
+    - Word: FOAM
       Number: 4
-    - Word: Foch
+    - Word: FOCH
       Number: 4
-    - Word: foci
+    - Word: FOCI
       Number: 4
-    - Word: fogy
+    - Word: FOGY
       Number: 4
-    - Word: fohn
+    - Word: FOHN
       Number: 4
-    - Word: foil
+    - Word: FOIL
       Number: 4
-    - Word: fold
+    - Word: FOLD
       Number: 4
-    - Word: folk
+    - Word: FOLK
       Number: 4
-    - Word: fond
+    - Word: FOND
       Number: 4
-    - Word: font
+    - Word: FONT
       Number: 4
-    - Word: food
+    - Word: FOOD
       Number: 4
-    - Word: fool
+    - Word: FOOL
       Number: 4
-    - Word: foot
+    - Word: FOOT
       Number: 4
-    - Word: fora
+    - Word: FORA
       Number: 4
-    - Word: forb
+    - Word: FORB
       Number: 4
-    - Word: Ford
+    - Word: FORD
       Number: 4
-    - Word: fore
+    - Word: FORE
       Number: 4
-    - Word: fork
+    - Word: FORK
       Number: 4
-    - Word: form
+    - Word: FORM
       Number: 4
-    - Word: fort
+    - Word: FORT
       Number: 4
-    - Word: foul
+    - Word: FOUL
       Number: 4
-    - Word: four
+    - Word: FOUR
       Number: 4
-    - Word: fowl
+    - Word: FOWL
       Number: 4
-    - Word: foxy
+    - Word: FOXY
       Number: 4
-    - Word: frat
+    - Word: FRAT
       Number: 4
-    - Word: Frau
+    - Word: FRAU
       Number: 4
-    - Word: fray
+    - Word: FRAY
       Number: 4
-    - Word: Fred
+    - Word: FRED
       Number: 4
-    - Word: free
+    - Word: FREE
       Number: 4
-    - Word: fret
+    - Word: FRET
       Number: 4
-    - Word: Frey
+    - Word: FREY
       Number: 4
-    - Word: friz
+    - Word: FRIZ
       Number: 4
-    - Word: frog
+    - Word: FROG
       Number: 4
-    - Word: from
+    - Word: FROM
       Number: 4
-    - Word: Frye
+    - Word: FRYE
       Number: 4
-    - Word: Fuad
+    - Word: FUAD
       Number: 4
-    - Word: fuck
+    - Word: FUCK
       Number: 4
-    - Word: fuel
+    - Word: FUEL
       Number: 4
-    - Word: Fuji
+    - Word: FUJI
       Number: 4
-    - Word: full
+    - Word: FULL
       Number: 4
-    - Word: fume
+    - Word: FUME
       Number: 4
-    - Word: fumy
+    - Word: FUMY
       Number: 4
-    - Word: fund
+    - Word: FUND
       Number: 4
-    - Word: funk
+    - Word: FUNK
       Number: 4
-    - Word: furl
+    - Word: FURL
       Number: 4
-    - Word: fury
+    - Word: FURY
       Number: 4
-    - Word: fuse
+    - Word: FUSE
       Number: 4
-    - Word: fuss
+    - Word: FUSS
       Number: 4
-    - Word: futz
+    - Word: FUTZ
       Number: 4
-    - Word: fuze
+    - Word: FUZE
       Number: 4
-    - Word: fuzz
+    - Word: FUZZ
       Number: 4
-    - Word: Gaea
+    - Word: GAEA
       Number: 4
-    - Word: Gael
+    - Word: GAEL
       Number: 4
-    - Word: gaff
+    - Word: GAFF
       Number: 4
-    - Word: gaga
+    - Word: GAGA
       Number: 4
-    - Word: Gage
+    - Word: GAGE
       Number: 4
-    - Word: Gaia
+    - Word: GAIA
       Number: 4
-    - Word: Gail
+    - Word: GAIL
       Number: 4
-    - Word: gain
+    - Word: GAIN
       Number: 4
-    - Word: gait
+    - Word: GAIT
       Number: 4
-    - Word: gala
+    - Word: GALA
       Number: 4
-    - Word: Gale
+    - Word: GALE
       Number: 4
-    - Word: Gall
+    - Word: GALL
       Number: 4
-    - Word: Gama
+    - Word: GAMA
       Number: 4
-    - Word: game
+    - Word: GAME
       Number: 4
-    - Word: gamy
+    - Word: GAMY
       Number: 4
-    - Word: gang
+    - Word: GANG
       Number: 4
-    - Word: gaol
+    - Word: GAOL
       Number: 4
-    - Word: gape
+    - Word: GAPE
       Number: 4
-    - Word: garb
+    - Word: GARB
       Number: 4
-    - Word: Gary
+    - Word: GARY
       Number: 4
-    - Word: gash
+    - Word: GASH
       Number: 4
-    - Word: gasp
+    - Word: GASP
       Number: 4
-    - Word: gate
+    - Word: GATE
       Number: 4
-    - Word: gaud
+    - Word: GAUD
       Number: 4
-    - Word: Gaul
+    - Word: GAUL
       Number: 4
-    - Word: gave
+    - Word: GAVE
       Number: 4
-    - Word: gawk
+    - Word: GAWK
       Number: 4
-    - Word: Gaza
+    - Word: GAZA
       Number: 4
-    - Word: gaze
+    - Word: GAZE
       Number: 4
-    - Word: gear
+    - Word: GEAR
       Number: 4
-    - Word: geek
+    - Word: GEEK
       Number: 4
-    - Word: geez
+    - Word: GEEZ
       Number: 4
-    - Word: geld
+    - Word: GELD
       Number: 4
-    - Word: gelt
+    - Word: GELT
       Number: 4
-    - Word: Gene
+    - Word: GENE
       Number: 4
-    - Word: gens
+    - Word: GENS
       Number: 4
-    - Word: gent
+    - Word: GENT
       Number: 4
-    - Word: germ
+    - Word: GERM
       Number: 4
-    - Word: ghat
+    - Word: GHAT
       Number: 4
-    - Word: gibe
+    - Word: GIBE
       Number: 4
-    - Word: Gide
+    - Word: GIDE
       Number: 4
-    - Word: gift
+    - Word: GIFT
       Number: 4
     - Word: GIGO
       Number: 4
-    - Word: Gila
+    - Word: GILA
       Number: 4
-    - Word: gild
+    - Word: GILD
       Number: 4
-    - Word: gill
+    - Word: GILL
       Number: 4
-    - Word: gilt
+    - Word: GILT
       Number: 4
-    - Word: gimp
+    - Word: GIMP
       Number: 4
-    - Word: Gina
+    - Word: GINA
       Number: 4
-    - Word: gird
+    - Word: GIRD
       Number: 4
-    - Word: girl
+    - Word: GIRL
       Number: 4
-    - Word: girt
+    - Word: GIRT
       Number: 4
-    - Word: Gish
+    - Word: GISH
       Number: 4
-    - Word: gist
+    - Word: GIST
       Number: 4
-    - Word: give
+    - Word: GIVE
       Number: 4
-    - Word: Giza
+    - Word: GIZA
       Number: 4
-    - Word: glad
+    - Word: GLAD
       Number: 4
-    - Word: glee
+    - Word: GLEE
       Number: 4
-    - Word: Glen
+    - Word: GLEN
       Number: 4
-    - Word: glib
+    - Word: GLIB
       Number: 4
-    - Word: glob
+    - Word: GLOB
       Number: 4
-    - Word: glom
+    - Word: GLOM
       Number: 4
-    - Word: glop
+    - Word: GLOP
       Number: 4
-    - Word: glow
+    - Word: GLOW
       Number: 4
-    - Word: glue
+    - Word: GLUE
       Number: 4
-    - Word: glum
+    - Word: GLUM
       Number: 4
-    - Word: glut
+    - Word: GLUT
       Number: 4
-    - Word: gnat
+    - Word: GNAT
       Number: 4
-    - Word: gnaw
+    - Word: GNAW
       Number: 4
-    - Word: goad
+    - Word: GOAD
       Number: 4
-    - Word: goal
+    - Word: GOAL
       Number: 4
-    - Word: goat
+    - Word: GOAT
       Number: 4
-    - Word: Gobi
+    - Word: GOBI
       Number: 4
-    - Word: gobs
+    - Word: GOBS
       Number: 4
-    - Word: goer
+    - Word: GOER
       Number: 4
-    - Word: goes
+    - Word: GOES
       Number: 4
-    - Word: gold
+    - Word: GOLD
       Number: 4
-    - Word: golf
+    - Word: GOLF
       Number: 4
-    - Word: gone
+    - Word: GONE
       Number: 4
-    - Word: gong
+    - Word: GONG
       Number: 4
-    - Word: good
+    - Word: GOOD
       Number: 4
-    - Word: goof
+    - Word: GOOF
       Number: 4
-    - Word: gook
+    - Word: GOOK
       Number: 4
-    - Word: goon
+    - Word: GOON
       Number: 4
-    - Word: goop
+    - Word: GOOP
       Number: 4
-    - Word: Gore
+    - Word: GORE
       Number: 4
-    - Word: gorp
+    - Word: GORP
       Number: 4
-    - Word: gory
+    - Word: GORY
       Number: 4
-    - Word: gosh
+    - Word: GOSH
       Number: 4
-    - Word: Goth
+    - Word: GOTH
       Number: 4
-    - Word: gout
+    - Word: GOUT
       Number: 4
-    - Word: gown
+    - Word: GOWN
       Number: 4
-    - Word: Goya
+    - Word: GOYA
       Number: 4
-    - Word: grab
+    - Word: GRAB
       Number: 4
-    - Word: grad
+    - Word: GRAD
       Number: 4
-    - Word: gram
+    - Word: GRAM
       Number: 4
-    - Word: gran
+    - Word: GRAN
       Number: 4
-    - Word: Gray
+    - Word: GRAY
       Number: 4
-    - Word: Graz
+    - Word: GRAZ
       Number: 4
-    - Word: Greg
+    - Word: GREG
       Number: 4
-    - Word: grew
+    - Word: GREW
       Number: 4
-    - Word: Grey
+    - Word: GREY
       Number: 4
-    - Word: grid
+    - Word: GRID
       Number: 4
-    - Word: grim
+    - Word: GRIM
       Number: 4
-    - Word: grin
+    - Word: GRIN
       Number: 4
-    - Word: grip
+    - Word: GRIP
       Number: 4
-    - Word: Gris
+    - Word: GRIS
       Number: 4
-    - Word: grit
+    - Word: GRIT
       Number: 4
-    - Word: grog
+    - Word: GROG
       Number: 4
-    - Word: grot
+    - Word: GROT
       Number: 4
-    - Word: grow
+    - Word: GROW
       Number: 4
-    - Word: grub
+    - Word: GRUB
       Number: 4
-    - Word: Grus
+    - Word: GRUS
       Number: 4
-    - Word: Guam
+    - Word: GUAM
       Number: 4
-    - Word: guar
+    - Word: GUAR
       Number: 4
-    - Word: guck
+    - Word: GUCK
       Number: 4
-    - Word: guff
+    - Word: GUFF
       Number: 4
-    - Word: Gulf
+    - Word: GULF
       Number: 4
-    - Word: gull
+    - Word: GULL
       Number: 4
-    - Word: gulp
+    - Word: GULP
       Number: 4
-    - Word: gums
+    - Word: GUMS
       Number: 4
-    - Word: gunk
+    - Word: GUNK
       Number: 4
-    - Word: guru
+    - Word: GURU
       Number: 4
-    - Word: gush
+    - Word: GUSH
       Number: 4
-    - Word: gust
+    - Word: GUST
       Number: 4
-    - Word: guts
+    - Word: GUTS
       Number: 4
-    - Word: guys
+    - Word: GUYS
       Number: 4
-    - Word: Gwen
+    - Word: GWEN
       Number: 4
-    - Word: gybe
+    - Word: GYBE
       Number: 4
-    - Word: gyre
+    - Word: GYRE
       Number: 4
-    - Word: gyro
+    - Word: GYRO
       Number: 4
-    - Word: gyve
+    - Word: GYVE
       Number: 4
-    - Word: hack
+    - Word: HACK
       Number: 4
-    - Word: haft
+    - Word: HAFT
       Number: 4
-    - Word: hail
+    - Word: HAIL
       Number: 4
-    - Word: hair
+    - Word: HAIR
       Number: 4
-    - Word: haji
+    - Word: HAJI
       Number: 4
-    - Word: hajj
+    - Word: HAJJ
       Number: 4
-    - Word: hake
+    - Word: HAKE
       Number: 4
-    - Word: haku
+    - Word: HAKU
       Number: 4
-    - Word: Hale
+    - Word: HALE
       Number: 4
-    - Word: half
+    - Word: HALF
       Number: 4
-    - Word: Hall
+    - Word: HALL
       Number: 4
-    - Word: halo
+    - Word: HALO
       Number: 4
-    - Word: Hals
+    - Word: HALS
       Number: 4
-    - Word: halt
+    - Word: HALT
       Number: 4
-    - Word: Hama
+    - Word: HAMA
       Number: 4
-    - Word: Hamm
+    - Word: HAMM
       Number: 4
-    - Word: hams
+    - Word: HAMS
       Number: 4
-    - Word: hand
+    - Word: HAND
       Number: 4
-    - Word: hang
+    - Word: HANG
       Number: 4
-    - Word: hank
+    - Word: HANK
       Number: 4
-    - Word: Hans
+    - Word: HANS
       Number: 4
-    - Word: hard
+    - Word: HARD
       Number: 4
-    - Word: hare
+    - Word: HARE
       Number: 4
-    - Word: hark
+    - Word: HARK
       Number: 4
-    - Word: harm
+    - Word: HARM
       Number: 4
-    - Word: harp
+    - Word: HARP
       Number: 4
-    - Word: Hart
+    - Word: HART
       Number: 4
-    - Word: hash
+    - Word: HASH
       Number: 4
-    - Word: hasp
+    - Word: HASP
       Number: 4
-    - Word: hast
+    - Word: HAST
       Number: 4
-    - Word: hate
+    - Word: HATE
       Number: 4
-    - Word: hath
+    - Word: HATH
       Number: 4
-    - Word: haul
+    - Word: HAUL
       Number: 4
-    - Word: have
+    - Word: HAVE
       Number: 4
-    - Word: hawk
+    - Word: HAWK
       Number: 4
-    - Word: haze
+    - Word: HAZE
       Number: 4
-    - Word: hazy
+    - Word: HAZY
       Number: 4
-    - Word: head
+    - Word: HEAD
       Number: 4
-    - Word: heal
+    - Word: HEAL
       Number: 4
-    - Word: heap
+    - Word: HEAP
       Number: 4
-    - Word: hear
+    - Word: HEAR
       Number: 4
-    - Word: heat
+    - Word: HEAT
       Number: 4
-    - Word: heck
+    - Word: HECK
       Number: 4
-    - Word: heed
+    - Word: HEED
       Number: 4
-    - Word: heel
+    - Word: HEEL
       Number: 4
-    - Word: Heep
+    - Word: HEEP
       Number: 4
-    - Word: heft
+    - Word: HEFT
       Number: 4
-    - Word: heir
+    - Word: HEIR
       Number: 4
-    - Word: held
+    - Word: HELD
       Number: 4
-    - Word: Hell
+    - Word: HELL
       Number: 4
-    - Word: helm
+    - Word: HELM
       Number: 4
-    - Word: Help
+    - Word: HELP
       Number: 4
-    - Word: heme
+    - Word: HEME
       Number: 4
-    - Word: hemp
+    - Word: HEMP
       Number: 4
-    - Word: Hera
+    - Word: HERA
       Number: 4
-    - Word: herb
+    - Word: HERB
       Number: 4
-    - Word: herd
+    - Word: HERD
       Number: 4
-    - Word: here
+    - Word: HERE
       Number: 4
-    - Word: herm
+    - Word: HERM
       Number: 4
-    - Word: hero
+    - Word: HERO
       Number: 4
-    - Word: Herr
+    - Word: HERR
       Number: 4
-    - Word: hers
+    - Word: HERS
       Number: 4
-    - Word: Hess
+    - Word: HESS
       Number: 4
-    - Word: hewn
+    - Word: HEWN
       Number: 4
-    - Word: hick
+    - Word: HICK
       Number: 4
-    - Word: hide
+    - Word: HIDE
       Number: 4
-    - Word: high
+    - Word: HIGH
       Number: 4
-    - Word: hike
+    - Word: HIKE
       Number: 4
-    - Word: hill
+    - Word: HILL
       Number: 4
-    - Word: hilt
+    - Word: HILT
       Number: 4
-    - Word: hind
+    - Word: HIND
       Number: 4
-    - Word: hint
+    - Word: HINT
       Number: 4
-    - Word: hire
+    - Word: HIRE
       Number: 4
-    - Word: Hiss
+    - Word: HISS
       Number: 4
-    - Word: hist
+    - Word: HIST
       Number: 4
-    - Word: hive
+    - Word: HIVE
       Number: 4
-    - Word: hoar
+    - Word: HOAR
       Number: 4
-    - Word: hoax
+    - Word: HOAX
       Number: 4
-    - Word: hobo
+    - Word: HOBO
       Number: 4
-    - Word: hock
+    - Word: HOCK
       Number: 4
-    - Word: hoer
+    - Word: HOER
       Number: 4
-    - Word: hoke
+    - Word: HOKE
       Number: 4
-    - Word: hold
+    - Word: HOLD
       Number: 4
-    - Word: hole
+    - Word: HOLE
       Number: 4
-    - Word: holy
+    - Word: HOLY
       Number: 4
-    - Word: home
+    - Word: HOME
       Number: 4
-    - Word: Homs
+    - Word: HOMS
       Number: 4
-    - Word: homy
+    - Word: HOMY
       Number: 4
-    - Word: hone
+    - Word: HONE
       Number: 4
-    - Word: honk
+    - Word: HONK
       Number: 4
-    - Word: Hood
+    - Word: HOOD
       Number: 4
-    - Word: hoof
+    - Word: HOOF
       Number: 4
-    - Word: hook
+    - Word: HOOK
       Number: 4
-    - Word: hoop
+    - Word: HOOP
       Number: 4
-    - Word: hoot
+    - Word: HOOT
       Number: 4
-    - Word: Hope
+    - Word: HOPE
       Number: 4
-    - Word: Hopi
+    - Word: HOPI
       Number: 4
-    - Word: hops
+    - Word: HOPS
       Number: 4
-    - Word: hora
+    - Word: HORA
       Number: 4
-    - Word: Horn
+    - Word: HORN
       Number: 4
-    - Word: hose
+    - Word: HOSE
       Number: 4
-    - Word: Host
+    - Word: HOST
       Number: 4
-    - Word: hots
+    - Word: HOTS
       Number: 4
-    - Word: hour
+    - Word: HOUR
       Number: 4
-    - Word: hove
+    - Word: HOVE
       Number: 4
-    - Word: Howe
+    - Word: HOWE
       Number: 4
-    - Word: howl
+    - Word: HOWL
       Number: 4
     - Word: HTML
       Number: 4
     - Word: HTTP
       Number: 4
-    - Word: hued
+    - Word: HUED
       Number: 4
-    - Word: huff
+    - Word: HUFF
       Number: 4
-    - Word: huge
+    - Word: HUGE
       Number: 4
-    - Word: Hugh
+    - Word: HUGH
       Number: 4
-    - Word: Hugo
+    - Word: HUGO
       Number: 4
-    - Word: hula
+    - Word: HULA
       Number: 4
-    - Word: hulk
+    - Word: HULK
       Number: 4
-    - Word: Hull
+    - Word: HULL
       Number: 4
-    - Word: Hume
+    - Word: HUME
       Number: 4
-    - Word: hump
+    - Word: HUMP
       Number: 4
-    - Word: hung
+    - Word: HUNG
       Number: 4
-    - Word: hunk
+    - Word: HUNK
       Number: 4
-    - Word: hunt
+    - Word: HUNT
       Number: 4
-    - Word: hurl
+    - Word: HURL
       Number: 4
-    - Word: hurt
+    - Word: HURT
       Number: 4
-    - Word: hush
+    - Word: HUSH
       Number: 4
-    - Word: husk
+    - Word: HUSK
       Number: 4
-    - Word: Huss
+    - Word: HUSS
       Number: 4
-    - Word: Hutu
+    - Word: HUTU
       Number: 4
-    - Word: hymn
+    - Word: HYMN
       Number: 4
-    - Word: hype
+    - Word: HYPE
       Number: 4
-    - Word: hypo
+    - Word: HYPO
       Number: 4
-    - Word: Iago
+    - Word: IAGO
       Number: 4
-    - Word: iamb
+    - Word: IAMB
       Number: 4
-    - Word: Iasi
+    - Word: IASI
       Number: 4
-    - Word: ibex
+    - Word: IBEX
       Number: 4
-    - Word: ibis
+    - Word: IBIS
       Number: 4
     - Word: ICBM
       Number: 4
-    - Word: iced
+    - Word: ICED
       Number: 4
-    - Word: icky
+    - Word: ICKY
       Number: 4
-    - Word: icon
+    - Word: ICON
       Number: 4
-    - Word: idea
+    - Word: IDEA
       Number: 4
-    - Word: idem
+    - Word: IDEM
       Number: 4
-    - Word: ides
+    - Word: IDES
       Number: 4
-    - Word: idle
+    - Word: IDLE
       Number: 4
-    - Word: idly
+    - Word: IDLY
       Number: 4
-    - Word: idol
+    - Word: IDOL
       Number: 4
-    - Word: idyl
+    - Word: IDYL
       Number: 4
-    - Word: iffy
+    - Word: IFFY
       Number: 4
-    - Word: ikon
+    - Word: IKON
       Number: 4
-    - Word: ilea
+    - Word: ILEA
       Number: 4
-    - Word: ilia
+    - Word: ILIA
       Number: 4
-    - Word: Imam
+    - Word: IMAM
       Number: 4
-    - Word: Inca
+    - Word: INCA
       Number: 4
-    - Word: inch
+    - Word: INCH
       Number: 4
-    - Word: Inez
+    - Word: INEZ
       Number: 4
-    - Word: info
+    - Word: INFO
       Number: 4
-    - Word: Inge
+    - Word: INGE
       Number: 4
-    - Word: inky
+    - Word: INKY
       Number: 4
-    - Word: inly
+    - Word: INLY
       Number: 4
-    - Word: inti
+    - Word: INTI
       Number: 4
-    - Word: into
+    - Word: INTO
       Number: 4
-    - Word: iota
+    - Word: IOTA
       Number: 4
-    - Word: Iowa
+    - Word: IOWA
       Number: 4
-    - Word: Ipoh
+    - Word: IPOH
       Number: 4
-    - Word: Iran
+    - Word: IRAN
       Number: 4
-    - Word: Iraq
+    - Word: IRAQ
       Number: 4
-    - Word: Iris
+    - Word: IRIS
       Number: 4
-    - Word: Irma
+    - Word: IRMA
       Number: 4
-    - Word: iron
+    - Word: IRON
       Number: 4
-    - Word: Isis
+    - Word: ISIS
       Number: 4
-    - Word: isle
+    - Word: ISLE
       Number: 4
-    - Word: itch
+    - Word: ITCH
       Number: 4
-    - Word: item
+    - Word: ITEM
       Number: 4
-    - Word: Ivan
+    - Word: IVAN
       Number: 4
-    - Word: Ives
+    - Word: IVES
       Number: 4
-    - Word: Iyar
+    - Word: IYAR
       Number: 4
-    - Word: Jack
+    - Word: JACK
       Number: 4
-    - Word: jade
+    - Word: JADE
       Number: 4
-    - Word: jail
+    - Word: JAIL
       Number: 4
-    - Word: Jake
+    - Word: JAKE
       Number: 4
-    - Word: jamb
+    - Word: JAMB
       Number: 4
-    - Word: Jane
+    - Word: JANE
       Number: 4
-    - Word: jape
+    - Word: JAPE
       Number: 4
     - Word: JATO
       Number: 4
-    - Word: Java
+    - Word: JAVA
       Number: 4
-    - Word: jaws
+    - Word: JAWS
       Number: 4
-    - Word: jazz
+    - Word: JAZZ
       Number: 4
-    - Word: Jean
+    - Word: JEAN
       Number: 4
-    - Word: Jeep
+    - Word: JEEP
       Number: 4
-    - Word: jeer
+    - Word: JEER
       Number: 4
-    - Word: jeez
+    - Word: JEEZ
       Number: 4
-    - Word: jehu
+    - Word: JEHU
       Number: 4
-    - Word: jell
+    - Word: JELL
       Number: 4
-    - Word: Jena
+    - Word: JENA
       Number: 4
-    - Word: Jere
+    - Word: JERE
       Number: 4
-    - Word: Jeri
+    - Word: JERI
       Number: 4
-    - Word: jerk
+    - Word: JERK
       Number: 4
-    - Word: jess
+    - Word: JESS
       Number: 4
-    - Word: jest
+    - Word: JEST
       Number: 4
-    - Word: jibe
+    - Word: JIBE
       Number: 4
-    - Word: jiff
+    - Word: JIFF
       Number: 4
-    - Word: Jill
+    - Word: JILL
       Number: 4
-    - Word: jilt
+    - Word: JILT
       Number: 4
-    - Word: jinn
+    - Word: JINN
       Number: 4
-    - Word: jinx
+    - Word: JINX
       Number: 4
-    - Word: jive
+    - Word: JIVE
       Number: 4
-    - Word: jivy
+    - Word: JIVY
       Number: 4
-    - Word: Joan
+    - Word: JOAN
       Number: 4
-    - Word: Jobs
+    - Word: JOBS
       Number: 4
-    - Word: jock
+    - Word: JOCK
       Number: 4
-    - Word: Jodi
+    - Word: JODI
       Number: 4
-    - Word: Jody
+    - Word: JODY
       Number: 4
-    - Word: Joel
+    - Word: JOEL
       Number: 4
-    - Word: joey
+    - Word: JOEY
       Number: 4
-    - Word: John
+    - Word: JOHN
       Number: 4
-    - Word: join
+    - Word: JOIN
       Number: 4
-    - Word: joke
+    - Word: JOKE
       Number: 4
-    - Word: joky
+    - Word: JOKY
       Number: 4
-    - Word: jolt
+    - Word: JOLT
       Number: 4
-    - Word: Josh
+    - Word: JOSH
       Number: 4
-    - Word: Jove
+    - Word: JOVE
       Number: 4
-    - Word: jowl
+    - Word: JOWL
       Number: 4
-    - Word: Juan
+    - Word: JUAN
       Number: 4
-    - Word: Judd
+    - Word: JUDD
       Number: 4
-    - Word: Jude
+    - Word: JUDE
       Number: 4
-    - Word: Judi
+    - Word: JUDI
       Number: 4
-    - Word: judo
+    - Word: JUDO
       Number: 4
-    - Word: Judy
+    - Word: JUDY
       Number: 4
-    - Word: juke
+    - Word: JUKE
       Number: 4
-    - Word: July
+    - Word: JULY
       Number: 4
-    - Word: jump
+    - Word: JUMP
       Number: 4
-    - Word: June
+    - Word: JUNE
       Number: 4
-    - Word: Jung
+    - Word: JUNG
       Number: 4
-    - Word: junk
+    - Word: JUNK
       Number: 4
-    - Word: Juno
+    - Word: JUNO
       Number: 4
-    - Word: Jura
+    - Word: JURA
       Number: 4
-    - Word: jury
+    - Word: JURY
       Number: 4
-    - Word: just
+    - Word: JUST
       Number: 4
-    - Word: Jute
+    - Word: JUTE
       Number: 4
-    - Word: Kalb
+    - Word: KALB
       Number: 4
-    - Word: kale
+    - Word: KALE
       Number: 4
-    - Word: kame
+    - Word: KAME
       Number: 4
-    - Word: kana
+    - Word: KANA
       Number: 4
-    - Word: Kano
+    - Word: KANO
       Number: 4
-    - Word: Kant
+    - Word: KANT
       Number: 4
-    - Word: Kara
+    - Word: KARA
       Number: 4
-    - Word: Karl
+    - Word: KARL
       Number: 4
-    - Word: kart
+    - Word: KART
       Number: 4
-    - Word: Kate
+    - Word: KATE
       Number: 4
-    - Word: kava
+    - Word: KAVA
       Number: 4
-    - Word: Kaye
+    - Word: KAYE
       Number: 4
-    - Word: kayo
+    - Word: KAYO
       Number: 4
-    - Word: keel
+    - Word: KEEL
       Number: 4
-    - Word: keen
+    - Word: KEEN
       Number: 4
-    - Word: keep
+    - Word: KEEP
       Number: 4
-    - Word: kelp
+    - Word: KELP
       Number: 4
-    - Word: Kelt
+    - Word: KELT
       Number: 4
-    - Word: keno
+    - Word: KENO
       Number: 4
-    - Word: Kent
+    - Word: KENT
       Number: 4
-    - Word: kepi
+    - Word: KEPI
       Number: 4
-    - Word: kept
+    - Word: KEPT
       Number: 4
-    - Word: kerb
+    - Word: KERB
       Number: 4
-    - Word: kerf
+    - Word: KERF
       Number: 4
-    - Word: Kern
+    - Word: KERN
       Number: 4
-    - Word: Khan
+    - Word: KHAN
       Number: 4
-    - Word: Kibo
+    - Word: KIBO
       Number: 4
-    - Word: kick
+    - Word: KICK
       Number: 4
-    - Word: Kidd
+    - Word: KIDD
       Number: 4
-    - Word: Kiel
+    - Word: KIEL
       Number: 4
-    - Word: Kiev
+    - Word: KIEV
       Number: 4
-    - Word: kill
+    - Word: KILL
       Number: 4
-    - Word: kiln
+    - Word: KILN
       Number: 4
-    - Word: kilo
+    - Word: KILO
       Number: 4
-    - Word: kilt
+    - Word: KILT
       Number: 4
-    - Word: kina
+    - Word: KINA
       Number: 4
-    - Word: kind
+    - Word: KIND
       Number: 4
-    - Word: kine
+    - Word: KINE
       Number: 4
-    - Word: King
+    - Word: KING
       Number: 4
-    - Word: kink
+    - Word: KINK
       Number: 4
-    - Word: Kirk
+    - Word: KIRK
       Number: 4
-    - Word: kiss
+    - Word: KISS
       Number: 4
-    - Word: kite
+    - Word: KITE
       Number: 4
-    - Word: kith
+    - Word: KITH
       Number: 4
-    - Word: kiva
+    - Word: KIVA
       Number: 4
-    - Word: kiwi
+    - Word: KIWI
       Number: 4
-    - Word: Klee
+    - Word: KLEE
       Number: 4
-    - Word: knee
+    - Word: KNEE
       Number: 4
-    - Word: knew
+    - Word: KNEW
       Number: 4
-    - Word: knit
+    - Word: KNIT
       Number: 4
-    - Word: knob
+    - Word: KNOB
       Number: 4
-    - Word: knot
+    - Word: KNOT
       Number: 4
-    - Word: know
+    - Word: KNOW
       Number: 4
-    - Word: Knox
+    - Word: KNOX
       Number: 4
-    - Word: Knut
+    - Word: KNUT
       Number: 4
-    - Word: Kobe
+    - Word: KOBE
       Number: 4
-    - Word: kobo
+    - Word: KOBO
       Number: 4
-    - Word: Koch
+    - Word: KOCH
       Number: 4
-    - Word: Kohl
+    - Word: KOHL
       Number: 4
-    - Word: Kola
+    - Word: KOLA
       Number: 4
-    - Word: Koln
+    - Word: KOLN
       Number: 4
-    - Word: kook
+    - Word: KOOK
       Number: 4
-    - Word: Kroc
+    - Word: KROC
       Number: 4
-    - Word: kudo
+    - Word: KUDO
       Number: 4
-    - Word: kudu
+    - Word: KUDU
       Number: 4
-    - Word: kuna
+    - Word: KUNA
       Number: 4
-    - Word: Kura
+    - Word: KURA
       Number: 4
-    - Word: Kurd
+    - Word: KURD
       Number: 4
-    - Word: Kurt
+    - Word: KURT
       Number: 4
-    - Word: kyat
+    - Word: KYAT
       Number: 4
-    - Word: Kyle
+    - Word: KYLE
       Number: 4
-    - Word: lace
+    - Word: LACE
       Number: 4
-    - Word: lack
+    - Word: LACK
       Number: 4
-    - Word: lacy
+    - Word: LACY
       Number: 4
-    - Word: lade
+    - Word: LADE
       Number: 4
-    - Word: Lady
+    - Word: LADY
       Number: 4
-    - Word: laic
+    - Word: LAIC
       Number: 4
-    - Word: laid
+    - Word: LAID
       Number: 4
-    - Word: lain
+    - Word: LAIN
       Number: 4
-    - Word: lair
+    - Word: LAIR
       Number: 4
-    - Word: lake
+    - Word: LAKE
       Number: 4
-    - Word: lama
+    - Word: LAMA
       Number: 4
-    - Word: Lamb
+    - Word: LAMB
       Number: 4
-    - Word: lame
+    - Word: LAME
       Number: 4
-    - Word: lamp
+    - Word: LAMP
       Number: 4
-    - Word: Lana
+    - Word: LANA
       Number: 4
-    - Word: land
+    - Word: LAND
       Number: 4
-    - Word: Lane
+    - Word: LANE
       Number: 4
-    - Word: lank
+    - Word: LANK
       Number: 4
-    - Word: Laos
+    - Word: LAOS
       Number: 4
-    - Word: Lapp
+    - Word: LAPP
       Number: 4
-    - Word: lard
+    - Word: LARD
       Number: 4
-    - Word: lari
+    - Word: LARI
       Number: 4
-    - Word: lark
+    - Word: LARK
       Number: 4
-    - Word: Lars
+    - Word: LARS
       Number: 4
-    - Word: lash
+    - Word: LASH
       Number: 4
-    - Word: lass
+    - Word: LASS
       Number: 4
-    - Word: last
+    - Word: LAST
       Number: 4
-    - Word: late
+    - Word: LATE
       Number: 4
-    - Word: lath
+    - Word: LATH
       Number: 4
-    - Word: lati
+    - Word: LATI
       Number: 4
-    - Word: lats
+    - Word: LATS
       Number: 4
-    - Word: laud
+    - Word: LAUD
       Number: 4
-    - Word: lava
+    - Word: LAVA
       Number: 4
-    - Word: lave
+    - Word: LAVE
       Number: 4
-    - Word: lawn
+    - Word: LAWN
       Number: 4
-    - Word: laze
+    - Word: LAZE
       Number: 4
-    - Word: lazy
+    - Word: LAZY
       Number: 4
-    - Word: lead
+    - Word: LEAD
       Number: 4
-    - Word: leaf
+    - Word: LEAF
       Number: 4
-    - Word: Leah
+    - Word: LEAH
       Number: 4
-    - Word: leak
+    - Word: LEAK
       Number: 4
-    - Word: Lean
+    - Word: LEAN
       Number: 4
-    - Word: leap
+    - Word: LEAP
       Number: 4
-    - Word: Lear
+    - Word: LEAR
       Number: 4
-    - Word: Leda
+    - Word: LEDA
       Number: 4
-    - Word: leek
+    - Word: LEEK
       Number: 4
-    - Word: leer
+    - Word: LEER
       Number: 4
-    - Word: lees
+    - Word: LEES
       Number: 4
-    - Word: Left
+    - Word: LEFT
       Number: 4
-    - Word: Leif
+    - Word: LEIF
       Number: 4
-    - Word: Lela
+    - Word: LELA
       Number: 4
-    - Word: Lena
+    - Word: LENA
       Number: 4
-    - Word: lend
+    - Word: LEND
       Number: 4
-    - Word: lens
+    - Word: LENS
       Number: 4
-    - Word: Lent
+    - Word: LENT
       Number: 4
-    - Word: Leon
+    - Word: LEON
       Number: 4
-    - Word: lept
+    - Word: LEPT
       Number: 4
-    - Word: less
+    - Word: LESS
       Number: 4
-    - Word: lest
+    - Word: LEST
       Number: 4
-    - Word: Lett
+    - Word: LETT
       Number: 4
-    - Word: leva
+    - Word: LEVA
       Number: 4
-    - Word: Levi
+    - Word: LEVI
       Number: 4
-    - Word: levy
+    - Word: LEVY
       Number: 4
-    - Word: lewd
+    - Word: LEWD
       Number: 4
-    - Word: Liam
+    - Word: LIAM
       Number: 4
-    - Word: liar
+    - Word: LIAR
       Number: 4
-    - Word: lice
+    - Word: LICE
       Number: 4
-    - Word: lick
+    - Word: LICK
       Number: 4
-    - Word: lido
+    - Word: LIDO
       Number: 4
-    - Word: lied
+    - Word: LIED
       Number: 4
-    - Word: lief
+    - Word: LIEF
       Number: 4
-    - Word: lien
+    - Word: LIEN
       Number: 4
-    - Word: lieu
+    - Word: LIEU
       Number: 4
-    - Word: life
+    - Word: LIFE
       Number: 4
     - Word: LIFO
       Number: 4
-    - Word: lift
+    - Word: LIFT
       Number: 4
-    - Word: like
+    - Word: LIKE
       Number: 4
-    - Word: Lila
+    - Word: LILA
       Number: 4
-    - Word: lilt
+    - Word: LILT
       Number: 4
-    - Word: Lily
+    - Word: LILY
       Number: 4
-    - Word: Lima
+    - Word: LIMA
       Number: 4
-    - Word: limb
+    - Word: LIMB
       Number: 4
-    - Word: lime
+    - Word: LIME
       Number: 4
-    - Word: limn
+    - Word: LIMN
       Number: 4
-    - Word: limo
+    - Word: LIMO
       Number: 4
-    - Word: limp
+    - Word: LIMP
       Number: 4
-    - Word: limy
+    - Word: LIMY
       Number: 4
-    - Word: Line
+    - Word: LINE
       Number: 4
-    - Word: ling
+    - Word: LING
       Number: 4
-    - Word: link
+    - Word: LINK
       Number: 4
-    - Word: lint
+    - Word: LINT
       Number: 4
-    - Word: liny
+    - Word: LINY
       Number: 4
-    - Word: Linz
+    - Word: LINZ
       Number: 4
-    - Word: lion
+    - Word: LION
       Number: 4
-    - Word: lira
+    - Word: LIRA
       Number: 4
-    - Word: lire
+    - Word: LIRE
       Number: 4
-    - Word: Lisa
+    - Word: LISA
       Number: 4
-    - Word: lisp
+    - Word: LISP
       Number: 4
-    - Word: list
+    - Word: LIST
       Number: 4
-    - Word: lite
+    - Word: LITE
       Number: 4
-    - Word: live
+    - Word: LIVE
       Number: 4
-    - Word: Livy
+    - Word: LIVY
       Number: 4
-    - Word: load
+    - Word: LOAD
       Number: 4
-    - Word: loaf
+    - Word: LOAF
       Number: 4
-    - Word: loam
+    - Word: LOAM
       Number: 4
-    - Word: loan
+    - Word: LOAN
       Number: 4
-    - Word: lobe
+    - Word: LOBE
       Number: 4
-    - Word: loch
+    - Word: LOCH
       Number: 4
-    - Word: loci
+    - Word: LOCI
       Number: 4
-    - Word: lock
+    - Word: LOCK
       Number: 4
-    - Word: loco
+    - Word: LOCO
       Number: 4
-    - Word: lode
+    - Word: LODE
       Number: 4
-    - Word: Lodz
+    - Word: LODZ
       Number: 4
-    - Word: loft
+    - Word: LOFT
       Number: 4
-    - Word: loge
+    - Word: LOGE
       Number: 4
-    - Word: logo
+    - Word: LOGO
       Number: 4
-    - Word: logy
+    - Word: LOGY
       Number: 4
-    - Word: loin
+    - Word: LOIN
       Number: 4
-    - Word: Lois
+    - Word: LOIS
       Number: 4
-    - Word: Lola
+    - Word: LOLA
       Number: 4
-    - Word: loll
+    - Word: LOLL
       Number: 4
-    - Word: Lome
+    - Word: LOME
       Number: 4
-    - Word: Lond
+    - Word: LOND
       Number: 4
-    - Word: lone
+    - Word: LONE
       Number: 4
-    - Word: Long
+    - Word: LONG
       Number: 4
-    - Word: look
+    - Word: LOOK
       Number: 4
-    - Word: loom
+    - Word: LOOM
       Number: 4
-    - Word: loon
+    - Word: LOON
       Number: 4
-    - Word: loop
+    - Word: LOOP
       Number: 4
-    - Word: loot
+    - Word: LOOT
       Number: 4
-    - Word: lope
+    - Word: LOPE
       Number: 4
-    - Word: Lora
+    - Word: LORA
       Number: 4
-    - Word: Lord
+    - Word: LORD
       Number: 4
-    - Word: lore
+    - Word: LORE
       Number: 4
-    - Word: Lori
+    - Word: LORI
       Number: 4
-    - Word: lorn
+    - Word: LORN
       Number: 4
-    - Word: lose
+    - Word: LOSE
       Number: 4
-    - Word: loss
+    - Word: LOSS
       Number: 4
-    - Word: lost
+    - Word: LOST
       Number: 4
-    - Word: loth
+    - Word: LOTH
       Number: 4
-    - Word: loti
+    - Word: LOTI
       Number: 4
-    - Word: lots
+    - Word: LOTS
       Number: 4
-    - Word: loud
+    - Word: LOUD
       Number: 4
-    - Word: lour
+    - Word: LOUR
       Number: 4
-    - Word: lout
+    - Word: LOUT
       Number: 4
-    - Word: love
+    - Word: LOVE
       Number: 4
-    - Word: Loyd
+    - Word: LOYD
       Number: 4
-    - Word: luau
+    - Word: LUAU
       Number: 4
-    - Word: lube
+    - Word: LUBE
       Number: 4
-    - Word: Luce
+    - Word: LUCE
       Number: 4
-    - Word: luck
+    - Word: LUCK
       Number: 4
-    - Word: Lucy
+    - Word: LUCY
       Number: 4
-    - Word: Luda
+    - Word: LUDA
       Number: 4
-    - Word: luff
+    - Word: LUFF
       Number: 4
-    - Word: luge
+    - Word: LUGE
       Number: 4
-    - Word: Luis
+    - Word: LUIS
       Number: 4
-    - Word: Luke
+    - Word: LUKE
       Number: 4
-    - Word: lull
+    - Word: LULL
       Number: 4
-    - Word: Lulu
+    - Word: LULU
       Number: 4
-    - Word: lump
+    - Word: LUMP
       Number: 4
-    - Word: lung
+    - Word: LUNG
       Number: 4
-    - Word: lunk
+    - Word: LUNK
       Number: 4
-    - Word: lure
+    - Word: LURE
       Number: 4
-    - Word: lurk
+    - Word: LURK
       Number: 4
-    - Word: lush
+    - Word: LUSH
       Number: 4
-    - Word: lust
+    - Word: LUST
       Number: 4
-    - Word: lute
+    - Word: LUTE
       Number: 4
-    - Word: luxe
+    - Word: LUXE
       Number: 4
-    - Word: Lviv
+    - Word: LVIV
       Number: 4
-    - Word: Lvov
+    - Word: LVOV
       Number: 4
-    - Word: lwei
+    - Word: LWEI
       Number: 4
-    - Word: Lyle
+    - Word: LYLE
       Number: 4
-    - Word: Lyly
+    - Word: LYLY
       Number: 4
-    - Word: Lynn
+    - Word: LYNN
       Number: 4
-    - Word: Lynx
+    - Word: LYNX
       Number: 4
-    - Word: Lyon
+    - Word: LYON
       Number: 4
-    - Word: Lyra
+    - Word: LYRA
       Number: 4
-    - Word: lyre
+    - Word: LYRE
       Number: 4
-    - Word: Maas
+    - Word: MAAS
       Number: 4
-    - Word: Mace
+    - Word: MACE
       Number: 4
-    - Word: Mach
+    - Word: MACH
       Number: 4
-    - Word: Mack
+    - Word: MACK
       Number: 4
-    - Word: Macy
+    - Word: MACY
       Number: 4
-    - Word: made
+    - Word: MADE
       Number: 4
-    - Word: Magi
+    - Word: MAGI
       Number: 4
-    - Word: maid
+    - Word: MAID
       Number: 4
-    - Word: mail
+    - Word: MAIL
       Number: 4
-    - Word: maim
+    - Word: MAIM
       Number: 4
-    - Word: Main
+    - Word: MAIN
       Number: 4
-    - Word: make
+    - Word: MAKE
       Number: 4
-    - Word: mako
+    - Word: MAKO
       Number: 4
-    - Word: Male
+    - Word: MALE
       Number: 4
-    - Word: Mali
+    - Word: MALI
       Number: 4
-    - Word: mall
+    - Word: MALL
       Number: 4
-    - Word: malt
+    - Word: MALT
       Number: 4
-    - Word: mama
+    - Word: MAMA
       Number: 4
-    - Word: mane
+    - Word: MANE
       Number: 4
-    - Word: Mann
+    - Word: MANN
       Number: 4
-    - Word: Manx
+    - Word: MANX
       Number: 4
-    - Word: many
+    - Word: MANY
       Number: 4
-    - Word: Mara
+    - Word: MARA
       Number: 4
-    - Word: Marc
+    - Word: MARC
       Number: 4
-    - Word: Mare
+    - Word: MARE
       Number: 4
-    - Word: Mark
+    - Word: MARK
       Number: 4
-    - Word: marl
+    - Word: MARL
       Number: 4
-    - Word: Mars
+    - Word: MARS
       Number: 4
-    - Word: mart
+    - Word: MART
       Number: 4
-    - Word: Marx
+    - Word: MARX
       Number: 4
-    - Word: Mary
+    - Word: MARY
       Number: 4
-    - Word: mash
+    - Word: MASH
       Number: 4
-    - Word: mask
+    - Word: MASK
       Number: 4
-    - Word: Mass
+    - Word: MASS
       Number: 4
-    - Word: mast
+    - Word: MAST
       Number: 4
-    - Word: mate
+    - Word: MATE
       Number: 4
-    - Word: math
+    - Word: MATH
       Number: 4
-    - Word: Matt
+    - Word: MATT
       Number: 4
-    - Word: Maud
+    - Word: MAUD
       Number: 4
-    - Word: Maui
+    - Word: MAUI
       Number: 4
-    - Word: maul
+    - Word: MAUL
       Number: 4
-    - Word: maxi
+    - Word: MAXI
       Number: 4
-    - Word: Maya
+    - Word: MAYA
       Number: 4
-    - Word: mayo
+    - Word: MAYO
       Number: 4
-    - Word: Mays
+    - Word: MAYS
       Number: 4
-    - Word: maze
+    - Word: MAZE
       Number: 4
-    - Word: mazy
+    - Word: MAZY
       Number: 4
-    - Word: Mead
+    - Word: MEAD
       Number: 4
-    - Word: meal
+    - Word: MEAL
       Number: 4
-    - Word: mean
+    - Word: MEAN
       Number: 4
-    - Word: meat
+    - Word: MEAT
       Number: 4
-    - Word: Mede
+    - Word: MEDE
       Number: 4
-    - Word: meed
+    - Word: MEED
       Number: 4
-    - Word: meek
+    - Word: MEEK
       Number: 4
-    - Word: meet
+    - Word: MEET
       Number: 4
-    - Word: mega
+    - Word: MEGA
       Number: 4
-    - Word: Meir
+    - Word: MEIR
       Number: 4
-    - Word: meld
+    - Word: MELD
       Number: 4
-    - Word: melt
+    - Word: MELT
       Number: 4
-    - Word: meme
+    - Word: MEME
       Number: 4
-    - Word: memo
+    - Word: MEMO
       Number: 4
-    - Word: mend
+    - Word: MEND
       Number: 4
-    - Word: menu
+    - Word: MENU
       Number: 4
-    - Word: meou
+    - Word: MEOU
       Number: 4
-    - Word: meow
+    - Word: MEOW
       Number: 4
-    - Word: mere
+    - Word: MERE
       Number: 4
-    - Word: Mesa
+    - Word: MESA
       Number: 4
-    - Word: mesh
+    - Word: MESH
       Number: 4
-    - Word: mess
+    - Word: MESS
       Number: 4
-    - Word: mete
+    - Word: METE
       Number: 4
-    - Word: Metz
+    - Word: METZ
       Number: 4
-    - Word: mewl
+    - Word: MEWL
       Number: 4
-    - Word: mews
+    - Word: MEWS
       Number: 4
-    - Word: mica
+    - Word: MICA
       Number: 4
-    - Word: mice
+    - Word: MICE
       Number: 4
     - Word: MIDI
       Number: 4
-    - Word: mien
+    - Word: MIEN
       Number: 4
-    - Word: miff
+    - Word: MIFF
       Number: 4
-    - Word: Mike
+    - Word: MIKE
       Number: 4
-    - Word: mild
+    - Word: MILD
       Number: 4
-    - Word: mile
+    - Word: MILE
       Number: 4
-    - Word: milk
+    - Word: MILK
       Number: 4
-    - Word: Mill
+    - Word: MILL
       Number: 4
-    - Word: Milo
+    - Word: MILO
       Number: 4
-    - Word: milt
+    - Word: MILT
       Number: 4
-    - Word: mime
+    - Word: MIME
       Number: 4
-    - Word: mind
+    - Word: MIND
       Number: 4
-    - Word: mine
+    - Word: MINE
       Number: 4
-    - Word: Ming
+    - Word: MING
       Number: 4
-    - Word: mini
+    - Word: MINI
       Number: 4
-    - Word: mink
+    - Word: MINK
       Number: 4
-    - Word: mint
+    - Word: MINT
       Number: 4
-    - Word: minx
+    - Word: MINX
       Number: 4
-    - Word: Mira
+    - Word: MIRA
       Number: 4
-    - Word: mire
+    - Word: MIRE
       Number: 4
-    - Word: Miro
+    - Word: MIRO
       Number: 4
     - Word: MIRV
       Number: 4
-    - Word: miry
+    - Word: MIRY
       Number: 4
-    - Word: miso
+    - Word: MISO
       Number: 4
-    - Word: Miss
+    - Word: MISS
       Number: 4
-    - Word: mist
+    - Word: MIST
       Number: 4
-    - Word: mite
+    - Word: MITE
       Number: 4
-    - Word: mitt
+    - Word: MITT
       Number: 4
-    - Word: Moab
+    - Word: MOAB
       Number: 4
-    - Word: moan
+    - Word: MOAN
       Number: 4
-    - Word: moat
+    - Word: MOAT
       Number: 4
-    - Word: mock
+    - Word: MOCK
       Number: 4
-    - Word: mode
+    - Word: MODE
       Number: 4
-    - Word: moil
+    - Word: MOIL
       Number: 4
-    - Word: mojo
+    - Word: MOJO
       Number: 4
-    - Word: Mold
+    - Word: MOLD
       Number: 4
-    - Word: mole
+    - Word: MOLE
       Number: 4
-    - Word: moll
+    - Word: MOLL
       Number: 4
-    - Word: molt
+    - Word: MOLT
       Number: 4
-    - Word: moly
+    - Word: MOLY
       Number: 4
-    - Word: Mona
+    - Word: MONA
       Number: 4
-    - Word: monk
+    - Word: MONK
       Number: 4
-    - Word: mono
+    - Word: MONO
       Number: 4
-    - Word: mood
+    - Word: MOOD
       Number: 4
-    - Word: Moon
+    - Word: MOON
       Number: 4
-    - Word: Moor
+    - Word: MOOR
       Number: 4
-    - Word: moot
+    - Word: MOOT
       Number: 4
-    - Word: mope
+    - Word: MOPE
       Number: 4
-    - Word: mopy
+    - Word: MOPY
       Number: 4
-    - Word: More
+    - Word: MORE
       Number: 4
-    - Word: morn
+    - Word: MORN
       Number: 4
-    - Word: Mort
+    - Word: MORT
       Number: 4
-    - Word: mosh
+    - Word: MOSH
       Number: 4
-    - Word: moss
+    - Word: MOSS
       Number: 4
-    - Word: most
+    - Word: MOST
       Number: 4
-    - Word: mote
+    - Word: MOTE
       Number: 4
-    - Word: moth
+    - Word: MOTH
       Number: 4
-    - Word: Mott
+    - Word: MOTT
       Number: 4
-    - Word: moue
+    - Word: MOUE
       Number: 4
-    - Word: move
+    - Word: MOVE
       Number: 4
-    - Word: mown
+    - Word: MOWN
       Number: 4
     - Word: MPEG
       Number: 4
-    - Word: much
+    - Word: MUCH
       Number: 4
-    - Word: muck
+    - Word: MUCK
       Number: 4
-    - Word: muff
+    - Word: MUFF
       Number: 4
-    - Word: Muir
+    - Word: MUIR
       Number: 4
-    - Word: mule
+    - Word: MULE
       Number: 4
-    - Word: mull
+    - Word: MULL
       Number: 4
-    - Word: muon
+    - Word: MUON
       Number: 4
-    - Word: murk
+    - Word: MURK
       Number: 4
-    - Word: Muse
+    - Word: MUSE
       Number: 4
-    - Word: mush
+    - Word: MUSH
       Number: 4
-    - Word: musk
+    - Word: MUSK
       Number: 4
-    - Word: muss
+    - Word: MUSS
       Number: 4
-    - Word: must
+    - Word: MUST
       Number: 4
-    - Word: mute
+    - Word: MUTE
       Number: 4
-    - Word: mutt
+    - Word: MUTT
       Number: 4
-    - Word: myna
+    - Word: MYNA
       Number: 4
-    - Word: Myra
+    - Word: MYRA
       Number: 4
-    - Word: myth
+    - Word: MYTH
       Number: 4
-    - Word: naif
+    - Word: NAIF
       Number: 4
-    - Word: nail
+    - Word: NAIL
       Number: 4
-    - Word: name
+    - Word: NAME
       Number: 4
-    - Word: nape
+    - Word: NAPE
       Number: 4
-    - Word: narc
+    - Word: NARC
       Number: 4
-    - Word: nard
+    - Word: NARD
       Number: 4
-    - Word: nark
+    - Word: NARK
       Number: 4
-    - Word: nary
+    - Word: NARY
       Number: 4
     - Word: NASA
       Number: 4
-    - Word: Nash
+    - Word: NASH
       Number: 4
     - Word: NATO
       Number: 4
-    - Word: nave
+    - Word: NAVE
       Number: 4
-    - Word: navy
+    - Word: NAVY
       Number: 4
-    - Word: Nazi
+    - Word: NAZI
       Number: 4
-    - Word: Neal
+    - Word: NEAL
       Number: 4
-    - Word: neap
+    - Word: NEAP
       Number: 4
-    - Word: near
+    - Word: NEAR
       Number: 4
-    - Word: neat
+    - Word: NEAT
       Number: 4
-    - Word: neck
+    - Word: NECK
       Number: 4
-    - Word: need
+    - Word: NEED
       Number: 4
-    - Word: Neil
+    - Word: NEIL
       Number: 4
-    - Word: Nell
+    - Word: NELL
       Number: 4
-    - Word: neon
+    - Word: NEON
       Number: 4
-    - Word: nerd
+    - Word: NERD
       Number: 4
-    - Word: Nero
+    - Word: NERO
       Number: 4
-    - Word: Ness
+    - Word: NESS
       Number: 4
-    - Word: nest
+    - Word: NEST
       Number: 4
-    - Word: nett
+    - Word: NETT
       Number: 4
-    - Word: Neva
+    - Word: NEVA
       Number: 4
-    - Word: nevi
+    - Word: NEVI
       Number: 4
-    - Word: news
+    - Word: NEWS
       Number: 4
-    - Word: newt
+    - Word: NEWT
       Number: 4
-    - Word: next
+    - Word: NEXT
       Number: 4
-    - Word: nibs
+    - Word: NIBS
       Number: 4
-    - Word: Nice
+    - Word: NICE
       Number: 4
-    - Word: Nick
+    - Word: NICK
       Number: 4
-    - Word: nigh
+    - Word: NIGH
       Number: 4
-    - Word: Nike
+    - Word: NIKE
       Number: 4
-    - Word: Nile
+    - Word: NILE
       Number: 4
-    - Word: Nils
+    - Word: NILS
       Number: 4
-    - Word: Nina
+    - Word: NINA
       Number: 4
-    - Word: nine
+    - Word: NINE
       Number: 4
-    - Word: nisi
+    - Word: NISI
       Number: 4
-    - Word: Nita
+    - Word: NITA
       Number: 4
-    - Word: nite
+    - Word: NITE
       Number: 4
-    - Word: Noah
+    - Word: NOAH
       Number: 4
-    - Word: node
+    - Word: NODE
       Number: 4
-    - Word: nodi
+    - Word: NODI
       Number: 4
-    - Word: Noel
+    - Word: NOEL
       Number: 4
-    - Word: noes
+    - Word: NOES
       Number: 4
-    - Word: nolo
+    - Word: NOLO
       Number: 4
-    - Word: Nome
+    - Word: NOME
       Number: 4
-    - Word: Nona
+    - Word: NONA
       Number: 4
-    - Word: none
+    - Word: NONE
       Number: 4
-    - Word: nook
+    - Word: NOOK
       Number: 4
-    - Word: noon
+    - Word: NOON
       Number: 4
-    - Word: nope
+    - Word: NOPE
       Number: 4
-    - Word: Nora
+    - Word: NORA
       Number: 4
-    - Word: norm
+    - Word: NORM
       Number: 4
-    - Word: nose
+    - Word: NOSE
       Number: 4
-    - Word: nosh
+    - Word: NOSH
       Number: 4
-    - Word: nosy
+    - Word: NOSY
       Number: 4
-    - Word: note
+    - Word: NOTE
       Number: 4
-    - Word: noun
+    - Word: NOUN
       Number: 4
-    - Word: nous
+    - Word: NOUS
       Number: 4
-    - Word: nova
+    - Word: NOVA
       Number: 4
-    - Word: nude
+    - Word: NUDE
       Number: 4
-    - Word: nuke
+    - Word: NUKE
       Number: 4
-    - Word: null
+    - Word: NULL
       Number: 4
-    - Word: numb
+    - Word: NUMB
       Number: 4
-    - Word: nuts
+    - Word: NUTS
       Number: 4
-    - Word: Oahu
+    - Word: OAHU
       Number: 4
-    - Word: oath
+    - Word: OATH
       Number: 4
-    - Word: oats
+    - Word: OATS
       Number: 4
-    - Word: obey
+    - Word: OBEY
       Number: 4
-    - Word: obit
+    - Word: OBIT
       Number: 4
-    - Word: oboe
+    - Word: OBOE
       Number: 4
-    - Word: odds
+    - Word: ODDS
       Number: 4
-    - Word: odea
+    - Word: ODEA
       Number: 4
-    - Word: Oder
+    - Word: ODER
       Number: 4
-    - Word: Odin
+    - Word: ODIN
       Number: 4
-    - Word: odor
+    - Word: ODOR
       Number: 4
-    - Word: Odra
+    - Word: ODRA
       Number: 4
-    - Word: ofay
+    - Word: OFAY
       Number: 4
-    - Word: ogee
+    - Word: OGEE
       Number: 4
-    - Word: ogle
+    - Word: OGLE
       Number: 4
-    - Word: ogre
+    - Word: OGRE
       Number: 4
-    - Word: Ohio
+    - Word: OHIO
       Number: 4
-    - Word: oils
+    - Word: OILS
       Number: 4
-    - Word: oily
+    - Word: OILY
       Number: 4
-    - Word: oink
+    - Word: OINK
       Number: 4
-    - Word: Oise
+    - Word: OISE
       Number: 4
-    - Word: okay
+    - Word: OKAY
       Number: 4
-    - Word: Okie
+    - Word: OKIE
       Number: 4
-    - Word: okra
+    - Word: OKRA
       Number: 4
-    - Word: Olaf
+    - Word: OLAF
       Number: 4
-    - Word: oldy
+    - Word: OLDY
       Number: 4
-    - Word: oleo
+    - Word: OLEO
       Number: 4
-    - Word: Olga
+    - Word: OLGA
       Number: 4
-    - Word: olio
+    - Word: OLIO
       Number: 4
-    - Word: olla
+    - Word: OLLA
       Number: 4
-    - Word: Oman
+    - Word: OMAN
       Number: 4
-    - Word: omen
+    - Word: OMEN
       Number: 4
-    - Word: omit
+    - Word: OMIT
       Number: 4
-    - Word: Omsk
+    - Word: OMSK
       Number: 4
-    - Word: once
+    - Word: ONCE
       Number: 4
-    - Word: only
+    - Word: ONLY
       Number: 4
-    - Word: onto
+    - Word: ONTO
       Number: 4
-    - Word: onus
+    - Word: ONUS
       Number: 4
-    - Word: onyx
+    - Word: ONYX
       Number: 4
-    - Word: oops
+    - Word: OOPS
       Number: 4
-    - Word: ooze
+    - Word: OOZE
       Number: 4
-    - Word: oozy
+    - Word: OOZY
       Number: 4
-    - Word: Opal
+    - Word: OPAL
       Number: 4
     - Word: OPEC
       Number: 4
-    - Word: open
+    - Word: OPEN
       Number: 4
-    - Word: opus
+    - Word: OPUS
       Number: 4
-    - Word: oral
+    - Word: ORAL
       Number: 4
-    - Word: Oran
+    - Word: ORAN
       Number: 4
-    - Word: orca
+    - Word: ORCA
       Number: 4
-    - Word: ordo
+    - Word: ORDO
       Number: 4
-    - Word: Orel
+    - Word: OREL
       Number: 4
-    - Word: Oren
+    - Word: OREN
       Number: 4
-    - Word: orgy
+    - Word: ORGY
       Number: 4
-    - Word: Orin
+    - Word: ORIN
       Number: 4
-    - Word: orts
+    - Word: ORTS
       Number: 4
-    - Word: oryx
+    - Word: ORYX
       Number: 4
-    - Word: Osee
+    - Word: OSEE
       Number: 4
-    - Word: Oslo
+    - Word: OSLO
       Number: 4
-    - Word: Otis
+    - Word: OTIS
       Number: 4
-    - Word: Otto
+    - Word: OTTO
       Number: 4
-    - Word: ouch
+    - Word: OUCH
       Number: 4
-    - Word: ours
+    - Word: OURS
       Number: 4
-    - Word: oust
+    - Word: OUST
       Number: 4
-    - Word: ouzo
+    - Word: OUZO
       Number: 4
-    - Word: oval
+    - Word: OVAL
       Number: 4
-    - Word: oven
+    - Word: OVEN
       Number: 4
-    - Word: over
+    - Word: OVER
       Number: 4
-    - Word: Ovid
+    - Word: OVID
       Number: 4
-    - Word: ovum
+    - Word: OVUM
       Number: 4
-    - Word: Owen
+    - Word: OWEN
       Number: 4
-    - Word: oxen
+    - Word: OXEN
       Number: 4
     - Word: PABA
       Number: 4
-    - Word: pace
+    - Word: PACE
       Number: 4
-    - Word: pack
+    - Word: PACK
       Number: 4
-    - Word: pact
+    - Word: PACT
       Number: 4
-    - Word: page
+    - Word: PAGE
       Number: 4
-    - Word: paid
+    - Word: PAID
       Number: 4
-    - Word: pail
+    - Word: PAIL
       Number: 4
-    - Word: pain
+    - Word: PAIN
       Number: 4
-    - Word: pair
+    - Word: PAIR
       Number: 4
-    - Word: pale
+    - Word: PALE
       Number: 4
-    - Word: pall
+    - Word: PALL
       Number: 4
-    - Word: palm
+    - Word: PALM
       Number: 4
-    - Word: pane
+    - Word: PANE
       Number: 4
-    - Word: pang
+    - Word: PANG
       Number: 4
-    - Word: pant
+    - Word: PANT
       Number: 4
-    - Word: papa
+    - Word: PAPA
       Number: 4
-    - Word: para
+    - Word: PARA
       Number: 4
-    - Word: pard
+    - Word: PARD
       Number: 4
-    - Word: pare
+    - Word: PARE
       Number: 4
-    - Word: Park
+    - Word: PARK
       Number: 4
-    - Word: Parr
+    - Word: PARR
       Number: 4
-    - Word: part
+    - Word: PART
       Number: 4
-    - Word: pass
+    - Word: PASS
       Number: 4
-    - Word: past
+    - Word: PAST
       Number: 4
-    - Word: pate
+    - Word: PATE
       Number: 4
-    - Word: path
+    - Word: PATH
       Number: 4
-    - Word: Paul
+    - Word: PAUL
       Number: 4
-    - Word: pave
+    - Word: PAVE
       Number: 4
-    - Word: Pavo
+    - Word: PAVO
       Number: 4
-    - Word: pawl
+    - Word: PAWL
       Number: 4
-    - Word: pawn
+    - Word: PAWN
       Number: 4
-    - Word: peak
+    - Word: PEAK
       Number: 4
-    - Word: peal
+    - Word: PEAL
       Number: 4
-    - Word: pear
+    - Word: PEAR
       Number: 4
-    - Word: peat
+    - Word: PEAT
       Number: 4
-    - Word: peck
+    - Word: PECK
       Number: 4
-    - Word: Pecs
+    - Word: PECS
       Number: 4
-    - Word: peek
+    - Word: PEEK
       Number: 4
-    - Word: Peel
+    - Word: PEEL
       Number: 4
-    - Word: peen
+    - Word: PEEN
       Number: 4
-    - Word: peep
+    - Word: PEEP
       Number: 4
-    - Word: peer
+    - Word: PEER
       Number: 4
-    - Word: pein
+    - Word: PEIN
       Number: 4
-    - Word: peke
+    - Word: PEKE
       Number: 4
-    - Word: Pele
+    - Word: PELE
       Number: 4
-    - Word: pelf
+    - Word: PELF
       Number: 4
-    - Word: pelt
+    - Word: PELT
       Number: 4
-    - Word: pend
+    - Word: PEND
       Number: 4
-    - Word: Penn
+    - Word: PENN
       Number: 4
-    - Word: pent
+    - Word: PENT
       Number: 4
-    - Word: peon
+    - Word: PEON
       Number: 4
-    - Word: pere
+    - Word: PERE
       Number: 4
-    - Word: perk
+    - Word: PERK
       Number: 4
-    - Word: Perm
+    - Word: PERM
       Number: 4
-    - Word: pert
+    - Word: PERT
       Number: 4
-    - Word: Peru
+    - Word: PERU
       Number: 4
-    - Word: peso
+    - Word: PESO
       Number: 4
-    - Word: pest
+    - Word: PEST
       Number: 4
-    - Word: Pete
+    - Word: PETE
       Number: 4
-    - Word: phat
+    - Word: PHAT
       Number: 4
-    - Word: phew
+    - Word: PHEW
       Number: 4
-    - Word: Phil
+    - Word: PHIL
       Number: 4
-    - Word: Piaf
+    - Word: PIAF
       Number: 4
-    - Word: pica
+    - Word: PICA
       Number: 4
-    - Word: pice
+    - Word: PICE
       Number: 4
-    - Word: pick
+    - Word: PICK
       Number: 4
-    - Word: pied
+    - Word: PIED
       Number: 4
-    - Word: pier
+    - Word: PIER
       Number: 4
-    - Word: pies
+    - Word: PIES
       Number: 4
-    - Word: Pigs
+    - Word: PIGS
       Number: 4
-    - Word: pika
+    - Word: PIKA
       Number: 4
-    - Word: pike
+    - Word: PIKE
       Number: 4
-    - Word: pile
+    - Word: PILE
       Number: 4
-    - Word: pill
+    - Word: PILL
       Number: 4
-    - Word: Pima
+    - Word: PIMA
       Number: 4
-    - Word: pimp
+    - Word: PIMP
       Number: 4
-    - Word: pine
+    - Word: PINE
       Number: 4
-    - Word: ping
+    - Word: PING
       Number: 4
-    - Word: pink
+    - Word: PINK
       Number: 4
-    - Word: pint
+    - Word: PINT
       Number: 4
-    - Word: piny
+    - Word: PINY
       Number: 4
-    - Word: pion
+    - Word: PION
       Number: 4
-    - Word: pipe
+    - Word: PIPE
       Number: 4
-    - Word: Pisa
+    - Word: PISA
       Number: 4
-    - Word: piso
+    - Word: PISO
       Number: 4
-    - Word: piss
+    - Word: PISS
       Number: 4
-    - Word: pita
+    - Word: PITA
       Number: 4
-    - Word: pith
+    - Word: PITH
       Number: 4
-    - Word: pits
+    - Word: PITS
       Number: 4
-    - Word: Pitt
+    - Word: PITT
       Number: 4
-    - Word: pity
+    - Word: PITY
       Number: 4
-    - Word: Pius
+    - Word: PIUS
       Number: 4
-    - Word: pixy
+    - Word: PIXY
       Number: 4
-    - Word: plan
+    - Word: PLAN
       Number: 4
-    - Word: plat
+    - Word: PLAT
       Number: 4
-    - Word: play
+    - Word: PLAY
       Number: 4
-    - Word: plea
+    - Word: PLEA
       Number: 4
-    - Word: pled
+    - Word: PLED
       Number: 4
-    - Word: plod
+    - Word: PLOD
       Number: 4
-    - Word: plop
+    - Word: PLOP
       Number: 4
-    - Word: plot
+    - Word: PLOT
       Number: 4
-    - Word: plow
+    - Word: PLOW
       Number: 4
-    - Word: ploy
+    - Word: PLOY
       Number: 4
-    - Word: plug
+    - Word: PLUG
       Number: 4
-    - Word: plum
+    - Word: PLUM
       Number: 4
-    - Word: plus
+    - Word: PLUS
       Number: 4
-    - Word: pock
+    - Word: POCK
       Number: 4
-    - Word: poco
+    - Word: POCO
       Number: 4
-    - Word: poem
+    - Word: POEM
       Number: 4
-    - Word: poet
+    - Word: POET
       Number: 4
-    - Word: poke
+    - Word: POKE
       Number: 4
-    - Word: poky
+    - Word: POKY
       Number: 4
-    - Word: Pole
+    - Word: POLE
       Number: 4
-    - Word: Polk
+    - Word: POLK
       Number: 4
-    - Word: poll
+    - Word: POLL
       Number: 4
-    - Word: Polo
+    - Word: POLO
       Number: 4
-    - Word: poly
+    - Word: POLY
       Number: 4
-    - Word: pomp
+    - Word: POMP
       Number: 4
-    - Word: pond
+    - Word: POND
       Number: 4
-    - Word: pone
+    - Word: PONE
       Number: 4
-    - Word: pons
+    - Word: PONS
       Number: 4
-    - Word: pony
+    - Word: PONY
       Number: 4
-    - Word: pooh
+    - Word: POOH
       Number: 4
-    - Word: pool
+    - Word: POOL
       Number: 4
-    - Word: poop
+    - Word: POOP
       Number: 4
-    - Word: poor
+    - Word: POOR
       Number: 4
-    - Word: Pope
+    - Word: POPE
       Number: 4
-    - Word: pops
+    - Word: POPS
       Number: 4
-    - Word: pore
+    - Word: PORE
       Number: 4
-    - Word: pork
+    - Word: PORK
       Number: 4
-    - Word: porn
+    - Word: PORN
       Number: 4
-    - Word: Port
+    - Word: PORT
       Number: 4
-    - Word: pose
+    - Word: POSE
       Number: 4
-    - Word: posh
+    - Word: POSH
       Number: 4
-    - Word: post
+    - Word: POST
       Number: 4
-    - Word: posy
+    - Word: POSY
       Number: 4
-    - Word: pour
+    - Word: POUR
       Number: 4
-    - Word: pout
+    - Word: POUT
       Number: 4
-    - Word: pram
+    - Word: PRAM
       Number: 4
-    - Word: pray
+    - Word: PRAY
       Number: 4
-    - Word: prep
+    - Word: PREP
       Number: 4
-    - Word: prey
+    - Word: PREY
       Number: 4
-    - Word: prig
+    - Word: PRIG
       Number: 4
-    - Word: prim
+    - Word: PRIM
       Number: 4
-    - Word: prod
+    - Word: PROD
       Number: 4
-    - Word: prof
+    - Word: PROF
       Number: 4
-    - Word: prom
+    - Word: PROM
       Number: 4
-    - Word: prop
+    - Word: PROP
       Number: 4
-    - Word: pros
+    - Word: PROS
       Number: 4
-    - Word: prow
+    - Word: PROW
       Number: 4
-    - Word: psst
+    - Word: PSST
       Number: 4
-    - Word: puce
+    - Word: PUCE
       Number: 4
-    - Word: Puck
+    - Word: PUCK
       Number: 4
-    - Word: puff
+    - Word: PUFF
       Number: 4
-    - Word: puke
+    - Word: PUKE
       Number: 4
-    - Word: pula
+    - Word: PULA
       Number: 4
-    - Word: pule
+    - Word: PULE
       Number: 4
-    - Word: pull
+    - Word: PULL
       Number: 4
-    - Word: pulp
+    - Word: PULP
       Number: 4
-    - Word: puma
+    - Word: PUMA
       Number: 4
-    - Word: pump
+    - Word: PUMP
       Number: 4
-    - Word: Pune
+    - Word: PUNE
       Number: 4
-    - Word: punk
+    - Word: PUNK
       Number: 4
-    - Word: punt
+    - Word: PUNT
       Number: 4
-    - Word: puny
+    - Word: PUNY
       Number: 4
-    - Word: pupa
+    - Word: PUPA
       Number: 4
-    - Word: pure
+    - Word: PURE
       Number: 4
-    - Word: purl
+    - Word: PURL
       Number: 4
-    - Word: purr
+    - Word: PURR
       Number: 4
-    - Word: push
+    - Word: PUSH
       Number: 4
-    - Word: puss
+    - Word: PUSS
       Number: 4
-    - Word: putt
+    - Word: PUTT
       Number: 4
-    - Word: pyre
+    - Word: PYRE
       Number: 4
-    - Word: quad
+    - Word: QUAD
       Number: 4
-    - Word: quai
+    - Word: QUAI
       Number: 4
-    - Word: quay
+    - Word: QUAY
       Number: 4
-    - Word: quid
+    - Word: QUID
       Number: 4
-    - Word: quip
+    - Word: QUIP
       Number: 4
-    - Word: quit
+    - Word: QUIT
       Number: 4
-    - Word: quiz
+    - Word: QUIZ
       Number: 4
-    - Word: Rabi
+    - Word: RABI
       Number: 4
-    - Word: race
+    - Word: RACE
       Number: 4
-    - Word: rack
+    - Word: RACK
       Number: 4
-    - Word: racy
+    - Word: RACY
       Number: 4
-    - Word: raft
+    - Word: RAFT
       Number: 4
-    - Word: raga
+    - Word: RAGA
       Number: 4
-    - Word: rage
+    - Word: RAGE
       Number: 4
-    - Word: rags
+    - Word: RAGS
       Number: 4
-    - Word: raid
+    - Word: RAID
       Number: 4
-    - Word: rail
+    - Word: RAIL
       Number: 4
-    - Word: rain
+    - Word: RAIN
       Number: 4
-    - Word: raja
+    - Word: RAJA
       Number: 4
-    - Word: rake
+    - Word: RAKE
       Number: 4
-    - Word: rale
+    - Word: RALE
       Number: 4
-    - Word: Rama
+    - Word: RAMA
       Number: 4
-    - Word: ramp
+    - Word: RAMP
       Number: 4
-    - Word: Rand
+    - Word: RAND
       Number: 4
-    - Word: rang
+    - Word: RANG
       Number: 4
-    - Word: rani
+    - Word: RANI
       Number: 4
-    - Word: rank
+    - Word: RANK
       Number: 4
-    - Word: rant
+    - Word: RANT
       Number: 4
-    - Word: rape
+    - Word: RAPE
       Number: 4
-    - Word: rapt
+    - Word: RAPT
       Number: 4
-    - Word: rare
+    - Word: RARE
       Number: 4
-    - Word: rash
+    - Word: RASH
       Number: 4
-    - Word: rasp
+    - Word: RASP
       Number: 4
-    - Word: rate
+    - Word: RATE
       Number: 4
-    - Word: rave
+    - Word: RAVE
       Number: 4
-    - Word: raze
+    - Word: RAZE
       Number: 4
-    - Word: razz
+    - Word: RAZZ
       Number: 4
-    - Word: read
+    - Word: READ
       Number: 4
-    - Word: real
+    - Word: REAL
       Number: 4
-    - Word: ream
+    - Word: REAM
       Number: 4
-    - Word: reap
+    - Word: REAP
       Number: 4
-    - Word: rear
+    - Word: REAR
       Number: 4
-    - Word: Reba
+    - Word: REBA
       Number: 4
-    - Word: redo
+    - Word: REDO
       Number: 4
-    - Word: Reed
+    - Word: REED
       Number: 4
-    - Word: reef
+    - Word: REEF
       Number: 4
-    - Word: reek
+    - Word: REEK
       Number: 4
-    - Word: reel
+    - Word: REEL
       Number: 4
-    - Word: reft
+    - Word: REFT
       Number: 4
-    - Word: Reid
+    - Word: REID
       Number: 4
-    - Word: rein
+    - Word: REIN
       Number: 4
-    - Word: rely
+    - Word: RELY
       Number: 4
-    - Word: rend
+    - Word: REND
       Number: 4
-    - Word: Rene
+    - Word: RENE
       Number: 4
-    - Word: Reno
+    - Word: RENO
       Number: 4
-    - Word: rent
+    - Word: RENT
       Number: 4
-    - Word: rest
+    - Word: REST
       Number: 4
-    - Word: Rhea
+    - Word: RHEA
       Number: 4
-    - Word: Rhee
+    - Word: RHEE
       Number: 4
-    - Word: rial
+    - Word: RIAL
       Number: 4
-    - Word: rice
+    - Word: RICE
       Number: 4
-    - Word: rich
+    - Word: RICH
       Number: 4
-    - Word: rick
+    - Word: RICK
       Number: 4
-    - Word: Ride
+    - Word: RIDE
       Number: 4
-    - Word: riel
+    - Word: RIEL
       Number: 4
-    - Word: rife
+    - Word: RIFE
       Number: 4
-    - Word: riff
+    - Word: RIFF
       Number: 4
-    - Word: rift
+    - Word: RIFT
       Number: 4
-    - Word: Riga
+    - Word: RIGA
       Number: 4
-    - Word: rile
+    - Word: RILE
       Number: 4
-    - Word: rill
+    - Word: RILL
       Number: 4
-    - Word: rime
+    - Word: RIME
       Number: 4
-    - Word: rimy
+    - Word: RIMY
       Number: 4
-    - Word: rind
+    - Word: RIND
       Number: 4
-    - Word: ring
+    - Word: RING
       Number: 4
-    - Word: rink
+    - Word: RINK
       Number: 4
-    - Word: riot
+    - Word: RIOT
       Number: 4
-    - Word: ripe
+    - Word: RIPE
       Number: 4
-    - Word: rise
+    - Word: RISE
       Number: 4
-    - Word: risk
+    - Word: RISK
       Number: 4
-    - Word: Rita
+    - Word: RITA
       Number: 4
-    - Word: rite
+    - Word: RITE
       Number: 4
-    - Word: rive
+    - Word: RIVE
       Number: 4
-    - Word: road
+    - Word: ROAD
       Number: 4
-    - Word: roam
+    - Word: ROAM
       Number: 4
-    - Word: roan
+    - Word: ROAN
       Number: 4
-    - Word: roar
+    - Word: ROAR
       Number: 4
-    - Word: robe
+    - Word: ROBE
       Number: 4
-    - Word: rock
+    - Word: ROCK
       Number: 4
-    - Word: rode
+    - Word: RODE
       Number: 4
-    - Word: roil
+    - Word: ROIL
       Number: 4
-    - Word: role
+    - Word: ROLE
       Number: 4
-    - Word: Rolf
+    - Word: ROLF
       Number: 4
-    - Word: roll
+    - Word: ROLL
       Number: 4
-    - Word: Roma
+    - Word: ROMA
       Number: 4
-    - Word: Rome
+    - Word: ROME
       Number: 4
-    - Word: romp
+    - Word: ROMP
       Number: 4
-    - Word: Rona
+    - Word: RONA
       Number: 4
-    - Word: rood
+    - Word: ROOD
       Number: 4
-    - Word: roof
+    - Word: ROOF
       Number: 4
-    - Word: rook
+    - Word: ROOK
       Number: 4
-    - Word: room
+    - Word: ROOM
       Number: 4
-    - Word: Root
+    - Word: ROOT
       Number: 4
-    - Word: rope
+    - Word: ROPE
       Number: 4
-    - Word: Rosa
+    - Word: ROSA
       Number: 4
-    - Word: Rose
+    - Word: ROSE
       Number: 4
-    - Word: Ross
+    - Word: ROSS
       Number: 4
-    - Word: rosy
+    - Word: ROSY
       Number: 4
-    - Word: Rota
+    - Word: ROTA
       Number: 4
-    - Word: rote
+    - Word: ROTE
       Number: 4
-    - Word: Roth
+    - Word: ROTH
       Number: 4
-    - Word: roue
+    - Word: ROUE
       Number: 4
-    - Word: rout
+    - Word: ROUT
       Number: 4
-    - Word: roux
+    - Word: ROUX
       Number: 4
-    - Word: rove
+    - Word: ROVE
       Number: 4
-    - Word: rube
+    - Word: RUBE
       Number: 4
-    - Word: Ruby
+    - Word: RUBY
       Number: 4
-    - Word: ruck
+    - Word: RUCK
       Number: 4
-    - Word: rude
+    - Word: RUDE
       Number: 4
-    - Word: Rudy
+    - Word: RUDY
       Number: 4
-    - Word: ruff
+    - Word: RUFF
       Number: 4
-    - Word: Ruhr
+    - Word: RUHR
       Number: 4
-    - Word: ruin
+    - Word: RUIN
       Number: 4
-    - Word: rule
+    - Word: RULE
       Number: 4
-    - Word: rump
+    - Word: RUMP
       Number: 4
-    - Word: rune
+    - Word: RUNE
       Number: 4
-    - Word: rung
+    - Word: RUNG
       Number: 4
-    - Word: runs
+    - Word: RUNS
       Number: 4
-    - Word: runt
+    - Word: RUNT
       Number: 4
-    - Word: ruse
+    - Word: RUSE
       Number: 4
-    - Word: rush
+    - Word: RUSH
       Number: 4
-    - Word: rusk
+    - Word: RUSK
       Number: 4
-    - Word: rust
+    - Word: RUST
       Number: 4
-    - Word: Ruth
+    - Word: RUTH
       Number: 4
-    - Word: Ryan
+    - Word: RYAN
       Number: 4
-    - Word: Ryle
+    - Word: RYLE
       Number: 4
-    - Word: Saar
+    - Word: SAAR
       Number: 4
-    - Word: sack
+    - Word: SACK
       Number: 4
-    - Word: Sade
+    - Word: SADE
       Number: 4
-    - Word: safe
+    - Word: SAFE
       Number: 4
-    - Word: saga
+    - Word: SAGA
       Number: 4
-    - Word: sage
+    - Word: SAGE
       Number: 4
-    - Word: sago
+    - Word: SAGO
       Number: 4
-    - Word: said
+    - Word: SAID
       Number: 4
-    - Word: sail
+    - Word: SAIL
       Number: 4
-    - Word: sake
+    - Word: SAKE
       Number: 4
-    - Word: Saki
+    - Word: SAKI
       Number: 4
-    - Word: sale
+    - Word: SALE
       Number: 4
-    - Word: Salk
+    - Word: SALK
       Number: 4
-    - Word: salt
+    - Word: SALT
       Number: 4
-    - Word: same
+    - Word: SAME
       Number: 4
-    - Word: Sana
+    - Word: SANA
       Number: 4
-    - Word: Sand
+    - Word: SAND
       Number: 4
-    - Word: sane
+    - Word: SANE
       Number: 4
-    - Word: sang
+    - Word: SANG
       Number: 4
-    - Word: sank
+    - Word: SANK
       Number: 4
-    - Word: sans
+    - Word: SANS
       Number: 4
-    - Word: Sara
+    - Word: SARA
       Number: 4
-    - Word: sari
+    - Word: SARI
       Number: 4
-    - Word: sash
+    - Word: SASH
       Number: 4
-    - Word: sass
+    - Word: SASS
       Number: 4
-    - Word: sate
+    - Word: SATE
       Number: 4
-    - Word: sati
+    - Word: SATI
       Number: 4
-    - Word: Sauk
+    - Word: SAUK
       Number: 4
-    - Word: Saul
+    - Word: SAUL
       Number: 4
-    - Word: save
+    - Word: SAVE
       Number: 4
-    - Word: sawn
+    - Word: SAWN
       Number: 4
-    - Word: scab
+    - Word: SCAB
       Number: 4
-    - Word: scad
+    - Word: SCAD
       Number: 4
-    - Word: scam
+    - Word: SCAM
       Number: 4
-    - Word: scan
+    - Word: SCAN
       Number: 4
-    - Word: scar
+    - Word: SCAR
       Number: 4
-    - Word: scat
+    - Word: SCAT
       Number: 4
-    - Word: Scot
+    - Word: SCOT
       Number: 4
-    - Word: scow
+    - Word: SCOW
       Number: 4
-    - Word: scud
+    - Word: SCUD
       Number: 4
-    - Word: scum
+    - Word: SCUM
       Number: 4
-    - Word: seal
+    - Word: SEAL
       Number: 4
-    - Word: seam
+    - Word: SEAM
       Number: 4
-    - Word: Sean
+    - Word: SEAN
       Number: 4
-    - Word: sear
+    - Word: SEAR
       Number: 4
-    - Word: seat
+    - Word: SEAT
       Number: 4
-    - Word: sect
+    - Word: SECT
       Number: 4
-    - Word: seed
+    - Word: SEED
       Number: 4
-    - Word: seek
+    - Word: SEEK
       Number: 4
-    - Word: seem
+    - Word: SEEM
       Number: 4
-    - Word: seen
+    - Word: SEEN
       Number: 4
-    - Word: seep
+    - Word: SEEP
       Number: 4
-    - Word: seer
+    - Word: SEER
       Number: 4
-    - Word: self
+    - Word: SELF
       Number: 4
-    - Word: sell
+    - Word: SELL
       Number: 4
-    - Word: semi
+    - Word: SEMI
       Number: 4
-    - Word: send
+    - Word: SEND
       Number: 4
-    - Word: sene
+    - Word: SENE
       Number: 4
-    - Word: sent
+    - Word: SENT
       Number: 4
-    - Word: sera
+    - Word: SERA
       Number: 4
-    - Word: Serb
+    - Word: SERB
       Number: 4
-    - Word: sere
+    - Word: SERE
       Number: 4
-    - Word: serf
+    - Word: SERF
       Number: 4
-    - Word: Seth
+    - Word: SETH
       Number: 4
-    - Word: sewn
+    - Word: SEWN
       Number: 4
-    - Word: sexy
+    - Word: SEXY
       Number: 4
     - Word: SGML
       Number: 4
-    - Word: shad
+    - Word: SHAD
       Number: 4
-    - Word: shag
+    - Word: SHAG
       Number: 4
-    - Word: Shah
+    - Word: SHAH
       Number: 4
-    - Word: sham
+    - Word: SHAM
       Number: 4
-    - Word: shat
+    - Word: SHAT
       Number: 4
-    - Word: Shaw
+    - Word: SHAW
       Number: 4
-    - Word: shay
+    - Word: SHAY
       Number: 4
-    - Word: shed
+    - Word: SHED
       Number: 4
-    - Word: shew
+    - Word: SHEW
       Number: 4
-    - Word: Shia
+    - Word: SHIA
       Number: 4
-    - Word: shim
+    - Word: SHIM
       Number: 4
-    - Word: shin
+    - Word: SHIN
       Number: 4
-    - Word: ship
+    - Word: SHIP
       Number: 4
-    - Word: shit
+    - Word: SHIT
       Number: 4
-    - Word: shiv
+    - Word: SHIV
       Number: 4
-    - Word: shmo
+    - Word: SHMO
       Number: 4
-    - Word: shod
+    - Word: SHOD
       Number: 4
-    - Word: shoe
+    - Word: SHOE
       Number: 4
-    - Word: shoo
+    - Word: SHOO
       Number: 4
-    - Word: shop
+    - Word: SHOP
       Number: 4
-    - Word: shot
+    - Word: SHOT
       Number: 4
-    - Word: show
+    - Word: SHOW
       Number: 4
-    - Word: shul
+    - Word: SHUL
       Number: 4
-    - Word: shun
+    - Word: SHUN
       Number: 4
-    - Word: shut
+    - Word: SHUT
       Number: 4
-    - Word: Siam
+    - Word: SIAM
       Number: 4
-    - Word: Sian
+    - Word: SIAN
       Number: 4
-    - Word: sick
+    - Word: SICK
       Number: 4
-    - Word: side
+    - Word: SIDE
       Number: 4
-    - Word: sift
+    - Word: SIFT
       Number: 4
-    - Word: sigh
+    - Word: SIGH
       Number: 4
-    - Word: sign
+    - Word: SIGN
       Number: 4
-    - Word: Sikh
+    - Word: SIKH
       Number: 4
-    - Word: sild
+    - Word: SILD
       Number: 4
-    - Word: silk
+    - Word: SILK
       Number: 4
-    - Word: sill
+    - Word: SILL
       Number: 4
-    - Word: silo
+    - Word: SILO
       Number: 4
-    - Word: silt
+    - Word: SILT
       Number: 4
-    - Word: sine
+    - Word: SINE
       Number: 4
-    - Word: sing
+    - Word: SING
       Number: 4
-    - Word: sink
+    - Word: SINK
       Number: 4
-    - Word: Sion
+    - Word: SION
       Number: 4
-    - Word: sire
+    - Word: SIRE
       Number: 4
-    - Word: site
+    - Word: SITE
       Number: 4
-    - Word: Siva
+    - Word: SIVA
       Number: 4
-    - Word: size
+    - Word: SIZE
       Number: 4
-    - Word: skew
+    - Word: SKEW
       Number: 4
-    - Word: skid
+    - Word: SKID
       Number: 4
-    - Word: skim
+    - Word: SKIM
       Number: 4
-    - Word: skin
+    - Word: SKIN
       Number: 4
-    - Word: skip
+    - Word: SKIP
       Number: 4
-    - Word: skit
+    - Word: SKIT
       Number: 4
-    - Word: skol
+    - Word: SKOL
       Number: 4
-    - Word: Skye
+    - Word: SKYE
       Number: 4
-    - Word: slab
+    - Word: SLAB
       Number: 4
-    - Word: slag
+    - Word: SLAG
       Number: 4
-    - Word: slam
+    - Word: SLAM
       Number: 4
-    - Word: slap
+    - Word: SLAP
       Number: 4
-    - Word: slat
+    - Word: SLAT
       Number: 4
-    - Word: Slav
+    - Word: SLAV
       Number: 4
-    - Word: slaw
+    - Word: SLAW
       Number: 4
-    - Word: slay
+    - Word: SLAY
       Number: 4
-    - Word: sled
+    - Word: SLED
       Number: 4
-    - Word: slew
+    - Word: SLEW
       Number: 4
-    - Word: slid
+    - Word: SLID
       Number: 4
-    - Word: slim
+    - Word: SLIM
       Number: 4
-    - Word: slip
+    - Word: SLIP
       Number: 4
-    - Word: slit
+    - Word: SLIT
       Number: 4
-    - Word: slob
+    - Word: SLOB
       Number: 4
-    - Word: sloe
+    - Word: SLOE
       Number: 4
-    - Word: slog
+    - Word: SLOG
       Number: 4
-    - Word: slop
+    - Word: SLOP
       Number: 4
-    - Word: slot
+    - Word: SLOT
       Number: 4
-    - Word: slow
+    - Word: SLOW
       Number: 4
-    - Word: slue
+    - Word: SLUE
       Number: 4
-    - Word: slug
+    - Word: SLUG
       Number: 4
-    - Word: slum
+    - Word: SLUM
       Number: 4
-    - Word: slur
+    - Word: SLUR
       Number: 4
-    - Word: slut
+    - Word: SLUT
       Number: 4
-    - Word: smog
+    - Word: SMOG
       Number: 4
-    - Word: smug
+    - Word: SMUG
       Number: 4
-    - Word: smut
+    - Word: SMUT
       Number: 4
-    - Word: snag
+    - Word: SNAG
       Number: 4
-    - Word: snap
+    - Word: SNAP
       Number: 4
-    - Word: snip
+    - Word: SNIP
       Number: 4
-    - Word: snit
+    - Word: SNIT
       Number: 4
-    - Word: snob
+    - Word: SNOB
       Number: 4
-    - Word: snot
+    - Word: SNOT
       Number: 4
-    - Word: Snow
+    - Word: SNOW
       Number: 4
-    - Word: snub
+    - Word: SNUB
       Number: 4
-    - Word: snug
+    - Word: SNUG
       Number: 4
-    - Word: soak
+    - Word: SOAK
       Number: 4
-    - Word: soap
+    - Word: SOAP
       Number: 4
-    - Word: soar
+    - Word: SOAR
       Number: 4
-    - Word: soba
+    - Word: SOBA
       Number: 4
-    - Word: sock
+    - Word: SOCK
       Number: 4
-    - Word: soda
+    - Word: SODA
       Number: 4
-    - Word: sofa
+    - Word: SOFA
       Number: 4
-    - Word: soft
+    - Word: SOFT
       Number: 4
-    - Word: Soho
+    - Word: SOHO
       Number: 4
-    - Word: soil
+    - Word: SOIL
       Number: 4
-    - Word: sold
+    - Word: SOLD
       Number: 4
-    - Word: sole
+    - Word: SOLE
       Number: 4
-    - Word: solo
+    - Word: SOLO
       Number: 4
-    - Word: soma
+    - Word: SOMA
       Number: 4
-    - Word: some
+    - Word: SOME
       Number: 4
-    - Word: song
+    - Word: SONG
       Number: 4
-    - Word: soon
+    - Word: SOON
       Number: 4
-    - Word: soot
+    - Word: SOOT
       Number: 4
-    - Word: sore
+    - Word: SORE
       Number: 4
-    - Word: sort
+    - Word: SORT
       Number: 4
-    - Word: soul
+    - Word: SOUL
       Number: 4
-    - Word: soup
+    - Word: SOUP
       Number: 4
-    - Word: sour
+    - Word: SOUR
       Number: 4
-    - Word: sown
+    - Word: SOWN
       Number: 4
-    - Word: soya
+    - Word: SOYA
       Number: 4
-    - Word: spam
+    - Word: SPAM
       Number: 4
-    - Word: span
+    - Word: SPAN
       Number: 4
-    - Word: spar
+    - Word: SPAR
       Number: 4
-    - Word: spat
+    - Word: SPAT
       Number: 4
-    - Word: spay
+    - Word: SPAY
       Number: 4
     - Word: SPCA
       Number: 4
-    - Word: spec
+    - Word: SPEC
       Number: 4
-    - Word: sped
+    - Word: SPED
       Number: 4
-    - Word: spew
+    - Word: SPEW
       Number: 4
-    - Word: spin
+    - Word: SPIN
       Number: 4
-    - Word: spit
+    - Word: SPIT
       Number: 4
-    - Word: spot
+    - Word: SPOT
       Number: 4
-    - Word: spry
+    - Word: SPRY
       Number: 4
-    - Word: spud
+    - Word: SPUD
       Number: 4
-    - Word: spun
+    - Word: SPUN
       Number: 4
-    - Word: spur
+    - Word: SPUR
       Number: 4
-    - Word: stab
+    - Word: STAB
       Number: 4
-    - Word: stag
+    - Word: STAG
       Number: 4
-    - Word: Stan
+    - Word: STAN
       Number: 4
-    - Word: star
+    - Word: STAR
       Number: 4
-    - Word: stat
+    - Word: STAT
       Number: 4
-    - Word: stay
+    - Word: STAY
       Number: 4
-    - Word: stem
+    - Word: STEM
       Number: 4
-    - Word: step
+    - Word: STEP
       Number: 4
-    - Word: stet
+    - Word: STET
       Number: 4
-    - Word: stew
+    - Word: STEW
       Number: 4
-    - Word: stir
+    - Word: STIR
       Number: 4
-    - Word: Stoa
+    - Word: STOA
       Number: 4
     - Word: STOL
       Number: 4
-    - Word: stop
+    - Word: STOP
       Number: 4
-    - Word: stow
+    - Word: STOW
       Number: 4
-    - Word: stub
+    - Word: STUB
       Number: 4
-    - Word: stud
+    - Word: STUD
       Number: 4
-    - Word: stun
+    - Word: STUN
       Number: 4
-    - Word: stye
+    - Word: STYE
       Number: 4
-    - Word: Styx
+    - Word: STYX
       Number: 4
-    - Word: such
+    - Word: SUCH
       Number: 4
-    - Word: suck
+    - Word: SUCK
       Number: 4
-    - Word: suds
+    - Word: SUDS
       Number: 4
-    - Word: suer
+    - Word: SUER
       Number: 4
-    - Word: suet
+    - Word: SUET
       Number: 4
-    - Word: Suez
+    - Word: SUEZ
       Number: 4
-    - Word: Sufi
+    - Word: SUFI
       Number: 4
-    - Word: suit
+    - Word: SUIT
       Number: 4
-    - Word: sulk
+    - Word: SULK
       Number: 4
-    - Word: Sulu
+    - Word: SULU
       Number: 4
-    - Word: sumo
+    - Word: SUMO
       Number: 4
-    - Word: sump
+    - Word: SUMP
       Number: 4
-    - Word: sung
+    - Word: SUNG
       Number: 4
-    - Word: sunk
+    - Word: SUNK
       Number: 4
-    - Word: sura
+    - Word: SURA
       Number: 4
-    - Word: surd
+    - Word: SURD
       Number: 4
-    - Word: sure
+    - Word: SURE
       Number: 4
-    - Word: surf
+    - Word: SURF
       Number: 4
-    - Word: Suva
+    - Word: SUVA
       Number: 4
-    - Word: swab
+    - Word: SWAB
       Number: 4
-    - Word: swag
+    - Word: SWAG
       Number: 4
-    - Word: swam
+    - Word: SWAM
       Number: 4
-    - Word: swan
+    - Word: SWAN
       Number: 4
-    - Word: swap
+    - Word: SWAP
       Number: 4
     - Word: SWAT
       Number: 4
-    - Word: sway
+    - Word: SWAY
       Number: 4
-    - Word: swig
+    - Word: SWIG
       Number: 4
-    - Word: swim
+    - Word: SWIM
       Number: 4
-    - Word: swob
+    - Word: SWOB
       Number: 4
-    - Word: swop
+    - Word: SWOP
       Number: 4
-    - Word: swum
+    - Word: SWUM
       Number: 4
-    - Word: sync
+    - Word: SYNC
       Number: 4
-    - Word: tabu
+    - Word: TABU
       Number: 4
-    - Word: tach
+    - Word: TACH
       Number: 4
-    - Word: tack
+    - Word: TACK
       Number: 4
-    - Word: taco
+    - Word: TACO
       Number: 4
-    - Word: tact
+    - Word: TACT
       Number: 4
-    - Word: Taft
+    - Word: TAFT
       Number: 4
-    - Word: Taif
+    - Word: TAIF
       Number: 4
-    - Word: tail
+    - Word: TAIL
       Number: 4
-    - Word: taka
+    - Word: TAKA
       Number: 4
-    - Word: take
+    - Word: TAKE
       Number: 4
-    - Word: tala
+    - Word: TALA
       Number: 4
-    - Word: talc
+    - Word: TALC
       Number: 4
-    - Word: tale
+    - Word: TALE
       Number: 4
-    - Word: tali
+    - Word: TALI
       Number: 4
-    - Word: talk
+    - Word: TALK
       Number: 4
-    - Word: tall
+    - Word: TALL
       Number: 4
-    - Word: tame
+    - Word: TAME
       Number: 4
-    - Word: tamp
+    - Word: TAMP
       Number: 4
-    - Word: tang
+    - Word: TANG
       Number: 4
-    - Word: tank
+    - Word: TANK
       Number: 4
-    - Word: tape
+    - Word: TAPE
       Number: 4
-    - Word: taps
+    - Word: TAPS
       Number: 4
-    - Word: Tara
+    - Word: TARA
       Number: 4
-    - Word: tare
+    - Word: TARE
       Number: 4
-    - Word: tarn
+    - Word: TARN
       Number: 4
-    - Word: taro
+    - Word: TARO
       Number: 4
-    - Word: tarp
+    - Word: TARP
       Number: 4
-    - Word: tart
+    - Word: TART
       Number: 4
-    - Word: task
+    - Word: TASK
       Number: 4
-    - Word: taut
+    - Word: TAUT
       Number: 4
-    - Word: taxi
+    - Word: TAXI
       Number: 4
-    - Word: teak
+    - Word: TEAK
       Number: 4
-    - Word: teal
+    - Word: TEAL
       Number: 4
-    - Word: team
+    - Word: TEAM
       Number: 4
-    - Word: tear
+    - Word: TEAR
       Number: 4
-    - Word: teat
+    - Word: TEAT
       Number: 4
-    - Word: tech
+    - Word: TECH
       Number: 4
-    - Word: teem
+    - Word: TEEM
       Number: 4
-    - Word: teen
+    - Word: TEEN
       Number: 4
-    - Word: Tell
+    - Word: TELL
       Number: 4
-    - Word: temp
+    - Word: TEMP
       Number: 4
-    - Word: tend
+    - Word: TEND
       Number: 4
-    - Word: tent
+    - Word: TENT
       Number: 4
-    - Word: term
+    - Word: TERM
       Number: 4
-    - Word: tern
+    - Word: TERN
       Number: 4
-    - Word: test
+    - Word: TEST
       Number: 4
-    - Word: text
+    - Word: TEXT
       Number: 4
-    - Word: Thad
+    - Word: THAD
       Number: 4
-    - Word: Thai
+    - Word: THAI
       Number: 4
-    - Word: than
+    - Word: THAN
       Number: 4
-    - Word: Thar
+    - Word: THAR
       Number: 4
-    - Word: that
+    - Word: THAT
       Number: 4
-    - Word: thaw
+    - Word: THAW
       Number: 4
-    - Word: thee
+    - Word: THEE
       Number: 4
-    - Word: them
+    - Word: THEM
       Number: 4
-    - Word: then
+    - Word: THEN
       Number: 4
-    - Word: thew
+    - Word: THEW
       Number: 4
-    - Word: they
+    - Word: THEY
       Number: 4
-    - Word: thin
+    - Word: THIN
       Number: 4
-    - Word: this
+    - Word: THIS
       Number: 4
-    - Word: Thor
+    - Word: THOR
       Number: 4
-    - Word: thou
+    - Word: THOU
       Number: 4
-    - Word: thru
+    - Word: THRU
       Number: 4
-    - Word: thud
+    - Word: THUD
       Number: 4
-    - Word: thug
+    - Word: THUG
       Number: 4
-    - Word: thus
+    - Word: THUS
       Number: 4
-    - Word: tick
+    - Word: TICK
       Number: 4
-    - Word: tide
+    - Word: TIDE
       Number: 4
-    - Word: tidy
+    - Word: TIDY
       Number: 4
-    - Word: tier
+    - Word: TIER
       Number: 4
-    - Word: tiff
+    - Word: TIFF
       Number: 4
-    - Word: tike
+    - Word: TIKE
       Number: 4
-    - Word: tile
+    - Word: TILE
       Number: 4
-    - Word: till
+    - Word: TILL
       Number: 4
-    - Word: tilt
+    - Word: TILT
       Number: 4
-    - Word: time
+    - Word: TIME
       Number: 4
-    - Word: Tina
+    - Word: TINA
       Number: 4
-    - Word: tine
+    - Word: TINE
       Number: 4
-    - Word: tint
+    - Word: TINT
       Number: 4
-    - Word: tiny
+    - Word: TINY
       Number: 4
-    - Word: tipi
+    - Word: TIPI
       Number: 4
-    - Word: tire
+    - Word: TIRE
       Number: 4
-    - Word: tiro
+    - Word: TIRO
       Number: 4
-    - Word: Tito
+    - Word: TITO
       Number: 4
-    - Word: toad
+    - Word: TOAD
       Number: 4
-    - Word: Toby
+    - Word: TOBY
       Number: 4
-    - Word: Todd
+    - Word: TODD
       Number: 4
-    - Word: toea
+    - Word: TOEA
       Number: 4
-    - Word: toed
+    - Word: TOED
       Number: 4
-    - Word: tofu
+    - Word: TOFU
       Number: 4
-    - Word: toga
+    - Word: TOGA
       Number: 4
-    - Word: Togo
+    - Word: TOGO
       Number: 4
-    - Word: togs
+    - Word: TOGS
       Number: 4
-    - Word: toil
+    - Word: TOIL
       Number: 4
-    - Word: Tojo
+    - Word: TOJO
       Number: 4
-    - Word: toke
+    - Word: TOKE
       Number: 4
-    - Word: told
+    - Word: TOLD
       Number: 4
-    - Word: tole
+    - Word: TOLE
       Number: 4
-    - Word: toll
+    - Word: TOLL
       Number: 4
-    - Word: tomb
+    - Word: TOMB
       Number: 4
-    - Word: tome
+    - Word: TOME
       Number: 4
-    - Word: tone
+    - Word: TONE
       Number: 4
-    - Word: tong
+    - Word: TONG
       Number: 4
-    - Word: Toni
+    - Word: TONI
       Number: 4
-    - Word: Tony
+    - Word: TONY
       Number: 4
-    - Word: took
+    - Word: TOOK
       Number: 4
-    - Word: tool
+    - Word: TOOL
       Number: 4
-    - Word: toot
+    - Word: TOOT
       Number: 4
-    - Word: tope
+    - Word: TOPE
       Number: 4
-    - Word: tops
+    - Word: TOPS
       Number: 4
-    - Word: tora
+    - Word: TORA
       Number: 4
-    - Word: tore
+    - Word: TORE
       Number: 4
-    - Word: torn
+    - Word: TORN
       Number: 4
-    - Word: tort
+    - Word: TORT
       Number: 4
-    - Word: Tory
+    - Word: TORY
       Number: 4
-    - Word: toss
+    - Word: TOSS
       Number: 4
-    - Word: tost
+    - Word: TOST
       Number: 4
-    - Word: tote
+    - Word: TOTE
       Number: 4
-    - Word: tour
+    - Word: TOUR
       Number: 4
-    - Word: tout
+    - Word: TOUT
       Number: 4
-    - Word: town
+    - Word: TOWN
       Number: 4
-    - Word: tram
+    - Word: TRAM
       Number: 4
-    - Word: trap
+    - Word: TRAP
       Number: 4
-    - Word: tray
+    - Word: TRAY
       Number: 4
-    - Word: tree
+    - Word: TREE
       Number: 4
-    - Word: trek
+    - Word: TREK
       Number: 4
-    - Word: tres
+    - Word: TRES
       Number: 4
-    - Word: trey
+    - Word: TREY
       Number: 4
-    - Word: trig
+    - Word: TRIG
       Number: 4
-    - Word: trim
+    - Word: TRIM
       Number: 4
-    - Word: trio
+    - Word: TRIO
       Number: 4
-    - Word: trip
+    - Word: TRIP
       Number: 4
-    - Word: trod
+    - Word: TROD
       Number: 4
-    - Word: trot
+    - Word: TROT
       Number: 4
-    - Word: trow
+    - Word: TROW
       Number: 4
-    - Word: Troy
+    - Word: TROY
       Number: 4
     - Word: TRUE
       Number: 4
-    - Word: Truk
+    - Word: TRUK
       Number: 4
-    - Word: tsar
+    - Word: TSAR
       Number: 4
-    - Word: tuba
+    - Word: TUBA
       Number: 4
-    - Word: tube
+    - Word: TUBE
       Number: 4
-    - Word: tuck
+    - Word: TUCK
       Number: 4
-    - Word: tufa
+    - Word: TUFA
       Number: 4
-    - Word: tuff
+    - Word: TUFF
       Number: 4
-    - Word: tuft
+    - Word: TUFT
       Number: 4
-    - Word: Tula
+    - Word: TULA
       Number: 4
-    - Word: tuna
+    - Word: TUNA
       Number: 4
-    - Word: tune
+    - Word: TUNE
       Number: 4
-    - Word: Tupi
+    - Word: TUPI
       Number: 4
-    - Word: turd
+    - Word: TURD
       Number: 4
-    - Word: turf
+    - Word: TURF
       Number: 4
-    - Word: Turk
+    - Word: TURK
       Number: 4
-    - Word: turn
+    - Word: TURN
       Number: 4
-    - Word: tush
+    - Word: TUSH
       Number: 4
-    - Word: tusk
+    - Word: TUSK
       Number: 4
-    - Word: Tutu
+    - Word: TUTU
       Number: 4
-    - Word: Tver
+    - Word: TVER
       Number: 4
-    - Word: twas
+    - Word: TWAS
       Number: 4
-    - Word: twig
+    - Word: TWIG
       Number: 4
-    - Word: twin
+    - Word: TWIN
       Number: 4
-    - Word: twit
+    - Word: TWIT
       Number: 4
-    - Word: tyke
+    - Word: TYKE
       Number: 4
-    - Word: Tyne
+    - Word: TYNE
       Number: 4
-    - Word: type
+    - Word: TYPE
       Number: 4
-    - Word: typo
+    - Word: TYPO
       Number: 4
-    - Word: Tyre
+    - Word: TYRE
       Number: 4
-    - Word: tyro
+    - Word: TYRO
       Number: 4
-    - Word: tzar
+    - Word: TZAR
       Number: 4
-    - Word: Ugli
+    - Word: UGLI
       Number: 4
-    - Word: ugly
+    - Word: UGLY
       Number: 4
-    - Word: ulna
+    - Word: ULNA
       Number: 4
-    - Word: undo
+    - Word: UNDO
       Number: 4
-    - Word: unit
+    - Word: UNIT
       Number: 4
-    - Word: unto
+    - Word: UNTO
       Number: 4
-    - Word: upon
+    - Word: UPON
       Number: 4
-    - Word: Ural
+    - Word: URAL
       Number: 4
-    - Word: Urdu
+    - Word: URDU
       Number: 4
-    - Word: urea
+    - Word: UREA
       Number: 4
-    - Word: Urfa
+    - Word: URFA
       Number: 4
-    - Word: urge
+    - Word: URGE
       Number: 4
-    - Word: uric
+    - Word: URIC
       Number: 4
-    - Word: used
+    - Word: USED
       Number: 4
-    - Word: user
+    - Word: USER
       Number: 4
-    - Word: Utah
+    - Word: UTAH
       Number: 4
-    - Word: vail
+    - Word: VAIL
       Number: 4
-    - Word: vain
+    - Word: VAIN
       Number: 4
-    - Word: vale
+    - Word: VALE
       Number: 4
-    - Word: vamp
+    - Word: VAMP
       Number: 4
-    - Word: vane
+    - Word: VANE
       Number: 4
-    - Word: vary
+    - Word: VARY
       Number: 4
-    - Word: vasa
+    - Word: VASA
       Number: 4
-    - Word: vase
+    - Word: VASE
       Number: 4
-    - Word: vast
+    - Word: VAST
       Number: 4
-    - Word: vatu
+    - Word: VATU
       Number: 4
-    - Word: veal
+    - Word: VEAL
       Number: 4
-    - Word: Veda
+    - Word: VEDA
       Number: 4
-    - Word: Veep
+    - Word: VEEP
       Number: 4
-    - Word: veer
+    - Word: VEER
       Number: 4
-    - Word: Vega
+    - Word: VEGA
       Number: 4
-    - Word: veil
+    - Word: VEIL
       Number: 4
-    - Word: vein
+    - Word: VEIN
       Number: 4
-    - Word: Vela
+    - Word: VELA
       Number: 4
-    - Word: veld
+    - Word: VELD
       Number: 4
-    - Word: vend
+    - Word: VEND
       Number: 4
-    - Word: vent
+    - Word: VENT
       Number: 4
-    - Word: Vera
+    - Word: VERA
       Number: 4
-    - Word: verb
+    - Word: VERB
       Number: 4
-    - Word: Vern
+    - Word: VERN
       Number: 4
-    - Word: very
+    - Word: VERY
       Number: 4
-    - Word: vest
+    - Word: VEST
       Number: 4
-    - Word: veto
+    - Word: VETO
       Number: 4
-    - Word: vial
+    - Word: VIAL
       Number: 4
-    - Word: vibe
+    - Word: VIBE
       Number: 4
-    - Word: vice
+    - Word: VICE
       Number: 4
-    - Word: Vida
+    - Word: VIDA
       Number: 4
-    - Word: vide
+    - Word: VIDE
       Number: 4
-    - Word: vier
+    - Word: VIER
       Number: 4
-    - Word: view
+    - Word: VIEW
       Number: 4
-    - Word: Vigo
+    - Word: VIGO
       Number: 4
-    - Word: Vila
+    - Word: VILA
       Number: 4
-    - Word: vile
+    - Word: VILE
       Number: 4
-    - Word: vine
+    - Word: VINE
       Number: 4
-    - Word: vino
+    - Word: VINO
       Number: 4
-    - Word: viol
+    - Word: VIOL
       Number: 4
-    - Word: visa
+    - Word: VISA
       Number: 4
-    - Word: vise
+    - Word: VISE
       Number: 4
-    - Word: vita
+    - Word: VITA
       Number: 4
-    - Word: viva
+    - Word: VIVA
       Number: 4
-    - Word: vive
+    - Word: VIVE
       Number: 4
-    - Word: void
+    - Word: VOID
       Number: 4
-    - Word: vole
+    - Word: VOLE
       Number: 4
-    - Word: volt
+    - Word: VOLT
       Number: 4
-    - Word: vote
+    - Word: VOTE
       Number: 4
     - Word: VTOL
       Number: 4
-    - Word: Waco
+    - Word: WACO
       Number: 4
-    - Word: Wade
+    - Word: WADE
       Number: 4
-    - Word: wadi
+    - Word: WADI
       Number: 4
-    - Word: waft
+    - Word: WAFT
       Number: 4
-    - Word: wage
+    - Word: WAGE
       Number: 4
-    - Word: waif
+    - Word: WAIF
       Number: 4
-    - Word: wail
+    - Word: WAIL
       Number: 4
-    - Word: wain
+    - Word: WAIN
       Number: 4
-    - Word: wait
+    - Word: WAIT
       Number: 4
-    - Word: Wake
+    - Word: WAKE
       Number: 4
-    - Word: wale
+    - Word: WALE
       Number: 4
-    - Word: walk
+    - Word: WALK
       Number: 4
-    - Word: wall
+    - Word: WALL
       Number: 4
-    - Word: Walt
+    - Word: WALT
       Number: 4
-    - Word: wand
+    - Word: WAND
       Number: 4
-    - Word: wane
+    - Word: WANE
       Number: 4
-    - Word: want
+    - Word: WANT
       Number: 4
-    - Word: Ward
+    - Word: WARD
       Number: 4
-    - Word: ware
+    - Word: WARE
       Number: 4
-    - Word: warm
+    - Word: WARM
       Number: 4
-    - Word: warn
+    - Word: WARN
       Number: 4
-    - Word: warp
+    - Word: WARP
       Number: 4
-    - Word: wart
+    - Word: WART
       Number: 4
-    - Word: wary
+    - Word: WARY
       Number: 4
-    - Word: wash
+    - Word: WASH
       Number: 4
     - Word: WASP
       Number: 4
-    - Word: wast
+    - Word: WAST
       Number: 4
     - Word: WATS
       Number: 4
-    - Word: Watt
+    - Word: WATT
       Number: 4
-    - Word: Wave
+    - Word: WAVE
       Number: 4
-    - Word: wavy
+    - Word: WAVY
       Number: 4
-    - Word: waxy
+    - Word: WAXY
       Number: 4
-    - Word: ways
+    - Word: WAYS
       Number: 4
-    - Word: weak
+    - Word: WEAK
       Number: 4
-    - Word: weal
+    - Word: WEAL
       Number: 4
-    - Word: wean
+    - Word: WEAN
       Number: 4
-    - Word: wear
+    - Word: WEAR
       Number: 4
-    - Word: weed
+    - Word: WEED
       Number: 4
-    - Word: week
+    - Word: WEEK
       Number: 4
-    - Word: ween
+    - Word: WEEN
       Number: 4
-    - Word: weep
+    - Word: WEEP
       Number: 4
-    - Word: weft
+    - Word: WEFT
       Number: 4
-    - Word: weir
+    - Word: WEIR
       Number: 4
-    - Word: weld
+    - Word: WELD
       Number: 4
-    - Word: well
+    - Word: WELL
       Number: 4
-    - Word: welt
+    - Word: WELT
       Number: 4
-    - Word: wend
+    - Word: WEND
       Number: 4
-    - Word: went
+    - Word: WENT
       Number: 4
-    - Word: wept
+    - Word: WEPT
       Number: 4
-    - Word: were
+    - Word: WERE
       Number: 4
-    - Word: wert
+    - Word: WERT
       Number: 4
-    - Word: West
+    - Word: WEST
       Number: 4
-    - Word: wham
+    - Word: WHAM
       Number: 4
-    - Word: what
+    - Word: WHAT
       Number: 4
-    - Word: when
+    - Word: WHEN
       Number: 4
-    - Word: whet
+    - Word: WHET
       Number: 4
-    - Word: whew
+    - Word: WHEW
       Number: 4
-    - Word: whey
+    - Word: WHEY
       Number: 4
-    - Word: Whig
+    - Word: WHIG
       Number: 4
-    - Word: whim
+    - Word: WHIM
       Number: 4
-    - Word: whip
+    - Word: WHIP
       Number: 4
-    - Word: whir
+    - Word: WHIR
       Number: 4
-    - Word: whit
+    - Word: WHIT
       Number: 4
-    - Word: whiz
+    - Word: WHIZ
       Number: 4
-    - Word: whoa
+    - Word: WHOA
       Number: 4
-    - Word: whom
+    - Word: WHOM
       Number: 4
-    - Word: whop
+    - Word: WHOP
       Number: 4
-    - Word: wick
+    - Word: WICK
       Number: 4
-    - Word: wide
+    - Word: WIDE
       Number: 4
-    - Word: wife
+    - Word: WIFE
       Number: 4
-    - Word: wild
+    - Word: WILD
       Number: 4
-    - Word: wile
+    - Word: WILE
       Number: 4
-    - Word: Will
+    - Word: WILL
       Number: 4
-    - Word: wilt
+    - Word: WILT
       Number: 4
-    - Word: wily
+    - Word: WILY
       Number: 4
-    - Word: wimp
+    - Word: WIMP
       Number: 4
-    - Word: wind
+    - Word: WIND
       Number: 4
-    - Word: wine
+    - Word: WINE
       Number: 4
-    - Word: wing
+    - Word: WING
       Number: 4
-    - Word: wink
+    - Word: WINK
       Number: 4
-    - Word: wino
+    - Word: WINO
       Number: 4
-    - Word: winy
+    - Word: WINY
       Number: 4
-    - Word: wipe
+    - Word: WIPE
       Number: 4
-    - Word: wire
+    - Word: WIRE
       Number: 4
-    - Word: wiry
+    - Word: WIRY
       Number: 4
-    - Word: wise
+    - Word: WISE
       Number: 4
-    - Word: wish
+    - Word: WISH
       Number: 4
-    - Word: wisp
+    - Word: WISP
       Number: 4
-    - Word: wist
+    - Word: WIST
       Number: 4
-    - Word: with
+    - Word: WITH
       Number: 4
-    - Word: wits
+    - Word: WITS
       Number: 4
-    - Word: wive
+    - Word: WIVE
       Number: 4
-    - Word: woad
+    - Word: WOAD
       Number: 4
-    - Word: woes
+    - Word: WOES
       Number: 4
-    - Word: woke
+    - Word: WOKE
       Number: 4
-    - Word: wold
+    - Word: WOLD
       Number: 4
-    - Word: wolf
+    - Word: WOLF
       Number: 4
-    - Word: womb
+    - Word: WOMB
       Number: 4
-    - Word: wonk
+    - Word: WONK
       Number: 4
-    - Word: wont
+    - Word: WONT
       Number: 4
-    - Word: Wood
+    - Word: WOOD
       Number: 4
-    - Word: woof
+    - Word: WOOF
       Number: 4
-    - Word: wool
+    - Word: WOOL
       Number: 4
-    - Word: word
+    - Word: WORD
       Number: 4
-    - Word: wore
+    - Word: WORE
       Number: 4
-    - Word: work
+    - Word: WORK
       Number: 4
-    - Word: worm
+    - Word: WORM
       Number: 4
-    - Word: worn
+    - Word: WORN
       Number: 4
-    - Word: wort
+    - Word: WORT
       Number: 4
-    - Word: wove
+    - Word: WOVE
       Number: 4
-    - Word: wrap
+    - Word: WRAP
       Number: 4
-    - Word: Wren
+    - Word: WREN
       Number: 4
-    - Word: writ
+    - Word: WRIT
       Number: 4
-    - Word: wuss
+    - Word: WUSS
       Number: 4
-    - Word: Wyat
+    - Word: WYAT
       Number: 4
-    - Word: Xian
+    - Word: XIAN
       Number: 4
-    - Word: Xmas
+    - Word: XMAS
       Number: 4
-    - Word: Xosa
+    - Word: XOSA
       Number: 4
-    - Word: yack
+    - Word: YACK
       Number: 4
-    - Word: Yafo
+    - Word: YAFO
       Number: 4
-    - Word: Yale
+    - Word: YALE
       Number: 4
-    - Word: Yalu
+    - Word: YALU
       Number: 4
-    - Word: yang
+    - Word: YANG
       Number: 4
-    - Word: Yank
+    - Word: YANK
       Number: 4
-    - Word: yard
+    - Word: YARD
       Number: 4
-    - Word: yare
+    - Word: YARE
       Number: 4
-    - Word: yarn
+    - Word: YARN
       Number: 4
-    - Word: yawl
+    - Word: YAWL
       Number: 4
-    - Word: yawn
+    - Word: YAWN
       Number: 4
-    - Word: yawp
+    - Word: YAWP
       Number: 4
-    - Word: yaws
+    - Word: YAWS
       Number: 4
-    - Word: yeah
+    - Word: YEAH
       Number: 4
-    - Word: year
+    - Word: YEAR
       Number: 4
-    - Word: yegg
+    - Word: YEGG
       Number: 4
-    - Word: yell
+    - Word: YELL
       Number: 4
-    - Word: yelp
+    - Word: YELP
       Number: 4
-    - Word: yeti
+    - Word: YETI
       Number: 4
-    - Word: Yezo
+    - Word: YEZO
       Number: 4
     - Word: YMCA
       Number: 4
     - Word: YMHA
       Number: 4
-    - Word: Yoga
+    - Word: YOGA
       Number: 4
-    - Word: yogi
+    - Word: YOGI
       Number: 4
-    - Word: yoke
+    - Word: YOKE
       Number: 4
-    - Word: yolk
+    - Word: YOLK
       Number: 4
-    - Word: yore
+    - Word: YORE
       Number: 4
-    - Word: York
+    - Word: YORK
       Number: 4
-    - Word: your
+    - Word: YOUR
       Number: 4
-    - Word: yowl
+    - Word: YOWL
       Number: 4
-    - Word: yuan
+    - Word: YUAN
       Number: 4
-    - Word: yuck
+    - Word: YUCK
       Number: 4
-    - Word: Yule
+    - Word: YULE
       Number: 4
-    - Word: Yuma
+    - Word: YUMA
       Number: 4
-    - Word: yurt
+    - Word: YURT
       Number: 4
     - Word: YWCA
       Number: 4
     - Word: YWHA
       Number: 4
-    - Word: Zach
+    - Word: ZACH
       Number: 4
-    - Word: Zane
+    - Word: ZANE
       Number: 4
-    - Word: zany
+    - Word: ZANY
       Number: 4
-    - Word: zeal
+    - Word: ZEAL
       Number: 4
-    - Word: zebu
+    - Word: ZEBU
       Number: 4
-    - Word: Zeno
+    - Word: ZENO
       Number: 4
-    - Word: zero
+    - Word: ZERO
       Number: 4
-    - Word: zest
+    - Word: ZEST
       Number: 4
-    - Word: zeta
+    - Word: ZETA
       Number: 4
-    - Word: Zeus
+    - Word: ZEUS
       Number: 4
-    - Word: Zibo
+    - Word: ZIBO
       Number: 4
-    - Word: zinc
+    - Word: ZINC
       Number: 4
-    - Word: zine
+    - Word: ZINE
       Number: 4
-    - Word: zing
+    - Word: ZING
       Number: 4
-    - Word: Zion
+    - Word: ZION
       Number: 4
-    - Word: ziti
+    - Word: ZITI
       Number: 4
-    - Word: Zola
+    - Word: ZOLA
       Number: 4
-    - Word: zone
+    - Word: ZONE
       Number: 4
-    - Word: zonk
+    - Word: ZONK
       Number: 4
-    - Word: zoom
+    - Word: ZOOM
       Number: 4
-    - Word: Zulu
+    - Word: ZULU
       Number: 4
-    - Word: Zuni
+    - Word: ZUNI
       Number: 4
   skillSpecs:
     list:
