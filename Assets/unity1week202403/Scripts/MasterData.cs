@@ -29,7 +29,7 @@ namespace unity1week202403
 
 #if UNITY_EDITOR
         [ContextMenu("Update")]
-        public async void Test()
+        private async void UpdateMasterData()
         {
             Debug.Log("Begin MasterData Update");
             var database = await UniTask.WhenAll(
