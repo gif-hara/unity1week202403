@@ -28,8 +28,12 @@ namespace unity1week202403
         private async void Start()
         {
             await BootSystem.IsReady;
-
-            var player = actor.Spawn(debugData.PlayerStatus);
+            var playerStatus = TinyServiceLocator.TryResolve<ActorStatus>("PlayerStatus");
+            if (playerStatus == null)
+            {
+                playerStatus = debugData.PlayerStatus;
+            }
+            var player = actor.Spawn(playerStatus);
             var enemy = actor.Spawn(debugData.EnemyStatus);
             var actorQueue = new Queue<Actor>();
 
