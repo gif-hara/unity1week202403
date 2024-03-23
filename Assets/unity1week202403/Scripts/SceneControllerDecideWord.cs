@@ -25,6 +25,12 @@ namespace unity1week202403
             }
             var decideWord = WordCalculator.Calculate(selectedCharacters);
             var actorStatus = WordCalculator.ToActorStatus(decideWord);
+            const string playerStatusKey = "PlayerStatus";
+            if (TinyServiceLocator.Contains<ActorStatus>(playerStatusKey))
+            {
+                TinyServiceLocator.Remove<ActorStatus>(playerStatusKey);
+            }
+            TinyServiceLocator.Register(playerStatusKey, actorStatus);
 
             var uiPresenterDecideWord = new UIPresenterDecideWord();
             uiPresenterDecideWord.BeginAsync(decideWordDocumentPrefab, destroyCancellationToken).Forget();
