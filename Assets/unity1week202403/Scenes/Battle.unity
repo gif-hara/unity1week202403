@@ -155,12 +155,12 @@ MonoBehaviour:
   debugData:
     playerStatus:
       name: Player
-      hitPoint: 100
-      physicalStrength: 10
-      physicalDefense: 10
-      magicalStrength: 10
-      magicalDefense: 10
-      speed: 10
+      hitPoint: 9999
+      physicalStrength: 9999
+      physicalDefense: 9999
+      magicalStrength: 9999
+      magicalDefense: 9999
+      speed: 9999
       skillIds: 75270000d92700003d280000
     enemyStatus:
       name: Enemy
