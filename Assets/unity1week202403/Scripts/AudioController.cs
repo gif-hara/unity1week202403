@@ -8,23 +8,26 @@ namespace unity1week202403
     public sealed class AudioController : MonoBehaviour
     {
         [SerializeField]
-        private AudioSource audioSource;
+        private AudioSource bgmAudioSource;
+
+        [SerializeField]
+        private AudioSource seAudioSource;
 
         public void PlayOneShot(AudioClip clip)
         {
-            audioSource.PlayOneShot(clip);
+            seAudioSource.PlayOneShot(clip);
         }
 
         public void PlayLoop(AudioClip clip)
         {
-            audioSource.clip = clip;
-            audioSource.loop = true;
-            audioSource.Play();
+            bgmAudioSource.clip = clip;
+            bgmAudioSource.loop = true;
+            bgmAudioSource.Play();
         }
 
-        public void Stop()
+        public void StopLoop()
         {
-            audioSource.Stop();
+            bgmAudioSource.Stop();
         }
     }
 }
