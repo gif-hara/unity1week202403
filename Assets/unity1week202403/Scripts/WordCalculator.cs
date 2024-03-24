@@ -40,8 +40,8 @@ namespace unity1week202403
             var masterData = TinyServiceLocator.Resolve<MasterData>();
             var result = new ActorStatus();
             var index = 0;
-            var hitPointRate = new[] { 50, 55, 60, 68, 75, 80 };
-            var otherRate = new[] { 10, 12, 15, 18, 22, 25 };
+            var hitPointRate = new[] { 50, 58, 67, 77, 88, 100 };
+            var otherRate = new[] { 5, 7, 10, 14, 19, 25 };
             foreach (var c in word)
             {
                 var spec = masterData.CharacterSpecs.Get(c.ToString());
