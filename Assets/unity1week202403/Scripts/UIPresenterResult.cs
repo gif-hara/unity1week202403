@@ -3,8 +3,11 @@ using System.Threading;
 using Cysharp.Threading.Tasks;
 using LitMotion;
 using LitMotion.Extensions;
+using R3;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 namespace unity1week202403
 {
@@ -22,6 +25,18 @@ namespace unity1week202403
             var battleCountValueText = document.Q<TMP_Text>("BattleCount.Value");
             var buttonAnimationArea = document.Q<RectTransform>("ButtonAnimationArea");
             buttonAnimationArea.localPosition = new Vector3(0.0f, -200.0f, 0.0f);
+            document.Q<Button>("GotoTitleButton").OnClickAsObservable()
+                .Subscribe(_ =>
+                {
+                    SceneManager.LoadScene("Title");
+                })
+                .RegisterTo(scope.Token);
+            document.Q<Button>("TweetButton").OnClickAsObservable()
+                .Subscribe(_ =>
+                {
+                    Debug.Log("Tweet");
+                })
+                .RegisterTo(scope.Token);
 
             await LMotion.Create(0, resultData.BattleCount, 1.0f)
                 .WithEase(Ease.Linear)
