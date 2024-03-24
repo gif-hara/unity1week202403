@@ -18,6 +18,9 @@ namespace unity1week202403
         [SerializeField]
         private int power;
 
+        [SerializeField]
+        private AudioClip se;
+
         public UniTask PlayAsync(Container container, CancellationToken cancellationToken)
         {
             var owner = container.Resolve<Actor>("OwnerActor");
@@ -38,6 +41,7 @@ namespace unity1week202403
             {
                 damage = 1;
             }
+            TinyServiceLocator.Resolve<AudioController>().PlayOneShot(se);
             target.StatusController.TakeDamage(damage);
 
             return UniTask.CompletedTask;
