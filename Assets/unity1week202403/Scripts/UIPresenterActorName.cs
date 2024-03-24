@@ -6,6 +6,7 @@ using LitMotion.Extensions;
 using R3;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace unity1week202403
 {
@@ -22,6 +23,19 @@ namespace unity1week202403
             document = UnityEngine.Object.Instantiate(documentPrefab);
             BeginObserve(player, "Player");
             BeginObserve(enemy, "Enemy");
+            var playbackButtonText = document.Q<TMP_Text>("PlaybackSpeedButton.Text");
+            playbackButtonText.text = $"{Time.timeScale}倍速";
+            document.Q<Button>("PlaybackSpeedButton").OnClickAsObservable()
+                .Subscribe(_ =>
+                {
+                    Time.timeScale = Time.timeScale == 1.0f
+                        ? 4.0f
+                        : Time.timeScale == 4.0f
+                        ? 8.0f
+                        : 1.0f;
+                    playbackButtonText.text = $"{Time.timeScale}倍速";
+                })
+                .RegisterTo(scope.Token);
 
             await UniTask.WaitUntilCanceled(scope.Token);
 

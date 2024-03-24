@@ -67,6 +67,7 @@ namespace unity1week202403
                         }
                         TinyServiceLocator.Register(resultData);
                         SceneManager.LoadScene("Result");
+                        Time.timeScale = 1.0f;
                         break;
                     }
                     else
