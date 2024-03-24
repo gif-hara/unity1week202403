@@ -34,7 +34,7 @@ namespace unity1week202403
             {
                 var damageDocumentName = $"{prefix}.Damage";
                 document.Q<TMP_Text>($"{prefix}.Name").text = actor.StatusController.Name;
-                document.Q<TMP_Text>(damageDocumentName).gameObject.SetActive(false);
+                document.Q<CanvasGroup>(damageDocumentName).alpha = 0.0f;
                 actor.StatusController.TakedDamageAsObservable()
                     .Subscribe(x =>
                     {
@@ -46,10 +46,17 @@ namespace unity1week202403
             async UniTaskVoid BeginDamageAnimationAsync(string documentName, int damage)
             {
                 var text = document.Q<TMP_Text>(documentName);
-                text.gameObject.SetActive(true);
+                var canvasGroup = document.Q<CanvasGroup>(documentName);
+                canvasGroup.alpha = 1.0f;
                 text.text = damage.ToString();
-                await UniTask.Delay(TimeSpan.FromSeconds(1), cancellationToken: scope.Token);
-                text.gameObject.SetActive(false);
+                await LMotion.Create(-30.0f, 30.0f, 0.5f)
+                    .WithEase(Ease.OutCirc)
+                    .BindToAnchoredPositionY(text.rectTransform)
+                    .ToUniTask(cancellationToken: scope.Token);
+                await LMotion.Create(1.0f, 0.0f, 0.5f)
+                    .WithEase(Ease.OutCirc)
+                    .BindToCanvasGroupAlpha(canvasGroup)
+                    .ToUniTask(cancellationToken: scope.Token);
             }
         }
 
