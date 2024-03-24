@@ -7,3 +7,5 @@
     - https://dova-s.jp/bgm/play20383.html
 - バトル
     - https://dova-s.jp/bgm/play20329.html
+- リザルト
+    - https://dova-s.jp/bgm/play20200.html
