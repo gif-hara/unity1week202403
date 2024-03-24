@@ -12,7 +12,7 @@ namespace unity1week202403
     /// </summary>
     public sealed class ActorStatusController
     {
-        private readonly ActorStatus status;
+        private ActorStatus status;
 
         public string Name => status.name;
 
@@ -100,7 +100,7 @@ namespace unity1week202403
 
         public async UniTask<List<ISequence>> GetSkillSequence()
         {
-            var index = status.skillIds.Count - 1 < PerformedActionCount ? status.skillIds.Count - 1 : PerformedActionCount;
+            var index = PerformedActionCount % status.skillIds.Count;
             var skillSpec = TinyServiceLocator.Resolve<MasterData>().SkillSpecs.Get(status.skillIds[index]);
             return (await skillSpec.LoadSkillSequences()).Sequences;
         }
@@ -127,6 +127,28 @@ namespace unity1week202403
         {
             hitPoint.Value = Mathf.Clamp(hitPoint.Value + value, 0, status.hitPoint);
             Debug.Log($"{Name}は{value}回復した");
+        }
+
+        public void Reset(ActorStatus status)
+        {
+            this.status = status;
+            ResetAll();
+        }
+
+        public void ResetAll()
+        {
+            hitPoint.Value = status.hitPoint;
+            physicalStrength.Value = status.physicalStrength;
+            physicalDefense.Value = status.physicalDefense;
+            magicalStrength.Value = status.magicalStrength;
+            magicalDefense.Value = status.magicalDefense;
+            speed.Value = status.speed;
+            PerformedActionCount = 0;
+            Buffs[Define.BuffType.PhysicalAttack] = 0;
+            Buffs[Define.BuffType.PhysicalDefense] = 0;
+            Buffs[Define.BuffType.MagicalAttack] = 0;
+            Buffs[Define.BuffType.MagicalDefense] = 0;
+            Buffs[Define.BuffType.Speed] = 0;
         }
     }
 }
