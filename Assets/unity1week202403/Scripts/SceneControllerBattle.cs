@@ -55,7 +55,7 @@ namespace unity1week202403
                     if (player.StatusController.IsDead)
                     {
                         await uiPresenterMainMessage.PlayAnimationAsync("<color=#5555FF>You Lose...</color>", destroyCancellationToken);
-                        var resultData = new ResultData(battleCount, playerStatus.name);
+                        var resultData = new ResultData(battleCount - 1, playerStatus.name);
                         if (TinyServiceLocator.Contains<ResultData>())
                         {
                             TinyServiceLocator.Remove<ResultData>();
