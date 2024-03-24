@@ -34,7 +34,10 @@ namespace unity1week202403
                 playerStatus = debugData.PlayerStatus;
             }
             var player = actor.Spawn(playerStatus);
-            var enemy = actor.Spawn(debugData.EnemyStatus);
+            var wordSpecs = TinyServiceLocator.Resolve<MasterData>().WordSpecs;
+            var enemyWordSpecs = wordSpecs.List[UnityEngine.Random.Range(0, wordSpecs.List.Count)];
+            var enemyStatus = WordCalculator.ToActorStatus(enemyWordSpecs.Word);
+            var enemy = actor.Spawn(enemyStatus);
             var actorQueue = new Queue<Actor>();
 
             UIPresenterActorName.BeginAsync(actorNameDocumentPrefab, player, enemy, destroyCancellationToken).Forget();
