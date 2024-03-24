@@ -32,6 +32,6 @@ namespace unity1week202403
             Opponent,
         }
 
-        public const int ParameterMax = 48;
+        public const float ParameterMax = 100;
     }
 }
