@@ -12,10 +12,12 @@ namespace unity1week202403
     /// </summary>
     public sealed class UIPresenterActorName
     {
-        public static async UniTaskVoid BeginAsync(HKUIDocument documentPrefab, Actor player, Actor enemy, CancellationToken token)
+        private HKUIDocument document;
+
+        public async UniTaskVoid BeginAsync(HKUIDocument documentPrefab, Actor player, Actor enemy, CancellationToken token)
         {
             var scope = CancellationTokenSource.CreateLinkedTokenSource(token);
-            var document = UnityEngine.Object.Instantiate(documentPrefab);
+            document = UnityEngine.Object.Instantiate(documentPrefab);
             BeginObserve(player, "Player");
             BeginObserve(enemy, "Enemy");
 
@@ -47,6 +49,11 @@ namespace unity1week202403
                 await UniTask.Delay(TimeSpan.FromSeconds(1), cancellationToken: scope.Token);
                 text.gameObject.SetActive(false);
             }
+        }
+
+        public void SetEnemyName(string name)
+        {
+            document.Q<TMP_Text>($"Enemy.Name").text = name;
         }
     }
 }
