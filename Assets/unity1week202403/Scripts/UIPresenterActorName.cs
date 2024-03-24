@@ -54,6 +54,7 @@ namespace unity1week202403
                     actor.StatusController.Buffs[Define.BuffType.MagicalDefense].Pairwise(),
                     actor.StatusController.Buffs[Define.BuffType.Speed].Pairwise()
                 )
+                    .Where(_ => !actor.StatusController.IsResetting)
                     .Subscribe(x =>
                     {
                         var diff = x.Current - x.Previous;

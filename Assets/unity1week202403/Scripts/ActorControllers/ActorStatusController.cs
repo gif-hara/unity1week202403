@@ -81,6 +81,8 @@ namespace unity1week202403
 
         public Observable<int> RecoveryAsObservable() => recoverySubject;
 
+        public bool IsResetting { get; private set; }
+
         public ActorStatusController(ActorStatus status)
         {
             this.status = status;
@@ -138,6 +140,7 @@ namespace unity1week202403
 
         public void ResetAll()
         {
+            IsResetting = true;
             hitPoint.Value = status.hitPoint;
             physicalStrength.Value = status.physicalStrength;
             physicalDefense.Value = status.physicalDefense;
@@ -150,6 +153,7 @@ namespace unity1week202403
             Buffs[Define.BuffType.MagicalStrength].Value = 0;
             Buffs[Define.BuffType.MagicalDefense].Value = 0;
             Buffs[Define.BuffType.Speed].Value = 0;
+            IsResetting = false;
         }
     }
 }
