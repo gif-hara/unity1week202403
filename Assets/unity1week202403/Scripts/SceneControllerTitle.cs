@@ -11,11 +11,15 @@ namespace unity1week202403
         [SerializeField]
         private HKUIDocument titleDocumentPrefab;
 
+        [SerializeField]
+        private AudioClip bgm;
+
         private async void Start()
         {
             try
             {
                 await BootSystem.IsReady;
+                TinyServiceLocator.Resolve<AudioController>().PlayLoop(bgm);
                 var uiPresenterTitle = new UIPresenterTitle();
                 uiPresenterTitle.BeginAsync(titleDocumentPrefab, destroyCancellationToken).Forget();
             }
