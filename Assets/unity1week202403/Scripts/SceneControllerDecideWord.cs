@@ -32,6 +32,7 @@ namespace unity1week202403
             }
             var decideWord = WordCalculator.Calculate(selectedCharacters);
             var actorStatus = WordCalculator.ToActorStatus(decideWord);
+            var wordSpec = TinyServiceLocator.Resolve<MasterData>().WordSpecs.Get(decideWord);
             const string playerStatusKey = "PlayerStatus";
             if (TinyServiceLocator.Contains<ActorStatus>(playerStatusKey))
             {
@@ -44,7 +45,7 @@ namespace unity1week202403
             await uiPresenterDecideWord.BeginDecideAnimationAsync(
                 selectedCharacters,
                 decideWord,
-                "TODO",
+                wordSpec.Description,
                 actorStatus,
                 decideSe1,
                 decideSe2,
