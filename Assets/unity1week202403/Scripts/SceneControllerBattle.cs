@@ -34,9 +34,7 @@ namespace unity1week202403
                 playerStatus = debugData.PlayerStatus;
             }
             var player = actor.Spawn(playerStatus);
-            var wordSpecs = TinyServiceLocator.Resolve<MasterData>().WordSpecs;
-            var enemyWordSpecs = wordSpecs.List[UnityEngine.Random.Range(0, wordSpecs.List.Count)];
-            var enemyStatus = WordCalculator.ToActorStatus(enemyWordSpecs.Word);
+            var enemyStatus = GetRandomActorStatus();
             var enemy = actor.Spawn(enemyStatus);
             var actorQueue = new Queue<Actor>();
 
@@ -85,6 +83,13 @@ namespace unity1week202403
                 }
 
                 actorQueue.Enqueue(currentActor);
+            }
+
+            static ActorStatus GetRandomActorStatus()
+            {
+                var wordSpecs = TinyServiceLocator.Resolve<MasterData>().WordSpecs;
+                var wordSpec = wordSpecs.List[UnityEngine.Random.Range(0, wordSpecs.List.Count)];
+                return WordCalculator.ToActorStatus(wordSpec.Word);
             }
         }
     }
