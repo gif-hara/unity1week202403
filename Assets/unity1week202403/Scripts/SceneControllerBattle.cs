@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnitySequencerSystem;
 
 namespace unity1week202403
 {
@@ -36,9 +37,9 @@ namespace unity1week202403
                 {
                     playerStatus = debugData.PlayerStatus;
                 }
-                var player = actor.Spawn(playerStatus);
+                var player = actor.Spawn(Define.ActorType.Player, playerStatus);
                 var enemyStatus = GetRandomActorStatus();
-                var enemy = actor.Spawn(enemyStatus);
+                var enemy = actor.Spawn(Define.ActorType.Enemy, enemyStatus);
 
                 var uiPresenterActorName = new UIPresenterActorName();
                 uiPresenterActorName.BeginAsync(actorNameDocumentPrefab, player, enemy, destroyCancellationToken).Forget();
@@ -104,7 +105,11 @@ namespace unity1week202403
 
                         try
                         {
-                            await currentActor.PerformActionAsync(target, destroyCancellationToken);
+                            var container = new Container();
+                            container.Register("OwnerActor", currentActor);
+                            container.Register("TargetActor", target);
+                            container.Register(uiPresenterActorName);
+                            await currentActor.PerformActionAsync(target, container, destroyCancellationToken);
                             await UniTask.Delay(TimeSpan.FromSeconds(1));
                         }
                         catch (OperationCanceledException)
