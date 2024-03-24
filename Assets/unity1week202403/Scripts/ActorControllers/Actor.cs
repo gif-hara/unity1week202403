@@ -25,7 +25,7 @@ namespace unity1week202403
         public async UniTask PerformActionAsync(Actor target, Container container, CancellationToken token)
         {
             var skillSpec = StatusController.GetCurrentSkillSpec();
-            await container.Resolve<UIPresenterActorName>().SetSkillNameAsync(actorType, skillSpec.Name, token);
+            await container.Resolve<UIPresenterActorName>().BeginSkillNameAnimationAsync(actorType, skillSpec.Name, token);
             var sequences = (await skillSpec.LoadSkillSequencesAsync()).Sequences;
             var sequencer = new Sequencer(container, sequences);
             await sequencer.PlayAsync(token);
