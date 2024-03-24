@@ -22,3 +22,4 @@ MonoBehaviour:
       data:
         attackAttribute: 0
         power: 30
+        se: {fileID: 8300000, guid: 04dd620c41f3e774c9b598a5b8636f6c, type: 3}

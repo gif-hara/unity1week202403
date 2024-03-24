@@ -23,6 +23,7 @@ MonoBehaviour:
       data:
         attackAttribute: 1
         power: 20
+        se: {fileID: 8300000, guid: 81da1b19a41fdea4c8818af3ef265e64, type: 3}
     - rid: 7551661882480787460
       type: {class: AddBuff, ns: unity1week202403, asm: Assembly-CSharp}
       data:
