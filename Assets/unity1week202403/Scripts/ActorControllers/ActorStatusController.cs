@@ -108,13 +108,11 @@ namespace unity1week202403
         {
             hitPoint.Value -= damage;
             takedDamageSubject.OnNext(damage);
-            Debug.Log($"{Name}は{damage}のダメージを受けた");
         }
 
         public void AddBuff(Define.BuffType type, int value)
         {
             Buffs[type].Value = Mathf.Clamp(Buffs[type].Value + value, -4, 4);
-            Debug.Log($"{Name}の{type}が{Buffs[type]}になった");
         }
 
         public float GetBuffedValue(Define.BuffType type)
@@ -125,7 +123,6 @@ namespace unity1week202403
         internal void Recovery(int value)
         {
             hitPoint.Value = Mathf.Clamp(hitPoint.Value + value, 0, status.hitPoint);
-            Debug.Log($"{Name}は{value}回復した");
         }
 
         public void Reset(ActorStatus status)
