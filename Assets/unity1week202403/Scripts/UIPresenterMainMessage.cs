@@ -35,9 +35,9 @@ namespace unity1week202403
             document.gameObject.SetActive(false);
         }
 
-        public async UniTask PlayAnimationBattleStartAsync()
+        public async UniTask PlayAnimationBattleStartAsync(int battleCount)
         {
-            SetMessage("Battle Start!");
+            SetMessage($"Battle <size=150%><color=#FFFF88>{battleCount}</color></size> Start!");
             var messageArea = document.Q<RectTransform>("MessageArea");
             var messageAreaCanvasGroup = document.Q<CanvasGroup>("MessageArea");
             var backgroundCanvasGroup = document.Q<CanvasGroup>("Background");

@@ -44,12 +44,12 @@ namespace unity1week202403
                 UIPresenterStatus.BeginAsync(statusDocumentPrefab, player, enemy, destroyCancellationToken).Forget();
                 var uiPresenterMainMessage = new UIPresenterMainMessage();
                 uiPresenterMainMessage.BeginAsync(mainMessageDocumentPrefab, destroyCancellationToken).Forget();
-
-                await uiPresenterMainMessage.PlayAnimationBattleStartAsync();
+                var battleCount = 1;
 
                 // バトル処理
                 while (true)
                 {
+                    await uiPresenterMainMessage.PlayAnimationBattleStartAsync(battleCount);
                     await ProccessTurnAsync();
                     if (player.StatusController.IsDead)
                     {
@@ -63,6 +63,7 @@ namespace unity1week202403
                         enemyStatus = GetRandomActorStatus();
                         enemy.StatusController.Reset(enemyStatus);
                         uiPresenterActorName.SetEnemyName(enemy.StatusController.Name);
+                        battleCount++;
                     }
                 }
 
