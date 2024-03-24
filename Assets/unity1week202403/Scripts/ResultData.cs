@@ -1,13 +1,19 @@
+using System;
+using UnityEngine;
+
 namespace unity1week202403
 {
     /// <summary>
     /// 
     /// </summary>
+    [Serializable]
     public sealed class ResultData
     {
-        public int BattleCount { get; }
+        [field: SerializeField]
+        public int BattleCount { get; private set; }
 
-        public string Word { get; }
+        [field: SerializeField]
+        public string Word { get; private set; }
 
         public ResultData(int battleCount, string word)
         {
