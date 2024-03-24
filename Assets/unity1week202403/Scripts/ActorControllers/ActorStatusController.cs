@@ -77,6 +77,10 @@ namespace unity1week202403
 
         public Observable<int> TakedDamageAsObservable() => takedDamageSubject;
 
+        private readonly Subject<int> recoverySubject = new();
+
+        public Observable<int> RecoveryAsObservable() => recoverySubject;
+
         public ActorStatusController(ActorStatus status)
         {
             this.status = status;
@@ -123,6 +127,7 @@ namespace unity1week202403
         internal void Recovery(int value)
         {
             hitPoint.Value = Mathf.Clamp(hitPoint.Value + value, 0, status.hitPoint);
+            recoverySubject.OnNext(value);
         }
 
         public void Reset(ActorStatus status)

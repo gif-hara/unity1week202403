@@ -41,6 +41,12 @@ namespace unity1week202403
                         BeginDamageAnimationAsync(actor.ActorType, x).Forget();
                     })
                     .RegisterTo(scope.Token);
+                actor.StatusController.RecoveryAsObservable()
+                    .Subscribe(x =>
+                    {
+                        BeginNameRecoversAnimationAsync(actor.ActorType, x, scope.Token).Forget();
+                    })
+                    .RegisterTo(scope.Token);
                 Observable.Merge(
                     actor.StatusController.Buffs[Define.BuffType.PhysicalStrength].Pairwise(),
                     actor.StatusController.Buffs[Define.BuffType.PhysicalDefense].Pairwise(),
