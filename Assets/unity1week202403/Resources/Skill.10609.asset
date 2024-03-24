@@ -29,3 +29,4 @@ MonoBehaviour:
       data:
         targetType: 0
         addValue: 20
+        se: {fileID: 8300000, guid: 1f31e56a5b1f50e46960f3416ff8bb86, type: 3}

@@ -23,3 +23,4 @@ MonoBehaviour:
         targetType: 1
         buffType: 1
         addValue: -1
+        se: {fileID: 8300000, guid: 1201e69d8b4bbc64e9e254009178fac9, type: 3}
