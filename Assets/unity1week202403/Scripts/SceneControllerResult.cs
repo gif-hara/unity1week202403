@@ -11,11 +11,17 @@ namespace unity1week202403
         [SerializeField]
         private ResultData debugData;
 
+        [SerializeField]
+        private HKUIDocument resultDocumentPrefab;
+
         private async void Start()
         {
             try
             {
                 await BootSystem.IsReady;
+
+                var uiPresenterResult = new UIPresenterResult();
+                uiPresenterResult.BeginAsync(resultDocumentPrefab, debugData, destroyCancellationToken).Forget();
             }
             catch (OperationCanceledException)
             {
