@@ -5,6 +5,7 @@ using LitMotion;
 using LitMotion.Extensions;
 using R3;
 using TMPro;
+using TweetWithScreenShot;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -41,7 +42,7 @@ namespace unity1week202403
             document.Q<Button>("TweetButton").OnClickAsObservable()
                 .Subscribe(_ =>
                 {
-                    Debug.Log("Tweet");
+                    TweetManager.TweetWithScreenShot($"単語バトルで遊んだよ！ {resultData.Word}で{resultData.BattleCount}回勝利した！").ToUniTask().Forget();
                 })
                 .RegisterTo(scope.Token);
             TinyServiceLocator.Resolve<AudioController>().PlayOneShot(se1);
