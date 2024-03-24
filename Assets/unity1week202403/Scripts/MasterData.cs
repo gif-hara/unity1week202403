@@ -85,6 +85,8 @@ namespace unity1week202403
 
             public int Number;
 
+            public string Description;
+
             [Serializable]
             public sealed class DictionaryList : DictionaryList<string, WordSpec>
             {
