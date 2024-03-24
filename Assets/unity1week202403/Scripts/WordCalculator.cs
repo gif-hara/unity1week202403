@@ -40,16 +40,18 @@ namespace unity1week202403
             var masterData = TinyServiceLocator.Resolve<MasterData>();
             var result = new ActorStatus();
             var index = 0;
+            var hitPointRate = new[] { 50, 55, 60, 68, 75, 80 };
+            var otherRate = new[] { 10, 12, 15, 18, 22, 25 };
             foreach (var c in word)
             {
                 var spec = masterData.CharacterSpecs.Get(c.ToString());
                 result.name = word;
-                result.hitPoint += spec.HitPoint;
-                result.physicalStrength += spec.PhysicalStrength;
-                result.physicalDefense += spec.PhysicalDefense;
-                result.magicalStrength += spec.MagicalStrength;
-                result.magicalDefense += spec.MagicalDefense;
-                result.speed += spec.Speed;
+                result.hitPoint += hitPointRate[spec.HitPoint - 1];
+                result.physicalStrength += otherRate[spec.PhysicalStrength - 1];
+                result.physicalDefense += otherRate[spec.PhysicalDefense - 1];
+                result.magicalStrength += otherRate[spec.MagicalStrength - 1];
+                result.magicalDefense += otherRate[spec.MagicalDefense - 1];
+                result.speed += otherRate[spec.Speed - 1];
                 result.skillIds.Add(spec.GetSkill(index));
                 index++;
             }
