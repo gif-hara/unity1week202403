@@ -16,7 +16,14 @@ namespace unity1week202403
     /// </summary>
     public sealed class UIPresenterResult
     {
-        public async UniTaskVoid BeginAsync(HKUIDocument documentPrefab, ResultData resultData, CancellationToken token)
+        public async UniTaskVoid BeginAsync(
+            HKUIDocument documentPrefab,
+            ResultData resultData,
+            AudioClip se1,
+            AudioClip se2,
+            AudioClip bgm,
+            CancellationToken token
+            )
         {
             var scope = CancellationTokenSource.CreateLinkedTokenSource(token);
             var document = UnityEngine.Object.Instantiate(documentPrefab);
@@ -37,11 +44,13 @@ namespace unity1week202403
                     Debug.Log("Tweet");
                 })
                 .RegisterTo(scope.Token);
+            TinyServiceLocator.Resolve<AudioController>().PlayOneShot(se1);
 
-            await LMotion.Create(0, resultData.BattleCount, 1.0f)
+            await LMotion.Create(0, resultData.BattleCount, 1.5f)
                 .WithEase(Ease.Linear)
                 .BindToText(battleCountValueText)
                 .ToUniTask(token);
+            TinyServiceLocator.Resolve<AudioController>().PlayOneShot(se2);
             await LMotion.Create(Vector3.one, Vector3.one * 2.0f, 0.5f)
                 .WithEase(Ease.OutCirc)
                 .BindToLocalScale(battleCountValueText.rectTransform)
@@ -51,6 +60,7 @@ namespace unity1week202403
                 .BindToLocalScale(battleCountValueText.rectTransform)
                 .ToUniTask(token);
             await UniTask.Delay(TimeSpan.FromSeconds(1.0f), cancellationToken: token);
+            TinyServiceLocator.Resolve<AudioController>().PlayLoop(bgm);
             await LMotion.Create(-200.0f, 0.0f, 0.5f)
                 .WithEase(Ease.OutCirc)
                 .BindToLocalPositionY(buttonAnimationArea)

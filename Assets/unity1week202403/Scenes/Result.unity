@@ -171,6 +171,9 @@ MonoBehaviour:
     <BattleCount>k__BackingField: 99
     <Word>k__BackingField: HOGE
   resultDocumentPrefab: {fileID: 1176702862709285899, guid: 931c0808b7b3f6d49ae8a622fa58d0ba, type: 3}
+  bgm: {fileID: 8300000, guid: 256d83f7e47e3804b9a02bd1b19d6daf, type: 3}
+  resultSe1: {fileID: 8300000, guid: 25e92795ff966234881dd190116daad0, type: 3}
+  resultSe2: {fileID: 8300000, guid: 70bc237b772a0ba4baac223df6db6cdd, type: 3}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0

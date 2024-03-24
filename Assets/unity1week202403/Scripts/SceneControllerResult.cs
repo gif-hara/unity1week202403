@@ -14,6 +14,15 @@ namespace unity1week202403
         [SerializeField]
         private HKUIDocument resultDocumentPrefab;
 
+        [SerializeField]
+        private AudioClip bgm;
+
+        [SerializeField]
+        private AudioClip resultSe1;
+
+        [SerializeField]
+        private AudioClip resultSe2;
+
         private async void Start()
         {
             try
@@ -26,7 +35,15 @@ namespace unity1week202403
                 {
                     resultData = debugData;
                 }
-                uiPresenterResult.BeginAsync(resultDocumentPrefab, resultData, destroyCancellationToken).Forget();
+                uiPresenterResult.BeginAsync(
+                    resultDocumentPrefab,
+                    resultData,
+                    resultSe1,
+                    resultSe2,
+                    bgm,
+                    destroyCancellationToken
+                    )
+                    .Forget();
             }
             catch (OperationCanceledException)
             {
