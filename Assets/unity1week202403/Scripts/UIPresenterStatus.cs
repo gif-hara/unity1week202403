@@ -70,6 +70,46 @@ namespace unity1week202403
                         document.Q<Slider>($"{prefix}.Speed.Slider").value = actor.StatusController.SpeedRate;
                     })
                     .RegisterTo(scope.Token);
+                actor.StatusController.Buffs[Define.BuffType.PhysicalStrength]
+                    .Subscribe(x =>
+                    {
+                        document.Q<TMP_Text>($"{prefix}.Buff.PhysicalStrength.Text").SetText(GetBuffLevelText(x));
+                    })
+                    .RegisterTo(scope.Token);
+                actor.StatusController.Buffs[Define.BuffType.PhysicalDefense]
+                    .Subscribe(x =>
+                    {
+                        document.Q<TMP_Text>($"{prefix}.Buff.PhysicalDefense.Text").SetText(GetBuffLevelText(x));
+                    })
+                    .RegisterTo(scope.Token);
+                actor.StatusController.Buffs[Define.BuffType.MagicalStrength]
+                    .Subscribe(x =>
+                    {
+                        document.Q<TMP_Text>($"{prefix}.Buff.MagicalStrength.Text").SetText(GetBuffLevelText(x));
+                    })
+                    .RegisterTo(scope.Token);
+                actor.StatusController.Buffs[Define.BuffType.MagicalDefense]
+                    .Subscribe(x =>
+                    {
+                        document.Q<TMP_Text>($"{prefix}.Buff.MagicalDefense.Text").SetText(GetBuffLevelText(x));
+                    })
+                    .RegisterTo(scope.Token);
+                actor.StatusController.Buffs[Define.BuffType.Speed]
+                    .Subscribe(x =>
+                    {
+                        document.Q<TMP_Text>($"{prefix}.Buff.Speed.Text").SetText(GetBuffLevelText(x));
+                    })
+                    .RegisterTo(scope.Token);
+            }
+
+            static string GetBuffLevelText(int level)
+            {
+                var colorCode = level > 0
+                    ? "#00FF00"
+                    : level < 0
+                    ? "#FF0000"
+                    : "#FFFFFF";
+                return $"<color={colorCode}>{level}</color>";
             }
         }
     }
