@@ -38,20 +38,24 @@ namespace unity1week202403
                 actor.StatusController.TakedDamageAsObservable()
                     .Subscribe(x =>
                     {
-                        BeginDamageAnimationAsync(damageDocumentName, x).Forget();
+                        BeginDamageAnimationAsync(prefix, x).Forget();
                     })
                     .RegisterTo(scope.Token);
             }
 
-            async UniTaskVoid BeginDamageAnimationAsync(string documentName, int damage)
+            async UniTaskVoid BeginDamageAnimationAsync(string prefix, int damage)
             {
-                var text = document.Q<TMP_Text>(documentName);
-                var canvasGroup = document.Q<CanvasGroup>(documentName);
+                var damageText = document.Q<TMP_Text>($"{prefix}.Damage");
+                var canvasGroup = document.Q<CanvasGroup>($"{prefix}.Damage");
                 canvasGroup.alpha = 1.0f;
-                text.text = damage.ToString();
+                damageText.text = damage.ToString();
+                LMotion.Shake.Create(0.0f, 80.0f, 0.5f)
+                    .BindToAnchoredPositionX(document.Q<RectTransform>($"{prefix}.Name"))
+                    .ToUniTask(cancellationToken: scope.Token)
+                    .Forget();
                 await LMotion.Create(-30.0f, 30.0f, 0.5f)
                     .WithEase(Ease.OutCirc)
-                    .BindToAnchoredPositionY(text.rectTransform)
+                    .BindToAnchoredPositionY(damageText.rectTransform)
                     .ToUniTask(cancellationToken: scope.Token);
                 await LMotion.Create(1.0f, 0.0f, 0.5f)
                     .WithEase(Ease.OutCirc)
