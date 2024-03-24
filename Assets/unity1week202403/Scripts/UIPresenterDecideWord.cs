@@ -30,7 +30,15 @@ namespace unity1week202403
             }
         }
 
-        public async UniTask BeginDecideAnimationAsync(string beforeText, string afterText, string descriptionText, ActorStatus actorStatus, CancellationToken token)
+        public async UniTask BeginDecideAnimationAsync(
+            string beforeText,
+            string afterText,
+            string descriptionText,
+            ActorStatus actorStatus,
+            AudioClip se1,
+            AudioClip se2,
+            CancellationToken token
+            )
         {
             var word = document.Q<TMP_Text>("Word");
             var playerArea = document.Q<CanvasGroup>("PlayerArea");
@@ -78,6 +86,7 @@ namespace unity1week202403
                     SceneManager.LoadScene("SelectWord");
                 })
                 .RegisterTo(token);
+            TinyServiceLocator.Resolve<AudioController>().PlayOneShot(se1);
             await LMotion.Shake.Create(0.0f, 30.0f, 1.0f)
                 .BindToLocalPositionX(word.rectTransform)
                 .ToUniTask(cancellationToken: token);
@@ -85,6 +94,7 @@ namespace unity1week202403
                 .BindToLocalPositionX(word.rectTransform)
                 .ToUniTask(cancellationToken: token);
             word.text = afterText;
+            TinyServiceLocator.Resolve<AudioController>().PlayOneShot(se2);
             await LMotion.Create(Vector3.one, Vector3.one * 1.5f, 0.1f)
                 .WithEase(Ease.OutQuad)
                 .BindToLocalScale(word.rectTransform)

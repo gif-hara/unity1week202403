@@ -14,6 +14,12 @@ namespace unity1week202403
         [SerializeField]
         private HKUIDocument decideWordDocumentPrefab;
 
+        [SerializeField]
+        private AudioClip decideSe1;
+
+        [SerializeField]
+        private AudioClip decideSe2;
+
         private async void Start()
         {
             await BootSystem.IsReady;
@@ -39,6 +45,8 @@ namespace unity1week202403
                 decideWord,
                 "TODO",
                 actorStatus,
+                decideSe1,
+                decideSe2,
                 destroyCancellationToken
                 );
         }
