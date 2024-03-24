@@ -45,7 +45,7 @@ namespace unity1week202403
                 var uiPresenterMainMessage = new UIPresenterMainMessage();
                 uiPresenterMainMessage.BeginAsync(mainMessageDocumentPrefab, destroyCancellationToken).Forget();
 
-                await uiPresenterMainMessage.PlayAnimationAsync("Battle Start!", destroyCancellationToken);
+                await uiPresenterMainMessage.PlayAnimationBattleStartAsync();
 
                 // バトル処理
                 while (true)
@@ -58,7 +58,7 @@ namespace unity1week202403
                     }
                     else
                     {
-                        await uiPresenterMainMessage.PlayAnimationAsync("You Win!", destroyCancellationToken);
+                        await uiPresenterMainMessage.PlayAnimationPlayerWinAsync();
                         player.StatusController.ResetAll();
                         enemyStatus = GetRandomActorStatus();
                         enemy.StatusController.Reset(enemyStatus);
