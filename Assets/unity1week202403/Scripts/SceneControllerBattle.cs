@@ -27,6 +27,9 @@ namespace unity1week202403
         [SerializeField]
         private HKUIDocument mainMessageDocumentPrefab;
 
+        [SerializeField]
+        private AudioClip bgm;
+
         private async void Start()
         {
             try
@@ -47,6 +50,7 @@ namespace unity1week202403
                 var uiPresenterMainMessage = new UIPresenterMainMessage();
                 uiPresenterMainMessage.BeginAsync(mainMessageDocumentPrefab, destroyCancellationToken).Forget();
                 var battleCount = 1;
+                TinyServiceLocator.Resolve<AudioController>().PlayLoop(bgm);
 
                 // バトル処理
                 while (true)

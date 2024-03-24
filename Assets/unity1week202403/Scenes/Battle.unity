@@ -175,6 +175,7 @@ MonoBehaviour:
   actorNameDocumentPrefab: {fileID: 1176702862709285899, guid: 2cbf1e49b95a2f74980d3500a4ab000f, type: 3}
   statusDocumentPrefab: {fileID: 1176702862709285899, guid: 6290000df4cfa6c43843c57c9e14a346, type: 3}
   mainMessageDocumentPrefab: {fileID: 1176702862709285899, guid: 9127ab6155a56f04f869364c43898e48, type: 3}
+  bgm: {fileID: 8300000, guid: b6a2e9c0f25601e44ae5f26b4b9a8ae5, type: 3}
 --- !u!4 &668631687
 Transform:
   m_ObjectHideFlags: 0
