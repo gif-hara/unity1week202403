@@ -49,16 +49,16 @@ namespace unity1week202403
                 // バトル処理
                 while (true)
                 {
-                    await uiPresenterMainMessage.PlayAnimationBattleStartAsync(battleCount);
+                    await uiPresenterMainMessage.PlayAnimationAsync($"Battle <size=150%><color=#FFFF88>{battleCount}</color></size> Start!", destroyCancellationToken);
                     await ProccessTurnAsync();
                     if (player.StatusController.IsDead)
                     {
-                        await uiPresenterMainMessage.PlayAnimationAsync("You Lose...", destroyCancellationToken);
+                        await uiPresenterMainMessage.PlayAnimationAsync("<color=#5555FF>You Lose...</color>", destroyCancellationToken);
                         break;
                     }
                     else
                     {
-                        await uiPresenterMainMessage.PlayAnimationPlayerWinAsync();
+                        await uiPresenterMainMessage.PlayAnimationAsync("<color=#FF5555>You Win!</color>", destroyCancellationToken);
                         player.StatusController.ResetAll();
                         enemyStatus = GetRandomActorStatus();
                         enemy.StatusController.Reset(enemyStatus);
