@@ -21,7 +21,12 @@ namespace unity1week202403
                 await BootSystem.IsReady;
 
                 var uiPresenterResult = new UIPresenterResult();
-                uiPresenterResult.BeginAsync(resultDocumentPrefab, debugData, destroyCancellationToken).Forget();
+                var resultData = TinyServiceLocator.TryResolve<ResultData>();
+                if (resultData == null)
+                {
+                    resultData = debugData;
+                }
+                uiPresenterResult.BeginAsync(resultDocumentPrefab, resultData, destroyCancellationToken).Forget();
             }
             catch (OperationCanceledException)
             {
