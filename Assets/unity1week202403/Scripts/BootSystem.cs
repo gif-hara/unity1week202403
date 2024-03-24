@@ -58,7 +58,7 @@ namespace unity1week202403
             var audioControllerPrefab = await AssetLoader.LoadAsync<AudioController>("AudioController");
             var audioController = Object.Instantiate(audioControllerPrefab);
             Object.DontDestroyOnLoad(audioController.gameObject);
-            TinyServiceLocator.Register(audioControllerPrefab);
+            TinyServiceLocator.Register(audioController);
         }
     }
 }
