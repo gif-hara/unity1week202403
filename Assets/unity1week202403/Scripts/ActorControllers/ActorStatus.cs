@@ -41,9 +41,9 @@ namespace unity1week202403
         public ActorStatus(
             string name,
             int hitPoint,
-            int physicalAttack,
+            int physicalStrength,
             int physicalDefense,
-            int magicalAttack,
+            int magicalStrength,
             int magicalDefense,
             int speed,
             List<int> skillIds
@@ -51,9 +51,9 @@ namespace unity1week202403
         {
             this.name = name;
             this.hitPoint = hitPoint;
-            this.physicalStrength = physicalAttack;
+            this.physicalStrength = physicalStrength;
             this.physicalDefense = physicalDefense;
-            this.magicalStrength = magicalAttack;
+            this.magicalStrength = magicalStrength;
             this.magicalDefense = magicalDefense;
             this.speed = speed;
             this.skillIds = skillIds;
