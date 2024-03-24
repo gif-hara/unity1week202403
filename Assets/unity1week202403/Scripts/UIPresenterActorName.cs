@@ -69,7 +69,7 @@ namespace unity1week202403
             document.Q<TMP_Text>($"Enemy.Name").text = name;
         }
 
-        public async UniTask SetSkillNameAsync(Define.ActorType actorType, string skillName, CancellationToken token)
+        public async UniTask BeginSkillNameAnimationAsync(Define.ActorType actorType, string skillName, CancellationToken token)
         {
             document.Q<TMP_Text>($"{actorType}.SkillName.Text").text = skillName;
             var skillNameAnimationArea = document.Q<RectTransform>($"{actorType}.SkillName.AnimationArea");
