@@ -32,27 +32,44 @@ namespace unity1week202403
 
             void BeginObserve(Actor actor, string prefix)
             {
-                var damageDocumentName = $"{prefix}.Damage";
-                document.Q<TMP_Text>($"{prefix}.Name").text = actor.StatusController.Name;
+                var damageDocumentName = $"{actor.ActorType}.Damage";
+                document.Q<TMP_Text>($"{actor.ActorType}.Name").text = actor.StatusController.Name;
                 document.Q<CanvasGroup>(damageDocumentName).alpha = 0.0f;
                 actor.StatusController.TakedDamageAsObservable()
                     .Subscribe(x =>
                     {
-                        BeginDamageAnimationAsync(prefix, x).Forget();
+                        BeginDamageAnimationAsync(actor.ActorType, x).Forget();
+                    })
+                    .RegisterTo(scope.Token);
+                Observable.Merge(
+                    actor.StatusController.Buffs[Define.BuffType.PhysicalStrength].Pairwise(),
+                    actor.StatusController.Buffs[Define.BuffType.PhysicalDefense].Pairwise(),
+                    actor.StatusController.Buffs[Define.BuffType.MagicalStrength].Pairwise(),
+                    actor.StatusController.Buffs[Define.BuffType.MagicalDefense].Pairwise(),
+                    actor.StatusController.Buffs[Define.BuffType.Speed].Pairwise()
+                )
+                    .Subscribe(x =>
+                    {
+                        var diff = x.Current - x.Previous;
+                        if (diff > 0)
+                        {
+                            BeginNameRecoversAnimationAsync(actor.ActorType, diff, scope.Token).Forget();
+                        }
+                        else
+                        {
+                            BeginNameDamageAnimationAsync(actor.ActorType, scope.Token).Forget();
+                        }
                     })
                     .RegisterTo(scope.Token);
             }
 
-            async UniTaskVoid BeginDamageAnimationAsync(string prefix, int damage)
+            async UniTaskVoid BeginDamageAnimationAsync(Define.ActorType actorType, int damage)
             {
-                var damageText = document.Q<TMP_Text>($"{prefix}.Damage");
-                var canvasGroup = document.Q<CanvasGroup>($"{prefix}.Damage");
+                var damageText = document.Q<TMP_Text>($"{actorType}.Damage");
+                var canvasGroup = document.Q<CanvasGroup>($"{actorType}.Damage");
                 canvasGroup.alpha = 1.0f;
                 damageText.text = damage.ToString();
-                LMotion.Shake.Create(0.0f, 80.0f, 0.5f)
-                    .BindToAnchoredPositionX(document.Q<RectTransform>($"{prefix}.Name"))
-                    .ToUniTask(cancellationToken: scope.Token)
-                    .Forget();
+                BeginNameDamageAnimationAsync(actorType, scope.Token).Forget();
                 await LMotion.Create(-30.0f, 30.0f, 0.5f)
                     .WithEase(Ease.OutCirc)
                     .BindToAnchoredPositionY(damageText.rectTransform)
@@ -96,6 +113,25 @@ namespace unity1week202403
                     .BindToLocalPositionY(skillNameAnimationArea)
                     .ToUniTask(token)
             );
+        }
+
+        private async UniTask BeginNameRecoversAnimationAsync(Define.ActorType actorType, int recovers, CancellationToken token)
+        {
+            await LMotion.Create(0.0f, 60.0f, 0.25f)
+                .WithEase(Ease.OutCirc)
+                .BindToAnchoredPositionY(document.Q<RectTransform>($"{actorType}.Name"))
+                .ToUniTask(cancellationToken: token);
+            await LMotion.Create(60.0f, 0.0f, 0.25f)
+                .WithEase(Ease.InCirc)
+                .BindToAnchoredPositionY(document.Q<RectTransform>($"{actorType}.Name"))
+                .ToUniTask(cancellationToken: token);
+        }
+
+        private UniTask BeginNameDamageAnimationAsync(Define.ActorType actorType, CancellationToken token)
+        {
+            return LMotion.Shake.Create(0.0f, 80.0f, 0.5f)
+                .BindToAnchoredPositionX(document.Q<RectTransform>($"{actorType}.Name"))
+                .ToUniTask(cancellationToken: token);
         }
     }
 }
