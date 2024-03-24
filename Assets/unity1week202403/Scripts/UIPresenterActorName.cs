@@ -1,6 +1,8 @@
 using System;
 using System.Threading;
 using Cysharp.Threading.Tasks;
+using LitMotion;
+using LitMotion.Extensions;
 using R3;
 using TMPro;
 using UnityEngine;
@@ -54,6 +56,35 @@ namespace unity1week202403
         public void SetEnemyName(string name)
         {
             document.Q<TMP_Text>($"Enemy.Name").text = name;
+        }
+
+        public async UniTask SetSkillNameAsync(Define.ActorType actorType, string skillName, CancellationToken token)
+        {
+            document.Q<TMP_Text>($"{actorType}.SkillName.Text").text = skillName;
+            var skillNameAnimationArea = document.Q<RectTransform>($"{actorType}.SkillName.AnimationArea");
+            var skillNameCanvasGroup = document.Q<CanvasGroup>($"{actorType}.SkillName.AnimationArea");
+            skillNameCanvasGroup.alpha = 0.0f;
+            await UniTask.WhenAll(
+                LMotion.Create(0.0f, 1.0f, 0.25f)
+                    .WithEase(Ease.OutCirc)
+                    .BindToCanvasGroupAlpha(skillNameCanvasGroup)
+                    .ToUniTask(token),
+                LMotion.Create(-60.0f, 0.0f, 0.25f)
+                    .WithEase(Ease.OutCirc)
+                    .BindToLocalPositionY(skillNameAnimationArea)
+                    .ToUniTask(token)
+            );
+            await UniTask.Delay(TimeSpan.FromSeconds(1.0f), cancellationToken: token);
+            await UniTask.WhenAll(
+                LMotion.Create(1.0f, 0.0f, 0.25f)
+                    .WithEase(Ease.OutCirc)
+                    .BindToCanvasGroupAlpha(skillNameCanvasGroup)
+                    .ToUniTask(token),
+                LMotion.Create(0.0f, 60.0f, 0.25f)
+                    .WithEase(Ease.OutCirc)
+                    .BindToLocalPositionY(skillNameAnimationArea)
+                    .ToUniTask(token)
+            );
         }
     }
 }
