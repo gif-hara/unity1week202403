@@ -26,7 +26,7 @@ namespace unity1week202403
             var ts = target.StatusController;
 
             var p = attackAttribute == Define.AttackAttribute.Physical ? os.PhysicalStrength : os.MagicalStrength;
-            var buffType = attackAttribute == Define.AttackAttribute.Physical ? Define.BuffType.PhysicalAttack : Define.BuffType.MagicalAttack;
+            var buffType = attackAttribute == Define.AttackAttribute.Physical ? Define.BuffType.PhysicalStrength : Define.BuffType.MagicalStrength;
             p = Mathf.FloorToInt(p * os.GetBuffedValue(buffType));
             p *= power / 20;
             var d = attackAttribute == Define.AttackAttribute.Physical ? ts.PhysicalDefense : ts.MagicalDefense;
