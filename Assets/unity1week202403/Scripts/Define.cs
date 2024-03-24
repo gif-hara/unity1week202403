@@ -19,9 +19,9 @@ namespace unity1week202403
 
         public enum BuffType
         {
-            PhysicalAttack,
+            PhysicalStrength,
             PhysicalDefense,
-            MagicalAttack,
+            MagicalStrength,
             MagicalDefense,
             Speed,
         }
