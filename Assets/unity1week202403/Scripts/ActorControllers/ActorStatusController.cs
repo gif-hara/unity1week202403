@@ -71,7 +71,7 @@ namespace unity1week202403
 
         public bool IsDead => HitPoint <= 0;
 
-        public Dictionary<Define.BuffType, int> Buffs { get; } = new();
+        public Dictionary<Define.BuffType, ReactiveProperty<int>> Buffs { get; } = new();
 
         private readonly Subject<int> takedDamageSubject = new();
 
@@ -86,11 +86,11 @@ namespace unity1week202403
             magicalStrength.Value = status.magicalStrength;
             magicalDefense.Value = status.magicalDefense;
             speed.Value = status.speed;
-            Buffs[Define.BuffType.PhysicalAttack] = 0;
-            Buffs[Define.BuffType.PhysicalDefense] = 0;
-            Buffs[Define.BuffType.MagicalAttack] = 0;
-            Buffs[Define.BuffType.MagicalDefense] = 0;
-            Buffs[Define.BuffType.Speed] = 0;
+            Buffs[Define.BuffType.PhysicalStrength] = new ReactiveProperty<int>(0);
+            Buffs[Define.BuffType.PhysicalDefense] = new ReactiveProperty<int>(0);
+            Buffs[Define.BuffType.MagicalStrength] = new ReactiveProperty<int>(0);
+            Buffs[Define.BuffType.MagicalDefense] = new ReactiveProperty<int>(0);
+            Buffs[Define.BuffType.Speed] = new ReactiveProperty<int>(0);
         }
 
         public void IncrementPerformedActionCount()
@@ -113,13 +113,13 @@ namespace unity1week202403
 
         public void AddBuff(Define.BuffType type, int value)
         {
-            Buffs[type] = Mathf.Clamp(Buffs[type] + value, -4, 4);
+            Buffs[type].Value = Mathf.Clamp(Buffs[type].Value + value, -4, 4);
             Debug.Log($"{Name}の{type}が{Buffs[type]}になった");
         }
 
         public float GetBuffedValue(Define.BuffType type)
         {
-            return 1.0f + Buffs[type] * 0.5f;
+            return 1.0f + Buffs[type].Value * 0.5f;
         }
 
         internal void Recovery(int value)
@@ -143,11 +143,11 @@ namespace unity1week202403
             magicalDefense.Value = status.magicalDefense;
             speed.Value = status.speed;
             PerformedActionCount = 0;
-            Buffs[Define.BuffType.PhysicalAttack] = 0;
-            Buffs[Define.BuffType.PhysicalDefense] = 0;
-            Buffs[Define.BuffType.MagicalAttack] = 0;
-            Buffs[Define.BuffType.MagicalDefense] = 0;
-            Buffs[Define.BuffType.Speed] = 0;
+            Buffs[Define.BuffType.PhysicalStrength].Value = 0;
+            Buffs[Define.BuffType.PhysicalDefense].Value = 0;
+            Buffs[Define.BuffType.MagicalStrength].Value = 0;
+            Buffs[Define.BuffType.MagicalDefense].Value = 0;
+            Buffs[Define.BuffType.Speed].Value = 0;
         }
     }
 }
