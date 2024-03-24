@@ -9,7 +9,7 @@ namespace unity1week202403
     public sealed class SceneControllerResult : MonoBehaviour
     {
         [SerializeField]
-        private BattleStartData debugData;
+        private ResultData debugData;
 
         private async void Start()
         {
