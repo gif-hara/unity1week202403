@@ -98,11 +98,10 @@ namespace unity1week202403
             PerformedActionCount++;
         }
 
-        public async UniTask<List<ISequence>> GetSkillSequence()
+        public MasterData.SkillSpec GetCurrentSkillSpec()
         {
             var index = PerformedActionCount % status.skillIds.Count;
-            var skillSpec = TinyServiceLocator.Resolve<MasterData>().SkillSpecs.Get(status.skillIds[index]);
-            return (await skillSpec.LoadSkillSequences()).Sequences;
+            return TinyServiceLocator.Resolve<MasterData>().SkillSpecs.Get(status.skillIds[index]);
         }
 
         public void TakeDamage(int damage)
