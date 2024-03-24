@@ -18,8 +18,12 @@ namespace unity1week202403
         [SerializeField]
         private int addValue;
 
+        [SerializeField]
+        private AudioClip se;
+
         public UniTask PlayAsync(Container container, CancellationToken cancellationToken)
         {
+            TinyServiceLocator.Resolve<AudioController>().PlayOneShot(se);
             switch (targetType)
             {
                 case Define.TargetType.Self:
