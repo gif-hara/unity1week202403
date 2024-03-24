@@ -10,21 +10,23 @@ namespace unity1week202403
     /// </summary>
     public sealed class Actor : MonoBehaviour
     {
+        private Define.ActorType actorType;
+
         public ActorStatusController StatusController { get; private set; }
 
-        public Actor Spawn(ActorStatus status)
+        public Actor Spawn(Define.ActorType actorType, ActorStatus status)
         {
             var instance = Instantiate(this);
+            instance.actorType = actorType;
             instance.StatusController = new ActorStatusController(status);
             return instance;
         }
 
-        public async UniTask PerformActionAsync(Actor target, CancellationToken token)
+        public async UniTask PerformActionAsync(Actor target, Container container, CancellationToken token)
         {
-            var container = new Container();
-            container.Register("OwnerActor", this);
-            container.Register("TargetActor", target);
-            var sequences = await StatusController.GetSkillSequence();
+            var skillSpec = StatusController.GetCurrentSkillSpec();
+            await container.Resolve<UIPresenterActorName>().SetSkillNameAsync(actorType, skillSpec.Name, token);
+            var sequences = (await skillSpec.LoadSkillSequencesAsync()).Sequences;
             var sequencer = new Sequencer(container, sequences);
             await sequencer.PlayAsync(token);
             StatusController.IncrementPerformedActionCount();
