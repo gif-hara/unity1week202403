@@ -40,9 +40,25 @@ namespace unity1week202403
         private static async UniTask InitializeInternalAsync()
         {
             initializeState = InitializeState.Initializing;
+            await UniTask.WhenAll(
+                InitializeMasterDataAsync(),
+                InitializeAudioControllerAsync()
+            );
+            initializeState = InitializeState.Initialized;
+        }
+
+        private static async UniTask InitializeMasterDataAsync()
+        {
             var masterData = await AssetLoader.LoadAsync<MasterData>("MasterData");
             TinyServiceLocator.Register(masterData);
-            initializeState = InitializeState.Initialized;
+        }
+
+        private static async UniTask InitializeAudioControllerAsync()
+        {
+            var audioControllerPrefab = await AssetLoader.LoadAsync<AudioController>("AudioController");
+            var audioController = Object.Instantiate(audioControllerPrefab);
+            Object.DontDestroyOnLoad(audioController.gameObject);
+            TinyServiceLocator.Register(audioControllerPrefab);
         }
     }
 }
