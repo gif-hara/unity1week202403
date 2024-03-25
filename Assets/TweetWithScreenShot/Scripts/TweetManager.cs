@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.Networking;
 using System.Xml.Linq;
 using System;
+using Cysharp.Threading.Tasks;
 #if UNITY_WEBGL && !UNITY_EDITOR
 using System.Runtime.InteropServices;
 #endif
@@ -86,7 +87,7 @@ namespace TweetWithScreenShot
             string hashtags = "&hashtags=";
             if (sinstance.hashTags.Length > 0)
             {
-                hashtags += string.Join (",", sinstance.hashTags);
+                hashtags += string.Join(",", sinstance.hashTags);
             }
 
             // ツイッター投稿用URL
@@ -95,9 +96,22 @@ namespace TweetWithScreenShot
 #if UNITY_WEBGL && !UNITY_EDITOR
             OpenWindow(TweetURL);
 #elif UNITY_EDITOR
-            System.Diagnostics.Process.Start (TweetURL);
+            System.Diagnostics.Process.Start(TweetURL);
 #else
             Application.OpenURL(TweetURL);
+#endif
+        }
+
+        public static void Tweet(string message, string[] hashTags)
+        {
+            var url = "https://twitter.com/intent/tweet?text=" + message + "&hashtags=" + string.Join(",", hashTags);
+
+#if UNITY_WEBGL && !UNITY_EDITOR
+            OpenWindow(url);
+#elif UNITY_EDITOR
+            System.Diagnostics.Process.Start(url);
+#else
+            Application.OpenURL(url);
 #endif
         }
     }
