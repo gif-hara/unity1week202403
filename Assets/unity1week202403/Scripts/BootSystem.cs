@@ -42,7 +42,8 @@ namespace unity1week202403
             initializeState = InitializeState.Initializing;
             await UniTask.WhenAll(
                 InitializeMasterDataAsync(),
-                InitializeAudioControllerAsync()
+                InitializeAudioControllerAsync(),
+                InitializeUnityroomApiClientAsync()
             );
             initializeState = InitializeState.Initialized;
         }
@@ -59,6 +60,12 @@ namespace unity1week202403
             var audioController = Object.Instantiate(audioControllerPrefab);
             Object.DontDestroyOnLoad(audioController.gameObject);
             TinyServiceLocator.Register(audioController);
+        }
+
+        private static async UniTask InitializeUnityroomApiClientAsync()
+        {
+            var unityroomApiClientPrefab = await AssetLoader.LoadAsync<GameObject>("UnityroomApiClient");
+            Object.Instantiate(unityroomApiClientPrefab);
         }
     }
 }
