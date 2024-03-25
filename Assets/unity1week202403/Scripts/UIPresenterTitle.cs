@@ -26,6 +26,13 @@ namespace unity1week202403
                 })
                 .RegisterTo(scope.Token);
 
+            LMotion.Create(-8.0f, 8.0f, 0.5f)
+                .WithEase(Ease.InOutCubic)
+                .WithLoops(-1, LoopType.Yoyo)
+                .BindToLocalEulerAnglesZ(document.Q<RectTransform>("TitleArea"))
+                .ToUniTask(scope.Token)
+                .Forget();
+
             LMotion.Create(0.0f, 360.0f, 10.0f)
                 .WithEase(Ease.Linear)
                 .WithLoops(-1, LoopType.Restart)
