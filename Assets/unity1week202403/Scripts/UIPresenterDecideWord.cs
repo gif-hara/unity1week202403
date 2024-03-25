@@ -68,7 +68,7 @@ namespace unity1week202403
             foreach (var skillId in actorStatus.skillIds)
             {
                 var skill = TinyServiceLocator.Resolve<MasterData>().SkillSpecs.Get(skillId);
-                sb.AppendLine($"    {skill.Name}");
+                sb.AppendLine($"    {skill.Name}<size=50%>({skill.Description})</size>");
             }
             document.Q<TMP_Text>("SkillSpecText").text = sb.ToString();
             word.text = beforeText;
