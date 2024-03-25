@@ -101,6 +101,8 @@ namespace unity1week202403
 
             public string Name;
 
+            public string Description;
+
             [Serializable]
             public sealed class DictionaryList : DictionaryList<int, SkillSpec>
             {
