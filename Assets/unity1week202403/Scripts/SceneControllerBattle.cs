@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using unityroom.Api;
 using UnitySequencerSystem;
 
 namespace unity1week202403
@@ -77,6 +78,7 @@ namespace unity1week202403
                         enemyStatus = GetRandomActorStatus();
                         enemy.StatusController.Reset(enemyStatus);
                         uiPresenterActorName.SetEnemyName(enemy.StatusController.Name);
+                        UnityroomApiClient.Instance.SendScore(1, battleCount, ScoreboardWriteMode.Always);
                         battleCount++;
                     }
                 }
