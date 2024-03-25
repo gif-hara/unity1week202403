@@ -42,7 +42,7 @@ namespace unity1week202403
             document.Q<Button>("TweetButton").OnClickAsObservable()
                 .Subscribe(_ =>
                 {
-                    var text = $"{resultData.Word}で{resultData.BattleCount}回戦いました！ https://unityroom.com/games/word-battle";
+                    var text = $"単語バトルを遊んだよ！{resultData.Word}で{resultData.BattleCount}回勝利しました！ https://unityroom.com/games/word-battle";
                     var hashTags = new string[] { "unity1week", "unityroom", "wordBattle" };
                     TweetManager.Tweet(text, hashTags);
                 })
