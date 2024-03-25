@@ -18,16 +18,21 @@ namespace unity1week202403
             seAudioSource.PlayOneShot(clip);
         }
 
-        public void PlayLoop(AudioClip clip)
+        public void PlayBgm(AudioClip clip)
         {
             bgmAudioSource.clip = clip;
             bgmAudioSource.loop = true;
             bgmAudioSource.Play();
         }
 
-        public void StopLoop()
+        public void StopBgm()
         {
             bgmAudioSource.Stop();
+        }
+
+        public bool IsPlayingBgm()
+        {
+            return bgmAudioSource.isPlaying;
         }
     }
 }

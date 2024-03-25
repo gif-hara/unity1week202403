@@ -19,7 +19,7 @@ namespace unity1week202403
             try
             {
                 await BootSystem.IsReady;
-                TinyServiceLocator.Resolve<AudioController>().PlayLoop(bgm);
+                TinyServiceLocator.Resolve<AudioController>().PlayBgm(bgm);
                 var uiPresenterTitle = new UIPresenterTitle();
                 uiPresenterTitle.BeginAsync(titleDocumentPrefab, destroyCancellationToken).Forget();
             }

@@ -63,7 +63,7 @@ namespace unity1week202403
                 .BindToLocalScale(battleCountValueText.rectTransform)
                 .ToUniTask(token);
             await UniTask.Delay(TimeSpan.FromSeconds(1.0f), cancellationToken: token);
-            TinyServiceLocator.Resolve<AudioController>().PlayLoop(bgm);
+            TinyServiceLocator.Resolve<AudioController>().PlayBgm(bgm);
             await LMotion.Create(-200.0f, 0.0f, 0.5f)
                 .WithEase(Ease.OutCirc)
                 .BindToLocalPositionY(buttonAnimationArea)

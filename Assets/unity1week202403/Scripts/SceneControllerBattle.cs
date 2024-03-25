@@ -50,7 +50,7 @@ namespace unity1week202403
                 var uiPresenterMainMessage = new UIPresenterMainMessage();
                 uiPresenterMainMessage.BeginAsync(mainMessageDocumentPrefab, destroyCancellationToken).Forget();
                 var battleCount = 1;
-                TinyServiceLocator.Resolve<AudioController>().PlayLoop(bgm);
+                TinyServiceLocator.Resolve<AudioController>().PlayBgm(bgm);
 
                 // バトル処理
                 while (true)

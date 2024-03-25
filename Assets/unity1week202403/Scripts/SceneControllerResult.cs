@@ -30,7 +30,7 @@ namespace unity1week202403
             {
                 await BootSystem.IsReady;
 
-                TinyServiceLocator.Resolve<AudioController>().StopLoop();
+                TinyServiceLocator.Resolve<AudioController>().StopBgm();
                 var uiPresenterResult = new UIPresenterResult();
                 var resultData = TinyServiceLocator.TryResolve<ResultData>();
                 if (resultData == null)

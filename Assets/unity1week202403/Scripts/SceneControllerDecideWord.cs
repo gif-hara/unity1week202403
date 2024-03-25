@@ -24,7 +24,7 @@ namespace unity1week202403
         {
             await BootSystem.IsReady;
 
-            TinyServiceLocator.Resolve<AudioController>().StopLoop();
+            TinyServiceLocator.Resolve<AudioController>().StopBgm();
             var selectedCharacters = TinyServiceLocator.TryResolve<string>("SelectedCharacters");
             if (selectedCharacters == null)
             {

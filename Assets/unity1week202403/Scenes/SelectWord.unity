@@ -168,6 +168,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selectWordDocumentPrefab: {fileID: 1176702862709285899, guid: 46b01f9f2b4eb11498752b8b18aa6f39, type: 3}
+  bgm: {fileID: 8300000, guid: 53c346903990e8c4d985a441c6f9ae12, type: 3}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0

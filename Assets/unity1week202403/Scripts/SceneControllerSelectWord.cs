@@ -15,12 +15,19 @@ namespace unity1week202403
         [SerializeField]
         private HKUIDocument selectWordDocumentPrefab;
 
+        [SerializeField]
+        private AudioClip bgm;
+
         private string selectedCharacters;
 
         private async void Start()
         {
             await BootSystem.IsReady;
-
+            var audioController = TinyServiceLocator.Resolve<AudioController>();
+            if (!audioController.IsPlayingBgm())
+            {
+                audioController.PlayBgm(bgm);
+            }
             var uiPresenterSelectWord = new UIPresenterSelectWord();
             uiPresenterSelectWord.BeginAsync(selectWordDocumentPrefab, destroyCancellationToken).Forget();
             uiPresenterSelectWord.SetWord("");
